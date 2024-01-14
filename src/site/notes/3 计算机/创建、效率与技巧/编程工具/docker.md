@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/3 计算机/创建、效率与技巧/编程工具/docker/","title":"docker"}
+{"dg-publish":true,"permalink":"/3///docker/","title":"docker"}
 ---
 
 
