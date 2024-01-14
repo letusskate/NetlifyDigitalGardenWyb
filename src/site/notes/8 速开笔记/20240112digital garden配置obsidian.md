@@ -24,13 +24,15 @@ vercel 每天部署的资源有限制，后面的提交会出错，此时我们�
 目前没找到方法，这是 digitalgarden 在 obsidian 的插件应该做的事情，他应该将多篇笔记作为一次 commitpush 到 github，  
 或者 digitalgarden 的 github 项目也可以做到这个事情，在设置部署的时候，设置相近的提交不部署，超过 10 分钟再部署。  
 vercel 本身也可以干这个事情，接收到的时间相近的部署请求自动忽略
-##### vercel 的ignore设置
-[Login – Vercel](https://vercel.com/wangyubos-projects-007ecc20/digital-garden-wyb/settings/git)
+##### vercel 的 ignore 设置
+[Login – Vercel](https://vercel.com/wangyubos-projects-007ecc20/digital-garden-wyb/settings/git)  
 ![](/img/user/resources/attachments/2024011420240112digital garden配置obsidian.png)
 ### netlify
 #### 特性
 1.一分钟只能部署一次，有效节约部署次数  
-2.域名不好看
+2.域名不好看  
+3.额度多？或者额度是按月算？  
+4.国内能访问
 ## 数字花园网址
 ### vercel
 [WybDigitalGarden](https://digital-garden-wyb.vercel.app/)  
