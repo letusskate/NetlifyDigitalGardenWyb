@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/7 语言/英语/词汇/形近词/struct/","title":"struct"}
+{"dg-publish":true,"permalink":"/7////struct/","title":"struct"}
 ---
 
 
