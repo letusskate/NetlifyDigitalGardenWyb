@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/8 速开笔记/20240112digital garden配置obsidian/","title":"20240112digital garden配置obsidian"}
+{"dg-publish":true,"permalink":"/8/20240112digital-garden-obsidian/","title":"20240112digital garden配置obsidian"}
 ---
 
 ## 为什么要配置
