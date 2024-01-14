@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/3 计算机/创建、效率与技巧/linux/linux/","title":"linux"}
+{"dg-publish":true,"permalink":"/3//linux/linux/","title":"linux"}
 ---
 
 
