@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/3////gitee/gitee-github/","title":"gitee仓库自动备份github"}
+{"dg-publish":true,"permalink":"/3 计算机/创建、效率与技巧/编程工具/代码托管平台/gitee/gitee仓库自动备份github/","title":"gitee仓库自动备份github"}
 ---
 
 
