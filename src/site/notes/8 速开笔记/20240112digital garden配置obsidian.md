@@ -16,8 +16,21 @@
 6.待做：通过脚本批量发布笔记。
 ## 管理部署的服务器
 ###  vercel 
-vercel 每天部署的资源有限制，后面的提交会出错，此时我们等第二天再在管理界面 redeploy 就行了。  
+vercel 每天部署的资源有限制，后面的提交会出错，此时我们等第二天再对仓库进行一次 push，他就会自动部署最新版本，自然也就包括对之前版本的修改了。  
+总之，一旦部署出错，就等到有免费部署额度的时候重新提交一次
+#### 网址
 [digital-garden-wyb – Deployment Overview – Vercel](https://vercel.com/wangyubos-projects-007ecc20/digital-garden-wyb/5G4Sw6bj97Qg8hLdzCSgHmpQZMrc)
+#### 如何多次 push 只部署一次，以节省额度？
+目前没找到方法，这是 digitalgarden 在 obsidian 的插件应该做的事情，他应该将多篇笔记作为一次 commitpush 到 github，  
+或者 digitalgarden 的 github 项目也可以做到这个事情，在设置部署的时候，设置相近的提交不部署，超过 10 分钟再部署。  
+vercel 本身也可以干这个事情，接收到的时间相近的部署请求自动忽略
+##### vercel 的ignore设置
+[Login – Vercel](https://vercel.com/wangyubos-projects-007ecc20/digital-garden-wyb/settings/git)
+![](/img/user/resources/attachments/2024011420240112digital garden配置obsidian.png)
+### netlify
+#### 特性
+1.一分钟只能部署一次，有效节约部署次数  
+2.域名不好看
 ## 数字花园网址
 ### vercel
 [WybDigitalGarden](https://digital-garden-wyb.vercel.app/)  
