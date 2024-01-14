@@ -1,0 +1,13 @@
+---
+aliases: []
+date created: 2023-08-09T00:51:32+08:00
+date modified: 2024-01-14T17:35:03+08:00
+dg-publish: true
+tags: []
+title: 写作习惯
+---
+
+写作不要等灵感，规律写作，制定计划表，完成后自我奖励  
+拿出数模的感觉
+## 快乐指南
+[研究生多巴胺管理指南\_哔哩哔哩\_bilibili](https://www.bilibili.com/video/BV1JF411X7qc/?spm_id_from=333.1007.tianma.20-3-77.click&vd_source=20cb3e7c6ad3d64f0eb2d763ff005080)
