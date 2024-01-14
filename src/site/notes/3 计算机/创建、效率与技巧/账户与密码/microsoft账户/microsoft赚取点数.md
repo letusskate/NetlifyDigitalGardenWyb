@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/3 计算机/创建、效率与技巧/账户与密码/microsoft账户/microsoft赚取点数/","title":"microsoft赚取点数"}
+{"dg-publish":true,"permalink":"/3///microsoft/microsoft/","title":"microsoft赚取点数"}
 ---
 
 
