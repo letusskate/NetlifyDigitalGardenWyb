@@ -1,13 +1,7 @@
 ---
-aliases: []
-created: 2023-01-20 11:10:14+08:00
-date created: 2023-07-05T11:13:20+08:00
-date modified: 2024-01-13T19:21:07+08:00
-dg-publish: true
-tags: []
-title: word公式
-updated: 2023-01-20 11:45:00+08:00
+{"dg-publish":true,"permalink":"/3 计算机/创建、效率与技巧/msoffice/我的office trick/word公式/","title":"word公式"}
 ---
+
 
 ## 相关教程
 [Word如何优雅的插入公式？ - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/538417817)
