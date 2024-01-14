@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/3 计算机/创建、效率与技巧/账户与密码/microsoft账户/microsoft账户与github绑定/","title":"microsoft账户与github绑定"}
+{"dg-publish":true,"permalink":"/3///microsoft/microsoft-github/","title":"microsoft账户与github绑定"}
 ---
 
 
