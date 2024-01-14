@@ -1,13 +1,7 @@
 ---
-aliases: []
-created: 2022-01-09 19:31:31+08:00
-date created: 2023-07-05T11:13:20+08:00
-date modified: 2024-01-13T19:21:07+08:00
-dg-publish: true
-tags: []
-title: office搜索替换占位符
-updated: 2022-01-09 19:31:45+08:00
+{"dg-publish":true,"permalink":"/3 计算机/创建、效率与技巧/msoffice/我的office trick/office搜索替换占位符/","title":"office搜索替换占位符"}
 ---
+
 
 ## 不使用通配符
 ^?表示一个任意字符  
