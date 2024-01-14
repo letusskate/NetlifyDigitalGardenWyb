@@ -2,8 +2,10 @@
 {"dg-publish":true,"permalink":"/0 日记与提升/笔记技巧/obsidian/obsidian发布/20240112digital garden配置obsidian/","title":"20240112digital garden配置obsidian"}
 ---
 
+
 ## 为什么要配置
 为了增加写作的动力。
+[发布](../../发布.md)
 ## 配置过程
 ### 教程
 [【Obsidian】人人都可以构建的 属于自己的独立网站 | Obsidian 发布、数字花园打造 | 渐进创作\_哔哩哔哩\_bilibili](https://www.bilibili.com/video/BV1HF411173m/?spm_id_from=333.1007.tianma.4-3-13.click&vd_source=20cb3e7c6ad3d64f0eb2d763ff005080)
