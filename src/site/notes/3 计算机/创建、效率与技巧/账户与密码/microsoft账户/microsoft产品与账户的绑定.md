@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/3 计算机/创建、效率与技巧/账户与密码/microsoft账户/microsoft产品与账户的绑定/","title":"microsoft产品与账户的绑定"}
+{"dg-publish":true,"permalink":"/3///microsoft/microsoft/","title":"microsoft产品与账户的绑定"}
 ---
 
 
