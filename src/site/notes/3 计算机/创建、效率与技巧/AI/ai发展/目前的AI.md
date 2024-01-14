@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/3//ai/ai/ai/","title":"目前的AI","tags":["category/AI"]}
+{"dg-publish":true,"permalink":"/3 计算机/创建、效率与技巧/AI/ai发展/目前的AI/","title":"目前的AI","tags":["category/AI"]}
 ---
 
 
