@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/8 速开笔记/DgHome/","title":"DgHome","tags":["gardenEntry","gardenEntry","gardenEntry","gardenEntry","gardenEntry","gardenEntry","gardenEntry","gardenEntry","gardenEntry","gardenEntry","gardenEntry"]}
+{"dg-publish":true,"permalink":"/8 速开笔记/DgHome/","title":"DgHome","tags":["gardenEntry","gardenEntry","gardenEntry","gardenEntry","gardenEntry","gardenEntry","gardenEntry","gardenEntry","gardenEntry","gardenEntry","gardenEntry","gardenEntry"]}
 ---
 
 ## 欢迎来到 wyb 的博客
