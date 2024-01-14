@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/7////trancy/","title":"Trancy"}
+{"dg-publish":true,"permalink":"/7 语言/英语/相关软件与资源/学习软件/Trancy/","title":"Trancy"}
 ---
 
 ## 使用教程
