@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/3 计算机/创建、效率与技巧/AI/不同的ai/chatgpt/Chatgpt/","title":"Chatgpt","tags":["category/AI"]}
+{"dg-publish":true,"permalink":"/3//ai/ai/chatgpt/chatgpt/","title":"Chatgpt","tags":["category/AI"]}
 ---
 
 
