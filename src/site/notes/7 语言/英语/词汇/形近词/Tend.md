@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/7////tend/","title":"Tend"}
+{"dg-publish":true,"permalink":"/7 语言/英语/词汇/形近词/Tend/","title":"Tend"}
 ---
 
 
