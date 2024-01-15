@@ -1,13 +1,7 @@
 ---
-aliases: []
-created: 2022-12-05 13:55:43+08:00
-date created: 2023-07-05T11:13:20+08:00
-date modified: 2024-01-14T16:45:16+08:00
-dg-publish: true
-tags: []
-title: 遗憾Regret
-updated: 2022-12-16 12:57:07+08:00
+{"dg-publish":true,"permalink":"/5 数理化生/离散数学/遗憾Regret/","title":"遗憾Regret"}
 ---
+
 
 ## Regret（遗憾）
 ### 什么是 regret
