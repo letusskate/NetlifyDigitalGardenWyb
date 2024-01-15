@@ -1,11 +1,7 @@
 ---
-aliases: []
-date created: 2023-07-10T22:57:47+08:00
-date modified: 2024-01-13T19:21:09+08:00
-dg-publish: true
-tags: []
-title: gitee使用
+{"dg-publish":true,"permalink":"/3 计算机/创建、效率与技巧/编程工具/代码托管平台/gitee/gitee使用/","title":"gitee使用"}
 ---
+
 
 ## 回滚
 ### 方法一
