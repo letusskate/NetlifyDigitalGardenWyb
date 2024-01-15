@@ -1,11 +1,7 @@
 ---
-aliases: []
-date created: 2023-10-17T14:18:02+08:00
-date modified: 2024-01-14T17:35:03+08:00
-dg-publish: true
-tags: []
-title: IEEE排版
+{"dg-publish":true,"permalink":"/1 工作与赚钱/科研技巧/论文写作/Latex/IEEE排版/","title":"IEEE排版"}
 ---
+
 
 ## 下载与使用
 [ieee会议论文模板 - 知乎](https://zhuanlan.zhihu.com/p/490099735?utm_id=0)  
