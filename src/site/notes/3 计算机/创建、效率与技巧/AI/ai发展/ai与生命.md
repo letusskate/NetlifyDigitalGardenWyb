@@ -1,11 +1,7 @@
 ---
-aliases: []
-date created: 2023-10-25T11:18:02+08:00
-date modified: 2024-01-13T19:21:06+08:00
-dg-publish: true
-tags: []
-title: ai与生命
+{"dg-publish":true,"permalink":"/3 计算机/创建、效率与技巧/AI/ai发展/ai与生命/","title":"ai与生命"}
 ---
+
 
 如果我们创建出一种可以自我复制的东西  
 （ai 可以自己用代码写自己）  
