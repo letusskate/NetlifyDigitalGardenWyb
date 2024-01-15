@@ -1,11 +1,7 @@
 ---
-aliases: []
-date created: 2023-09-07T15:29:04+08:00
-date modified: 2024-01-13T19:21:06+08:00
-dg-publish: true
-tags: []
-title: fpga存储及特点
+{"dg-publish":true,"permalink":"/3 计算机/计算机网络/硬件与硬件编程/fpga存储及特点/","title":"fpga存储及特点"}
 ---
+
 
 ## 相关视频
 [Tutorial - Flip-Flops in FPGAs](https://nandland.com/lesson-5-what-is-a-flip-flop/)  
