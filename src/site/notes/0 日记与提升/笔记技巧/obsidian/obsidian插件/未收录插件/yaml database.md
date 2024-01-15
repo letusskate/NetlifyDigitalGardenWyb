@@ -1,11 +1,7 @@
 ---
-aliases: []
-date created: 2023-07-10T17:17:51+08:00
-date modified: 2024-01-14T17:34:42+08:00
-dg-publish: true
-tags: []
-title: yaml database
+{"dg-publish":true,"permalink":"/0 日记与提升/笔记技巧/obsidian/obsidian插件/未收录插件/yaml database/","title":"yaml database"}
 ---
+
 
 ## 原名 yaml bulk edit
 [obsidian-yaml-database：帮助您管理一个文件夹中的子文档YAML属性\_哔哩哔哩\_bilibili](https://www.bilibili.com/video/BV1M94y1d79D/?vd_source=20cb3e7c6ad3d64f0eb2d763ff005080)  
