@@ -1,13 +1,7 @@
 ---
-aliases: []
-created: 2022-03-15 12:43:17+08:00
-date created: 2023-07-05T21:38:32+08:00
-date modified: 2024-01-14T17:34:42+08:00
-dg-publish: true
-tags: []
-title: Onenote文件存储位置
-updated: 2022-12-06 19:33:58+08:00
+{"dg-publish":true,"permalink":"/0 日记与提升/笔记技巧/onenote/onenote同步与管理/Onenote文件存储位置/","title":"Onenote文件存储位置"}
 ---
+
 
 位置在 onedrive- 文档，不储存在本地  
 因此我们想要备份只需要从 OneDrive 上下载就行了  
