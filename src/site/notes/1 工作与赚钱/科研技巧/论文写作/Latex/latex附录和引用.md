@@ -1,11 +1,7 @@
 ---
-aliases: []
-date created: 2023-07-24T20:24:10+08:00
-date modified: 2024-01-14T17:35:03+08:00
-dg-publish: true
-tags: []
-title: latex附录和引用
+{"dg-publish":true,"permalink":"/1 工作与赚钱/科研技巧/论文写作/Latex/latex附录和引用/","title":"latex附录和引用"}
 ---
+
 
 ## latex 附录和引用
 ### 网页教程
