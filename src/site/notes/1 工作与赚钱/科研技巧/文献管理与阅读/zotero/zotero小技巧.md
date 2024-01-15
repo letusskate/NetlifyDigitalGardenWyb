@@ -1,11 +1,7 @@
 ---
-aliases: []
-date created: 2023-07-10T17:17:51+08:00
-date modified: 2024-01-14T17:35:03+08:00
-dg-publish: true
-tags: []
-title: zotero小技巧
+{"dg-publish":true,"permalink":"/1 工作与赚钱/科研技巧/文献管理与阅读/zotero/zotero小技巧/","title":"zotero小技巧"}
 ---
+
 
 ## 标记文献已读
 为文献添加标签为已读即可  
