@@ -1,11 +1,7 @@
 ---
-aliases: []
-date created: 2023-09-08T15:10:39+08:00
-date modified: 2024-01-13T19:21:06+08:00
-dg-publish: true
-tags: []
-title: NS-3
+{"dg-publish":true,"permalink":"/3 计算机/计算机网络/DCN相关/NS-3/","title":"NS-3"}
 ---
+
 
 ## 作用
 网络模拟器，开源。
