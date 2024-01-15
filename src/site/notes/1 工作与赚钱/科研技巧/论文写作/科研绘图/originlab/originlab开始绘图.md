@@ -1,11 +1,7 @@
 ---
-aliases: []
-date created: 2023-08-24T15:22:50+08:00
-date modified: 2024-01-14T17:35:03+08:00
-dg-publish: true
-tags: []
-title: originlab开始绘图
+{"dg-publish":true,"permalink":"/1 工作与赚钱/科研技巧/论文写作/科研绘图/originlab/originlab开始绘图/","title":"originlab开始绘图"}
 ---
+
 
 点击一个工作表  
 新建图  
