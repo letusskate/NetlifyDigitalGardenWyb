@@ -1,13 +1,7 @@
 ---
-aliases: []
-created: 2021-01-29 09:43:59+08:00
-date created: 2023-07-05T11:13:20+08:00
-date modified: 2024-01-13T19:21:07+08:00
-dg-publish: true
-tags: []
-title: 1003 dijstra算法
-updated: 2021-01-29 16:24:53+08:00
+{"dg-publish":true,"permalink":"/3 计算机/数据结构与算法/oj刷题/PAT甲级刷题/1003 dijstra算法/","title":"1003 dijstra算法"}
 ---
+
 
 1003 dijstra 算法  
 2021 年 1 月 29 日  
