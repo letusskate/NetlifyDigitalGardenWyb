@@ -1,13 +1,7 @@
 ---
-aliases: []
-created: 2023-04-16 12:31:23+08:00
-date created: 2023-07-05T11:13:20+08:00
-date modified: 2024-01-13T19:21:09+08:00
-dg-publish: true
-tags: []
-title: python遍历文件夹
-updated: 2023-04-16 12:37:03+08:00
+{"dg-publish":true,"permalink":"/3 计算机/编程语言和语法/python/Python妙用/python遍历文件夹/","title":"python遍历文件夹"}
 ---
+
 
 ## Walk
 会遍历文件夹下的所有内容。  
