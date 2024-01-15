@@ -1,13 +1,7 @@
 ---
-dg-publish: true
-aliases: []
-tags: []
-title: "Energy-Eficient CNN Computation on "
-updated: 2022-12-04T23:47:39.0000000+08:00
-created: 2022-12-04T23:44:48.0000000+08:00
-date created: 2023-07-05T11:13:20+08:00
-date modified: 2024-01-14T17:38:47+08:00
+{"dg-publish":true,"permalink":"/1 工作与赚钱/论文阅读笔记/Energy-Eficient CNN Computation on /","title":"Energy-Eficient CNN Computation on "}
 ---
+
 
 • Energy-Eficient CNN Computation on Edge Devices under Stochastic Communication Delays
 - 一、介绍
