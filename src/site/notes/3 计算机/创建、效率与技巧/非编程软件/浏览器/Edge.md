@@ -1,13 +1,7 @@
 ---
-aliases: []
-created: 2023-01-12 17:27:21+08:00
-date created: 2023-07-09T11:39:06+08:00
-date modified: 2024-01-13T19:21:07+08:00
-dg-publish: true
-tags: []
-title: Edge
-updated: 2023-08-29 01:02:34+08:00
+{"dg-publish":true,"permalink":"/3 计算机/创建、效率与技巧/非编程软件/浏览器/Edge/","title":"Edge"}
 ---
+
 
 ## 快捷键
 Crtl+w 关闭当前标签页  
