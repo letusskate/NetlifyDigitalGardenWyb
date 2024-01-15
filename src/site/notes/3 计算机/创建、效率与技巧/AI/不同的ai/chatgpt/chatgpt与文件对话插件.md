@@ -1,11 +1,7 @@
 ---
-aliases: []
-date created: 2023-08-04T19:09:52+08:00
-date modified: 2024-01-13T19:21:09+08:00
-dg-publish: true
-tags: []
-title: chatgpt与文件对话插件
+{"dg-publish":true,"permalink":"/3 计算机/创建、效率与技巧/AI/不同的ai/chatgpt/chatgpt与文件对话插件/","title":"chatgpt与文件对话插件"}
 ---
+
 
 ## gpt runner（[vscode扩展](../../../编程工具/vscode/vscode扩展.md)）
 ### gpt runner 使用教程
