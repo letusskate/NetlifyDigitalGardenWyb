@@ -1,11 +1,7 @@
 ---
-aliases: []
-date created: 2023-07-24T20:25:32+08:00
-date modified: 2024-01-14T17:35:03+08:00
-dg-publish: true
-tags: []
-title: latex表格
+{"dg-publish":true,"permalink":"/1 工作与赚钱/科研技巧/论文写作/Latex/latex表格/","title":"latex表格"}
 ---
+
 
 ## 网页教程
 [Latex 制作表格_latex表格-CSDN博客](https://blog.csdn.net/TH_guan/article/details/124878398)
