@@ -1,13 +1,7 @@
 ---
-aliases: []
-created: 2021-03-04 18:56:58+08:00
-date created: 2023-07-05T11:13:20+08:00
-date modified: 2024-01-13T19:21:06+08:00
-dg-publish: true
-tags: []
-title: "川农python课总结的问题  "
-updated: 2022-06-18 00:05:18+08:00
+{"dg-publish":true,"permalink":"/3 计算机/编程语言和语法/python/川农python课总结的问题  /","title":"川农python课总结的问题  "}
 ---
+
 
 1.  Python 深浅拷贝  
 Python 视图与原数据分别变化后 ，是否会对另一方影响（拷贝和视图）
