@@ -1,11 +1,7 @@
 ---
-aliases: []
-date created: 2023-10-25T10:47:20+08:00
-date modified: 2024-01-13T19:21:06+08:00
-dg-publish: true
-tags: []
-title: RoCE
+{"dg-publish":true,"permalink":"/3 计算机/计算机网络/DCN相关/RoCE/","title":"RoCE"}
 ---
+
 
 ## 是什么
 一种基于 RDMA 的通信协议
