@@ -1,11 +1,7 @@
 ---
-aliases: []
-date created: 2023-07-28T10:38:17+08:00
-date modified: 2024-01-14T17:34:41+08:00
-dg-publish: true
-tags: []
-title: PARA法
+{"dg-publish":true,"permalink":"/0 日记与提升/笔记技巧/PARA法/","title":"PARA法"}
 ---
+
 
 ![](/img/user/resources/attachments/20230728PARA法.png)
 
