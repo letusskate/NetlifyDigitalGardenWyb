@@ -1,13 +1,7 @@
 ---
-aliases: []
-created: 2023-03-07 10:26:21+08:00
-date created: 2023-07-05T16:15:59+08:00
-date modified: 2024-01-13T19:21:09+08:00
-dg-publish: true
-tags: []
-title: Restframework
-updated: 2023-04-06 14:08:55+08:00
+{"dg-publish":true,"permalink":"/3 计算机/软件开发/后端开发/django/Restframework/","title":"Restframework"}
 ---
+
 
 ## view 的层次架构
 ### 总划分
