@@ -35,6 +35,8 @@ vercel 本身也可以干这个事情，接收到的时间相近的部署请求�
 [Login – Vercel](https://vercel.com/wangyubos-projects-007ecc20/digital-garden-wyb/settings/git)  
 ![](/img/user/resources/attachments/2024011420240112digital garden配置obsidian.png)
 ### netlify
+#### 网址
+[Site overview | unrivaled-kashata-4a2ced | Netlify](https://app.netlify.com/sites/unrivaled-kashata-4a2ced/overview)
 #### 特性
 1.一分钟只能部署一次，有效节约部署次数  
 2.域名不好看  
