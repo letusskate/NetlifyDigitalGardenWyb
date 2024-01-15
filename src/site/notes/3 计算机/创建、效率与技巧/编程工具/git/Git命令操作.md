@@ -1,13 +1,7 @@
 ---
-aliases: []
-created: 2023-02-04 20:17:12+08:00
-date created: 2023-07-05T11:13:20+08:00
-date modified: 2024-01-13T19:21:07+08:00
-dg-publish: true
-tags: []
-title: Git命令操作
-updated: 2023-04-09 15:08:26+08:00
+{"dg-publish":true,"permalink":"/3 计算机/创建、效率与技巧/编程工具/git/Git命令操作/","title":"Git命令操作"}
 ---
+
 
 ## 同步仓库到两个云端
 [git同步两个云端仓库](git进阶操作/git同步两个云端仓库.md)
