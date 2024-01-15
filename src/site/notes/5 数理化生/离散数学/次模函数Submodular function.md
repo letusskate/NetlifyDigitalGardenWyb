@@ -1,13 +1,7 @@
 ---
-aliases: []
-created: 2022-12-05 16:46:13+08:00
-date created: 2023-07-05T11:13:20+08:00
-date modified: 2024-01-14T16:45:16+08:00
-dg-publish: true
-tags: []
-title: 次模函数Submodular function
-updated: 2023-01-01 16:05:44+08:00
+{"dg-publish":true,"permalink":"/5 数理化生/离散数学/次模函数Submodular function/","title":"次模函数Submodular function"}
 ---
+
 
 ## 形象理解次模性
 ### 边际效应递减
