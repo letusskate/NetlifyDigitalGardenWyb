@@ -1,11 +1,7 @@
 ---
-aliases: []
-date created: 2023-08-12T23:37:31+08:00
-date modified: 2024-01-13T19:21:07+08:00
-dg-publish: true
-tags: []
-title: vscode工作区管理
+{"dg-publish":true,"permalink":"/3 计算机/创建、效率与技巧/编程工具/vscode/vscode工作区管理/","title":"vscode工作区管理"}
 ---
+
 
 ## .vscode 文件夹
 可以建立 vscode 工作区设置，如配置 c 环境时的 settings.json 等，只在当前工作区生效
