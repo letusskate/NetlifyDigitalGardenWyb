@@ -1,11 +1,7 @@
 ---
-aliases: []
-date created: 2023-07-10T17:17:51+08:00
-date modified: 2024-01-14T17:35:03+08:00
-dg-publish: true
-tags: []
-title: zotero联动
+{"dg-publish":true,"permalink":"/1 工作与赚钱/科研技巧/文献管理与阅读/zotero/zotero联动/","title":"zotero联动"}
 ---
+
 
 ## zotero 笔记生成 md 文件，与 vscode 连用生成 ppt
 [科研人看过来！zotero和vscode连用，超强快速生成笔记以及组会汇报ppt_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV1tW4y1p7QU/?spm_id_from=333.1007.top_right_bar_window_history.content.click&vd_source=20cb3e7c6ad3d64f0eb2d763ff005080)  
