@@ -1,13 +1,7 @@
 ---
-aliases: []
-created: 2023-03-01 16:21:25+08:00
-date created: 2023-07-10T17:17:51+08:00
-date modified: 2024-01-14T17:35:03+08:00
-dg-publish: true
-tags: [category/AI]
-title: New bing读论文
-updated: 2023-03-05 13:39:47+08:00
+{"dg-publish":true,"permalink":"/1 工作与赚钱/科研技巧/AI科研/New bing读论文/","title":"New bing读论文","tags":["category/AI"]}
 ---
+
 
 ## 贴吧教程
 现在在 edge dev 版中的 discover 功能内测试三个功能，1 是 chat（最主要的聊天窗口，可以分析目前打开的网页或者 pdf 本地文件，包括看代码），2 是一个帮拟邮件的功能，当你在写邮件时，根据你的要求拟出符合标准的礼貌的邮件。3 是一个页面知识扩展，能够识别目前浏览的网页，并且探索更多知识，官方例子是查看一个动物介绍网站，能够识别出页面上的动物并且推介相关知识。  
