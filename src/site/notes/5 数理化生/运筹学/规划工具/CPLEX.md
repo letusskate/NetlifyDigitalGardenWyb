@@ -1,10 +1,6 @@
 ---
-aliases: []
-date created: 2023-09-20T21:22:54+08:00
-date modified: 2024-01-14T16:45:16+08:00
-dg-publish: true
-tags: []
-title: CPLEX
+{"dg-publish":true,"permalink":"/5 数理化生/运筹学/规划工具/CPLEX/","title":"CPLEX"}
 ---
+
 
 IBM 的软件，很快
