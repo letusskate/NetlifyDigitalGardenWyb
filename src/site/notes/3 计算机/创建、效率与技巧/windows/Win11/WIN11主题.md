@@ -1,13 +1,7 @@
 ---
-aliases: []
-created: 2022-11-08 22:49:03+08:00
-date created: 2023-07-05T11:13:20+08:00
-date modified: 2024-01-13T19:21:07+08:00
-dg-publish: true
-tags: []
-title: WIN11主题
-updated: 2022-11-08 23:10:10+08:00
+{"dg-publish":true,"permalink":"/3 计算机/创建、效率与技巧/windows/Win11/WIN11主题/","title":"WIN11主题"}
 ---
+
 
 ## 我用的是浅色主题，点击使用自定义主题
 ![image1](/img/user/resources/attachments/image1-2 3.png)
