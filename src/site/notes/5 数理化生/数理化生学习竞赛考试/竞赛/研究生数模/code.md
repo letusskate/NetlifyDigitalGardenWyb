@@ -1,11 +1,7 @@
 ---
-aliases: []
-date created: 2023-09-23T19:22:37+08:00
-date modified: 2024-01-14T16:45:16+08:00
-dg-publish: true
-tags: []
-title: code
+{"dg-publish":true,"permalink":"/5 数理化生/数理化生学习竞赛考试/竞赛/研究生数模/code/","title":"code"}
 ---
+
 
 ## P 的求解
 最速下降
