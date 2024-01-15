@@ -1,11 +1,7 @@
 ---
-aliases: []
-date created: 2023-08-16T18:23:13+08:00
-date modified: 2024-01-14T17:35:03+08:00
-dg-publish: true
-tags: []
-title: originlab账号与注册
+{"dg-publish":true,"permalink":"/1 工作与赚钱/科研技巧/论文写作/科研绘图/originlab/originlab账号与注册/","title":"originlab账号与注册"}
 ---
+
 
 ## 教育账号注册
 [如何申请官方Origin学习版 - 知乎](https://zhuanlan.zhihu.com/p/437749240)  
