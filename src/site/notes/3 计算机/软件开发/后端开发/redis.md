@@ -1,13 +1,7 @@
 ---
-aliases: []
-created: 2022-11-03 10:31:45+08:00
-date created: 2023-07-05T11:13:20+08:00
-date modified: 2024-01-13T19:21:06+08:00
-dg-publish: true
-tags: []
-title: redis
-updated: 2022-12-01 10:39:01+08:00
+{"dg-publish":true,"permalink":"/3 计算机/软件开发/后端开发/redis/","title":"redis"}
 ---
+
 
 ## 安装
 
