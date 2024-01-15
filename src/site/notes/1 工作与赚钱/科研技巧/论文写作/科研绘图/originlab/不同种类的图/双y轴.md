@@ -1,10 +1,6 @@
 ---
-aliases: []
-date created: 2023-08-24T15:24:22+08:00
-date modified: 2024-01-14T17:35:03+08:00
-dg-publish: true
-tags: []
-title: 双y轴
+{"dg-publish":true,"permalink":"/1 工作与赚钱/科研技巧/论文写作/科研绘图/originlab/不同种类的图/双y轴/","title":"双y轴"}
 ---
+
 
 右键图表，新图层 (轴)
