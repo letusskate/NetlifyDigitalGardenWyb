@@ -1,13 +1,7 @@
 ---
-aliases: []
-created: 2023-02-13 09:39:50+08:00
-date created: 2023-07-05T11:13:20+08:00
-date modified: 2024-01-13T19:21:09+08:00
-dg-publish: true
-tags: []
-title: python写入文件
-updated: 2023-04-06 16:54:05+08:00
+{"dg-publish":true,"permalink":"/3 计算机/编程语言和语法/python/Python妙用/python写入文件/","title":"python写入文件"}
 ---
+
 
 python 写入文件  
 2023 年 2 月 13 日  
