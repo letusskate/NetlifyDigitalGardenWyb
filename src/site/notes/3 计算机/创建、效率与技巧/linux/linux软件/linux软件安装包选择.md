@@ -1,11 +1,7 @@
 ---
-aliases: []
-date created: 2023-08-12T15:10:20+08:00
-date modified: 2024-01-13T19:21:06+08:00
-dg-publish: true
-tags: []
-title: linux软件安装包选择
+{"dg-publish":true,"permalink":"/3 计算机/创建、效率与技巧/linux/linux软件/linux软件安装包选择/","title":"linux软件安装包选择"}
 ---
+
 
 我的 ubantu 是 x86_64
 ## 查看系统架构的方法
