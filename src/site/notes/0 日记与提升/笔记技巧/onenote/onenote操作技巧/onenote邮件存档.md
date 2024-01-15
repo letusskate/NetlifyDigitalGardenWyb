@@ -1,13 +1,7 @@
 ---
-aliases: []
-created: 2022-12-05 20:18:42+08:00
-date created: 2023-07-05T21:38:32+08:00
-date modified: 2024-01-14T17:34:42+08:00
-dg-publish: true
-tags: []
-title: onenote邮件存档
-updated: 2022-12-05 20:18:53+08:00
+{"dg-publish":true,"permalink":"/0 日记与提升/笔记技巧/onenote/onenote操作技巧/onenote邮件存档/","title":"onenote邮件存档"}
 ---
+
 
 **邮件存档**  
 在 Outlook 里有一个 Send to OneNote 按钮（默认 ribbon 配置下，位于 Home - Move - OneNote），可以把邮件存档到 OneNote。不是所有邮件都需要存档，相关的邮件可以存档到 OneNote，并放在合适的位置。存档之后可以建立 OneNote 链接，从而**可以在其他笔记里链接到邮件**。  
