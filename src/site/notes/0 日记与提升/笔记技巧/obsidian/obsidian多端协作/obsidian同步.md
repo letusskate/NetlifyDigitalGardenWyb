@@ -1,12 +1,7 @@
 ---
-aliases: []
-date created: 2023-07-05T21:38:32+08:00
-date modified: 2024-01-14T17:34:42+08:00
-dg-publish: true
-modified: 2023-07-05 00:48:23+08:00
-tags: []
-title: obsidian同步
+{"dg-publish":true,"permalink":"/0 日记与提升/笔记技巧/obsidian/obsidian多端协作/obsidian同步/","title":"obsidian同步"}
 ---
+
 
 ## GIT
 ### 电脑端同步 gitee
