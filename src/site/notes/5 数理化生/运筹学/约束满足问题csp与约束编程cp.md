@@ -1,13 +1,7 @@
 ---
-aliases: []
-created: 2023-01-29 15:51:16+08:00
-date created: 2023-07-05T11:13:20+08:00
-date modified: 2024-01-14T16:45:16+08:00
-dg-publish: true
-tags: []
-title: 约束满足问题csp与约束编程cp
-updated: 2023-01-29 15:55:31+08:00
+{"dg-publish":true,"permalink":"/5 数理化生/运筹学/约束满足问题csp与约束编程cp/","title":"约束满足问题csp与约束编程cp"}
 ---
+
 
 ## 相关帖子
 [Constraint programming - Wikipedia](https://en.wikipedia.org/wiki/Constraint_programming)  
