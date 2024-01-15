@@ -1,13 +1,7 @@
 ---
-aliases: []
-created: 2022-11-06 21:28:07+08:00
-date created: 2023-07-05T11:13:20+08:00
-date modified: 2024-01-13T19:21:07+08:00
-dg-publish: true
-tags: []
-title: word引文
-updated: 2022-11-06 22:29:36+08:00
+{"dg-publish":true,"permalink":"/3 计算机/创建、效率与技巧/msoffice/我的office trick/word引文/","title":"word引文"}
 ---
+
 
 word 自带的引文与书目功能：  
 1.选择引用 - 引文与书目 - 格式为 IEEE  
