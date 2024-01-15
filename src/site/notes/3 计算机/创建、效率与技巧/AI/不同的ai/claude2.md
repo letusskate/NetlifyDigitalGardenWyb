@@ -1,11 +1,7 @@
 ---
-aliases: []
-date created: 2023-08-04T19:40:11+08:00
-date modified: 2024-01-13T19:21:06+08:00
-dg-publish: true
-tags: []
-title: claude2
+{"dg-publish":true,"permalink":"/3 计算机/创建、效率与技巧/AI/不同的ai/claude2/","title":"claude2"}
 ---
+
 
 ## 接口使用
 [全新上线！免费体验最热门的Claude2API接口Python版本！\_哔哩哔哩\_bilibili](https://www.bilibili.com/video/BV1Cz4y1x7BV/?spm_id_from=333.337.search-card.all.click&vd_source=20cb3e7c6ad3d64f0eb2d763ff005080)  
