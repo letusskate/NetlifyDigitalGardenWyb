@@ -1,11 +1,7 @@
 ---
-aliases: []
-date created: 2023-07-18T17:11:39+08:00
-date modified: 2024-01-13T19:21:07+08:00
-dg-publish: true
-tags: []
-title: gitignore
+{"dg-publish":true,"permalink":"/3 计算机/创建、效率与技巧/编程工具/git/gitignore/","title":"gitignore"}
 ---
+
 
 ## gitgnore 文件用途
 规定某些文件不上传至 github
