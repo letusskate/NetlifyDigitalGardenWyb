@@ -1,13 +1,7 @@
 ---
-aliases: []
-created: 2022-12-03 15:47:23+08:00
-date created: 2023-07-05T11:13:20+08:00
-date modified: 2024-01-13T19:21:07+08:00
-dg-publish: true
-tags: []
-title: vim在其他软件中使用
-updated: 2022-12-06 16:20:37+08:00
+{"dg-publish":true,"permalink":"/3 计算机/创建、效率与技巧/编程工具/vim/vim在其他软件中使用/","title":"vim在其他软件中使用"}
 ---
+
 
 ## vscode 插件
 插件市场，就叫 vim
