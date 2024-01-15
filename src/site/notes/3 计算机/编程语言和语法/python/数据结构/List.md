@@ -1,13 +1,7 @@
 ---
-aliases: []
-created: 2023-03-21 15:16:18+08:00
-date created: 2023-07-05T11:13:20+08:00
-date modified: 2024-01-13T19:21:09+08:00
-dg-publish: true
-tags: []
-title: List
-updated: 2023-04-16 12:24:59+08:00
+{"dg-publish":true,"permalink":"/3 计算机/编程语言和语法/python/数据结构/List/","title":"List"}
 ---
+
 
 ## 实现集合相减
 根据网络搜索结果，有两种方法可以实现列表之间的集合运算相减：
