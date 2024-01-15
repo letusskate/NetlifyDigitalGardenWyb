@@ -1,13 +1,7 @@
 ---
-aliases: []
-created: 2022-12-06 16:09:36+08:00
-date created: 2023-07-05T11:13:20+08:00
-date modified: 2024-01-13T19:21:09+08:00
-dg-publish: true
-tags: []
-title: python图片压缩
-updated: 2023-01-11 09:30:41+08:00
+{"dg-publish":true,"permalink":"/3 计算机/编程语言和语法/python/Python妙用/python图片压缩/","title":"python图片压缩"}
 ---
+
 
 ## 引用库和定义函数
 import os  
