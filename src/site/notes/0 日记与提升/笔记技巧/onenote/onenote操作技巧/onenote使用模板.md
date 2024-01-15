@@ -1,13 +1,7 @@
 ---
-aliases: []
-created: 2022-12-05 20:16:23+08:00
-date created: 2023-07-05T21:38:32+08:00
-date modified: 2024-01-14T17:34:42+08:00
-dg-publish: true
-tags: []
-title: onenote使用模板
-updated: 2023-07-03 10:07:50+08:00
+{"dg-publish":true,"permalink":"/0 日记与提升/笔记技巧/onenote/onenote操作技巧/onenote使用模板/","title":"onenote使用模板"}
 ---
+
 
 **使用模板**  
 OneNote 可以为不同的分区设置不同的模板，每次创建新页面时会使用模板的内容、标题（日期、时间是创建日期、时间）。下面是一个例子：  
