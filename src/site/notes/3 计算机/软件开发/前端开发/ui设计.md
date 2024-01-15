@@ -1,11 +1,7 @@
 ---
-aliases: []
-date created: 2023-07-23T12:14:25+08:00
-date modified: 2024-01-13T19:21:06+08:00
-dg-publish: true
-tags: []
-title: ui设计
+{"dg-publish":true,"permalink":"/3 计算机/软件开发/前端开发/ui设计/","title":"ui设计"}
 ---
+
 
 ## 相关软件
 figma  
