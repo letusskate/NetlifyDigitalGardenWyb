@@ -1,11 +1,7 @@
 ---
-aliases: []
-date created: 2023-07-19T21:47:00+08:00
-date modified: 2024-01-14T17:34:41+08:00
-dg-publish: true
-tags: []
-title: obsidian linux
+{"dg-publish":true,"permalink":"/0 日记与提升/笔记技巧/obsidian/obsidian多端协作/obsidian linux/","title":"obsidian linux"}
 ---
+
 
 ## obsidian linux 客户端
 ### linux 下无法运行 obsidian 的 appimage
