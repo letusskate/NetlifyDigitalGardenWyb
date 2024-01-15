@@ -1,13 +1,7 @@
 ---
-aliases: []
-created: 2022-11-29 09:41:01+08:00
-date created: 2023-07-05T21:38:32+08:00
-date modified: 2024-01-14T17:34:42+08:00
-dg-publish: true
-tags: []
-title: ppt输出至onenote
-updated: 2023-01-01 11:05:43+08:00
+{"dg-publish":true,"permalink":"/0 日记与提升/笔记技巧/onenote/onenote操作技巧/ppt输出至onenote/","title":"ppt输出至onenote"}
 ---
+
 
 ppt 输出至 onenote  
 2022 年 11 月 29 日  
