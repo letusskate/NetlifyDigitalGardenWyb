@@ -1,11 +1,7 @@
 ---
-aliases: []
-date created: 2023-08-22T21:50:43+08:00
-date modified: 2024-01-14T17:35:03+08:00
-dg-publish: true
-tags: []
-title: word与latex
+{"dg-publish":true,"permalink":"/1 工作与赚钱/科研技巧/论文写作/Latex/latex联动/word与latex/","title":"word与latex"}
 ---
+
 
 ## Word 转 latex（mathml 与 latex 互转）
 ### 转公式
