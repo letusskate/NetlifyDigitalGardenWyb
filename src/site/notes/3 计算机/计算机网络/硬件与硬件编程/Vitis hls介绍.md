@@ -1,13 +1,7 @@
 ---
-aliases: []
-created: 2023-05-19 13:51:01+08:00
-date created: 2023-07-05T11:13:20+08:00
-date modified: 2024-01-13T19:21:06+08:00
-dg-publish: true
-tags: []
-title: Vitis hls介绍
-updated: 2023-05-26 15:57:59+08:00
+{"dg-publish":true,"permalink":"/3 计算机/计算机网络/硬件与硬件编程/Vitis hls介绍/","title":"Vitis hls介绍"}
 ---
+
 
 ## 相关视频
 [HLS教程第1课：软件工程师该怎么了解FPGA架构？\_哔哩哔哩\_bilibili](https://www.bilibili.com/video/BV1BQ4y1N78x/)
