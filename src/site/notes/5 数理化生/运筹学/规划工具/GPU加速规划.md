@@ -1,11 +1,7 @@
 ---
-aliases: []
-date created: 2023-09-08T09:14:40+08:00
-date modified: 2024-01-14T16:45:16+08:00
-dg-publish: true
-tags: []
-title: GPU加速规划
+{"dg-publish":true,"permalink":"/5 数理化生/运筹学/规划工具/GPU加速规划/","title":"GPU加速规划"}
 ---
+
 
 ## 相关文章
 [运筹系列53：GPU用于线性规划和整数规划调研\_使用gpu加速线性规划\_IE06的博客-CSDN博客](https://blog.csdn.net/kittyzc/article/details/109043633)
