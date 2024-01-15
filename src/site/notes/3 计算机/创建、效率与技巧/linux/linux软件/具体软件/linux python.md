@@ -1,11 +1,7 @@
 ---
-aliases: []
-date created: 2023-07-24T19:10:37+08:00
-date modified: 2024-01-13T19:21:09+08:00
-dg-publish: true
-tags: []
-title: linux python
+{"dg-publish":true,"permalink":"/3 计算机/创建、效率与技巧/linux/linux软件/具体软件/linux python/","title":"linux python"}
 ---
+
 
 ## linux 下的 [python安装](../../../../编程语言和语法/python/python环境配置/python软件安装.md)
 ### 教程
