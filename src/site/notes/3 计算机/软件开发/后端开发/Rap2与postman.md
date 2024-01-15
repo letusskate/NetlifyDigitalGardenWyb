@@ -1,13 +1,7 @@
 ---
-aliases: []
-created: 2022-11-09 10:05:37+08:00
-date created: 2023-07-05T11:13:20+08:00
-date modified: 2024-01-13T19:21:06+08:00
-dg-publish: true
-tags: []
-title: Rap2与postman
-updated: 2022-12-12 09:09:34+08:00
+{"dg-publish":true,"permalink":"/3 计算机/软件开发/后端开发/Rap2与postman/","title":"Rap2与postman"}
 ---
+
 
 Rap2 可以直接导出到 postman，很方便测试，因此先定义 rap2 是很好的。  
 ![image1](/img/user/resources/attachments/image1-61.png)
