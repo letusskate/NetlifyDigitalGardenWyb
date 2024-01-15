@@ -1,11 +1,7 @@
 ---
-aliases: []
-date created: 2023-07-24T20:26:48+08:00
-date modified: 2024-01-14T17:35:03+08:00
-dg-publish: true
-tags: []
-title: latex数学公式
+{"dg-publish":true,"permalink":"/1 工作与赚钱/科研技巧/论文写作/Latex/latex数学公式/","title":"latex数学公式"}
 ---
+
 
 ## 简单上手
 ### 可视化编辑器
