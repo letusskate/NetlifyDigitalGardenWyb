@@ -1,13 +1,7 @@
 ---
-aliases: []
-created: 2020-04-05 20:07:50+08:00
-date created: 2023-07-05T11:13:20+08:00
-date modified: 2024-01-13T19:21:07+08:00
-dg-publish: true
-tags: []
-title: 1Thinking in Algorithms 算法思维
-updated: 2020-04-14 23:49:17+08:00
+{"dg-publish":true,"permalink":"/3 计算机/数据结构与算法/书的笔记/Algorithms in a Nutshell 算法技术手册（影印版/1Thinking in Algorithms 算法思维/","title":"1Thinking in Algorithms 算法思维"}
 ---
+
 
 这本书将教算法和数据结构。  
 引子：convex hall 凸包算法  
