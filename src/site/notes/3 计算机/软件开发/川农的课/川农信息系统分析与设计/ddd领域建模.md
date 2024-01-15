@@ -1,13 +1,7 @@
 ---
-aliases: []
-created: 2023-04-03 21:29:35+08:00
-date created: 2023-07-05T11:13:20+08:00
-date modified: 2024-01-13T19:21:09+08:00
-dg-publish: true
-tags: []
-title: ddd领域建模
-updated: 2023-04-03 21:30:15+08:00
+{"dg-publish":true,"permalink":"/3 计算机/软件开发/川农的课/川农信息系统分析与设计/ddd领域建模/","title":"ddd领域建模"}
 ---
+
 
 【思维导图干货:DDD 领域建模与架构设计】<https://mr.baidu.com/r/DkJsu6nXI4?f=cp&amp;u=2229a5e274666001>
 
