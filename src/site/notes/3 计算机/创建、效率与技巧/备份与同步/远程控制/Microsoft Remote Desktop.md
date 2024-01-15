@@ -1,11 +1,7 @@
 ---
-aliases: []
-date created: 2023-10-25T11:22:57+08:00
-date modified: 2024-01-13T19:21:07+08:00
-dg-publish: true
-tags: []
-title: Microsoft Remote Desktop
+{"dg-publish":true,"permalink":"/3 计算机/创建、效率与技巧/备份与同步/远程控制/Microsoft Remote Desktop/","title":"Microsoft Remote Desktop"}
 ---
+
 
 在 microsoft store 下载即可。
 ## 相关视频
