@@ -1,13 +1,7 @@
 ---
-aliases: []
-created: 2022-12-04 11:30:45+08:00
-date created: 2023-07-05T11:13:20+08:00
-date modified: 2024-01-13T19:21:07+08:00
-dg-publish: true
-tags: []
-title: vscode设置同步
-updated: 2023-05-10 21:12:47+08:00
+{"dg-publish":true,"permalink":"/3 计算机/创建、效率与技巧/编程工具/vscode/vscode设置同步/","title":"vscode设置同步"}
 ---
+
 
 ## 步骤
 ### 1.左下角登陆账号
