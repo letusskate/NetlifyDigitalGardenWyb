@@ -1,11 +1,7 @@
 ---
-aliases: []
-date created: 2023-08-30T19:46:48+08:00
-date modified: 2024-01-14T17:35:03+08:00
-dg-publish: true
-tags: []
-title: latex伪代码
+{"dg-publish":true,"permalink":"/1 工作与赚钱/科研技巧/论文写作/Latex/latex伪代码/","title":"latex伪代码"}
 ---
+
 
 ## 方案种类
 一般会接触到的包有 algorithm、algorithmic、algorithmicx、algorithm2e 这四种包。
