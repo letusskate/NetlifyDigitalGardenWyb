@@ -4,7 +4,7 @@
 
 
 ## 为什么要配置
-为了增加写作的动力。
+为了增加写作的动力。  
 [发布](../../发布.md)
 ## 配置过程
 ### 教程
@@ -44,3 +44,7 @@ vercel 本身也可以干这个事情，接收到的时间相近的部署请求�
 4.国内能访问
 #### 配置
 site configuration，Pretty URLs 关闭
+#### 如何 push 多次只 build 一次，节省额度？
+[Ignore builds | Netlify Docs](https://docs.netlify.com/configure-builds/ignore-builds/)
+##### 官方 ignore 示例
+[[Support Guide] How to use the ignore command - Support / Support Guides - Netlify Support Forums](https://answers.netlify.com/t/support-guide-how-to-use-the-ignore-command/37517)
