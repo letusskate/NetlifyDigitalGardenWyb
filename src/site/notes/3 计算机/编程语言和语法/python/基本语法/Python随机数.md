@@ -1,13 +1,7 @@
 ---
-aliases: []
-created: 2023-01-09 14:10:27+08:00
-date created: 2023-07-05T11:13:20+08:00
-date modified: 2024-01-13T19:21:09+08:00
-dg-publish: true
-tags: []
-title: Python随机数
-updated: 2023-01-09 14:19:22+08:00
+{"dg-publish":true,"permalink":"/3 计算机/编程语言和语法/python/基本语法/Python随机数/","title":"Python随机数"}
 ---
+
 
 ## 浮点随机数
 ### 包含上下界
