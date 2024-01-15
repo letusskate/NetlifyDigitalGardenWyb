@@ -1,13 +1,7 @@
 ---
-aliases: []
-created: 2022-10-29 16:50:44+08:00
-date created: 2023-07-05T11:13:20+08:00
-date modified: 2024-01-13T19:21:06+08:00
-dg-publish: true
-tags: []
-title: windows快捷键
-updated: 2023-04-09 15:03:41+08:00
+{"dg-publish":true,"permalink":"/3 计算机/创建、效率与技巧/windows/windows快捷键/","title":"windows快捷键"}
 ---
+
 
 shift+ 鼠标滚轮，左右平移  
 win+q 搜索  
