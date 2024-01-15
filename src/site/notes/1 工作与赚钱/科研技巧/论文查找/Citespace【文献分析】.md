@@ -1,13 +1,7 @@
 ---
-aliases: []
-created: 2022-12-03 22:58:51+08:00
-date created: 2023-07-10T17:17:51+08:00
-date modified: 2024-01-14T17:35:03+08:00
-dg-publish: true
-tags: []
-title: Citespace【文献分析】
-updated: 2022-12-03 23:32:28+08:00
+{"dg-publish":true,"permalink":"/1 工作与赚钱/科研技巧/论文查找/Citespace【文献分析】/","title":"Citespace【文献分析】"}
 ---
+
 
 ## 知乎
 简单来说，它一款通过将国内外文献进行可视化分析来帮助你了解一门学科前世今生的软件。
