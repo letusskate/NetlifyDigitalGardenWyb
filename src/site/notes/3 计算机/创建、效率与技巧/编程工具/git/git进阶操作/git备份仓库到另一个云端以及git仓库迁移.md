@@ -1,11 +1,7 @@
 ---
-aliases: []
-date created: 2024-01-12T09:44:48+08:00
-date modified: 2024-01-13T19:21:09+08:00
-dg-publish: true
-tags: []
-title: git备份仓库到另一个云端以及git仓库迁移
+{"dg-publish":true,"permalink":"/3 计算机/创建、效率与技巧/编程工具/git/git进阶操作/git备份仓库到另一个云端以及git仓库迁移/","title":"git备份仓库到另一个云端以及git仓库迁移"}
 ---
+
 
 ## 通过 gitee 的仓库镜像管理
 [gitee仓库自动备份github](../../代码托管平台/gitee/gitee仓库自动备份github.md)
