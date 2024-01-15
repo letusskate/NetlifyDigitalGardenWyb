@@ -1,11 +1,7 @@
 ---
-aliases: []
-date created: 2023-10-25T10:52:52+08:00
-date modified: 2024-01-13T19:21:07+08:00
-dg-publish: true
-tags: []
-title: codeGeeX
+{"dg-publish":true,"permalink":"/3 计算机/创建、效率与技巧/编程工具/AI编程/codeGeeX/","title":"codeGeeX"}
 ---
+
 
 清华和智谱 AI  
 [CodeGeeX - A Multilingual Code Generation Tool - CodeGeeX](https://codegeex.cn/)
