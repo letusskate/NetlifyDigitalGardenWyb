@@ -1,11 +1,7 @@
 ---
-aliases: []
-date created: 2023-07-09T16:59:26+08:00
-date modified: 2024-01-14T17:34:41+08:00
-dg-publish: true
-tags: []
-title: obsidian快速输入
+{"dg-publish":true,"permalink":"/0 日记与提升/笔记技巧/obsidian/obsidian快速输入/","title":"obsidian快速输入"}
 ---
+
 
 ## 常用快捷键
 crtl+o 检索文件  
