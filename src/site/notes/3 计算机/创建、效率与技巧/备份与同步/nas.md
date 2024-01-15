@@ -1,11 +1,7 @@
 ---
-aliases: []
-date created: 2023-07-08T12:22:17+08:00
-date modified: 2024-01-13T19:21:06+08:00
-dg-publish: true
-tags: []
-title: nas
+{"dg-publish":true,"permalink":"/3 计算机/创建、效率与技巧/备份与同步/nas/","title":"nas"}
 ---
+
 
 一种高速云盘服务器，有在线播放，告诉下载等功能。
 
