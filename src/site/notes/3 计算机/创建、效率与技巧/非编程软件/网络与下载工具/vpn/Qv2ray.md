@@ -1,11 +1,7 @@
 ---
-aliases: []
-date created: 2023-07-13T20:47:05+08:00
-date modified: 2024-01-13T19:21:09+08:00
-dg-publish: true
-tags: []
-title: Qv2ray
+{"dg-publish":true,"permalink":"/3 计算机/创建、效率与技巧/非编程软件/网络与下载工具/vpn/Qv2ray/","title":"Qv2ray"}
 ---
+
 
 ## 教程
 [最好用的windows科学上网工具-Qv2ray使用教程 – 88°空间](https://nice456.com/index.php/2021/03/16/qv2ray/)
