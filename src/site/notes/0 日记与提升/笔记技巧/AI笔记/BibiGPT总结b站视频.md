@@ -1,11 +1,7 @@
 ---
-aliases: []
-date created: 2023-08-16T22:39:28+08:00
-date modified: 2024-01-14T17:34:41+08:00
-dg-publish: true
-tags: []
-title: BibiGPT总结b站视频
+{"dg-publish":true,"permalink":"/0 日记与提升/笔记技巧/AI笔记/BibiGPT总结b站视频/","title":"BibiGPT总结b站视频"}
 ---
+
 
 ## 什么是 bibiGPT
 [BibiGPT](../../../3%20计算机/创建、效率与技巧/AI/不同的ai/ai二次开发应用/BibiGPT.md)
