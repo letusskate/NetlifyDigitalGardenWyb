@@ -1,11 +1,7 @@
 ---
-aliases: []
-date created: 2023-08-04T12:49:13+08:00
-date modified: 2024-01-14T17:35:03+08:00
-dg-publish: true
-tags: []
-title: chatgpt科研使用
+{"dg-publish":true,"permalink":"/1 工作与赚钱/科研技巧/AI科研/chatgpt科研使用/","title":"chatgpt科研使用"}
 ---
+
 
 ## 润色提示语
 ![](/img/user/resources/attachments/20230815chatgpt科研使用.png)
