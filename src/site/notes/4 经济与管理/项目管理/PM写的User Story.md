@@ -1,13 +1,7 @@
 ---
-aliases: []
-created: 2023-03-22 14:45:44+08:00
-date created: 2023-07-05T11:13:20+08:00
-date modified: 2024-01-14T16:45:07+08:00
-dg-publish: true
-tags: []
-title: PM写的User Story
-updated: 2023-03-22 15:10:25+08:00
+{"dg-publish":true,"permalink":"/4 经济与管理/项目管理/PM写的User Story/","title":"PM写的User Story"}
 ---
+
 
 As a 《role》  
 I will be able to 《goal》  
