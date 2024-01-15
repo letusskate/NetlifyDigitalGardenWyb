@@ -1,13 +1,7 @@
 ---
-aliases: []
-created: 2023-01-04 15:42:44+08:00
-date created: 2023-07-05T11:13:20+08:00
-date modified: 2024-01-13T19:21:07+08:00
-dg-publish: true
-tags: []
-title: pycharm
-updated: 2023-02-15 14:23:54+08:00
+{"dg-publish":true,"permalink":"/3 计算机/创建、效率与技巧/编程工具/jetbrains/pycharm/","title":"pycharm"}
 ---
+
 
 ## pycharm 通过 ide 内可视化操作直接上传 github
 ### 相关博客
