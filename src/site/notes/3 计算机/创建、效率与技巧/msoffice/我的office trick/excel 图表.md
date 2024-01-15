@@ -1,13 +1,7 @@
 ---
-aliases: []
-created: 2022-04-10 23:14:02+08:00
-date created: 2023-07-05T11:13:20+08:00
-date modified: 2024-01-13T19:21:07+08:00
-dg-publish: true
-tags: []
-title: excel 图表
-updated: 2022-04-10 23:18:16+08:00
+{"dg-publish":true,"permalink":"/3 计算机/创建、效率与技巧/msoffice/我的office trick/excel 图表/","title":"excel 图表"}
 ---
+
 
 1.可以通过设计 - 选择数据更改类别的名称，进而**更改图例的显示名字**，使其不再叫系列一系列二  
 2.可以改变数据的选取方式，获取不同的图标推荐，比如一个 8\*2 的两列数据，一次选取和通过 crtl 分成两次选取，推荐的图标种类是不一样的  
