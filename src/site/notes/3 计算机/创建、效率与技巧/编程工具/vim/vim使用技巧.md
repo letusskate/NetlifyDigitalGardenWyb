@@ -1,13 +1,7 @@
 ---
-aliases: []
-created: 2022-11-30 11:34:04+08:00
-date created: 2023-07-05T11:13:20+08:00
-date modified: 2024-01-13T19:21:07+08:00
-dg-publish: true
-tags: []
-title: vim使用技巧
-updated: 2023-01-12 18:05:11+08:00
+{"dg-publish":true,"permalink":"/3 计算机/创建、效率与技巧/编程工具/vim/vim使用技巧/","title":"vim使用技巧"}
 ---
+
 
 ## vim 使用技巧
 ### vim 心得
