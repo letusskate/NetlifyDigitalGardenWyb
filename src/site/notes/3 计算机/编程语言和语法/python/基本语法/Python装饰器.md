@@ -1,13 +1,7 @@
 ---
-aliases: []
-created: 2022-12-08 12:44:02+08:00
-date created: 2023-07-05T11:13:20+08:00
-date modified: 2024-01-13T19:21:09+08:00
-dg-publish: true
-tags: []
-title: Python装饰器
-updated: 2022-12-08 13:04:38+08:00
+{"dg-publish":true,"permalink":"/3 计算机/编程语言和语法/python/基本语法/Python装饰器/","title":"Python装饰器"}
 ---
+
 
 ## 装饰器
 ### 什么是装饰器
