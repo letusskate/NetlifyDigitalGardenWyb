@@ -1,13 +1,7 @@
 ---
-aliases: []
-created: 2022-07-01 01:43:10+08:00
-date created: 2023-07-05T21:38:32+08:00
-date modified: 2024-01-14T17:34:42+08:00
-dg-publish: true
-tags: []
-title: onenote复制粘贴
-updated: 2022-07-01 01:43:58+08:00
+{"dg-publish":true,"permalink":"/0 日记与提升/笔记技巧/onenote/onenote操作技巧/onenote复制粘贴/","title":"onenote复制粘贴"}
 ---
+
 
 onenote 复制粘贴  
 2022 年 7 月 1 日  
