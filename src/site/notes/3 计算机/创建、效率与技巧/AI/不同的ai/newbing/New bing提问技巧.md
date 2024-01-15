@@ -1,13 +1,7 @@
 ---
-aliases: []
-created: 2023-03-13 16:52:26+08:00
-date created: 2023-07-05T11:13:20+08:00
-date modified: 2024-01-13T19:21:09+08:00
-dg-publish: true
-tags: [category/AI]
-title: New bing提问技巧
-updated: 2023-03-27 11:38:24+08:00
+{"dg-publish":true,"permalink":"/3 计算机/创建、效率与技巧/AI/不同的ai/newbing/New bing提问技巧/","title":"New bing提问技巧","tags":["category/AI"]}
 ---
+
 
 1.首先让他给出几个有价值的问题，之后一个一个问它。
 
