@@ -1,11 +1,7 @@
 ---
-aliases: []
-date created: 2023-08-04T13:04:32+08:00
-date modified: 2024-01-14T17:34:42+08:00
-dg-publish: true
-tags: []
-title: quail发布newsletter到邮箱
+{"dg-publish":true,"permalink":"/0 日记与提升/笔记技巧/obsidian/obsidian联动/quail发布newsletter到邮箱/","title":"quail发布newsletter到邮箱"}
 ---
+
 
 ## 实现方式
 借助 quail 进行发布，可以把笔记文档作为邮件发送到指定邮箱。
