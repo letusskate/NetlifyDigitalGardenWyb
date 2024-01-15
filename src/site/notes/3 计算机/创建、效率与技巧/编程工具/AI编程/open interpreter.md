@@ -1,11 +1,7 @@
 ---
-aliases: []
-date created: 2023-10-25T10:37:15+08:00
-date modified: 2024-01-13T19:21:07+08:00
-dg-publish: true
-tags: []
-title: open interpreter
+{"dg-publish":true,"permalink":"/3 计算机/创建、效率与技巧/编程工具/AI编程/open interpreter/","title":"open interpreter"}
 ---
+
 
 基于 ai 的代码解释器
 ## github
