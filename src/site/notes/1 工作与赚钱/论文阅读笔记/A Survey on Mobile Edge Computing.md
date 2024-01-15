@@ -1,13 +1,7 @@
 ---
-dg-publish: true
-aliases: []
-tags: []
-title: A Survey on Mobile Edge Computing
-updated: 2023-07-01T14:35:56.0000000+08:00
-created: 2022-12-04T23:47:45.0000000+08:00
-date created: 2023-07-05T11:13:20+08:00
-date modified: 2024-01-14T17:38:47+08:00
+{"dg-publish":true,"permalink":"/1 工作与赚钱/论文阅读笔记/A Survey on Mobile Edge Computing/","title":"A Survey on Mobile Edge Computing"}
 ---
+
 
 • A Survey on Mobile Edge Computing
 - 这是一篇综述
