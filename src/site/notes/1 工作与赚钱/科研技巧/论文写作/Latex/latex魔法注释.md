@@ -1,11 +1,7 @@
 ---
-aliases: []
-date created: 2023-07-24T20:26:28+08:00
-date modified: 2024-01-14T17:35:03+08:00
-dg-publish: true
-tags: []
-title: latex魔法注释
+{"dg-publish":true,"permalink":"/1 工作与赚钱/科研技巧/论文写作/Latex/latex魔法注释/","title":"latex魔法注释"}
 ---
+
 
 ## latex 魔法注释
 % 设置 LaTeX 默认编译工具为 pdflatex  
