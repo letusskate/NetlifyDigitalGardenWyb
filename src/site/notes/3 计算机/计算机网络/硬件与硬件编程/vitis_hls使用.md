@@ -1,11 +1,7 @@
 ---
-aliases: []
-date created: 2023-07-20T11:20:38+08:00
-date modified: 2024-01-13T19:21:06+08:00
-dg-publish: true
-tags: []
-title: vitis_hls使用
+{"dg-publish":true,"permalink":"/3 计算机/计算机网络/硬件与硬件编程/vitis_hls使用/","title":"vitis_hls使用"}
 ---
+
 
 ## linux 启动 vitis
 source settings64.sh  
