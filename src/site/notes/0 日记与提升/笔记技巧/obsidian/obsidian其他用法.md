@@ -1,11 +1,7 @@
 ---
-aliases: []
-date created: 2023-07-11T12:51:59+08:00
-date modified: 2024-01-14T17:34:41+08:00
-dg-publish: true
-tags: []
-title: obsidian其他用法
+{"dg-publish":true,"permalink":"/0 日记与提升/笔记技巧/obsidian/obsidian其他用法/","title":"obsidian其他用法"}
 ---
+
 
 ## 多端文件传输
 把文件存放到《8 速开笔记》  
