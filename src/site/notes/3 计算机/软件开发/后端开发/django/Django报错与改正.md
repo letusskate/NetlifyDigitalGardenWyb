@@ -1,13 +1,7 @@
 ---
-aliases: []
-created: 2023-01-10 17:57:46+08:00
-date created: 2023-07-05T16:15:59+08:00
-date modified: 2024-01-13T19:21:09+08:00
-dg-publish: true
-tags: []
-title: Django报错与改正
-updated: 2023-01-10 17:58:19+08:00
+{"dg-publish":true,"permalink":"/3 计算机/软件开发/后端开发/django/Django报错与改正/","title":"Django报错与改正"}
 ---
+
 
 ## No migrations to apply 
 当我们创建数据库，然后进行数据迁移时，发现表错误，我们删除了数据库中的表，同时又删除了 migrations 中的迁移文件，这时候我们进行迁移会报错：No migrations to apply：  
