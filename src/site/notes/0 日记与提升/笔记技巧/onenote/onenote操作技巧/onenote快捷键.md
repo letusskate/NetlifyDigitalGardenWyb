@@ -1,13 +1,7 @@
 ---
-aliases: []
-created: 2022-11-03 22:58:53+08:00
-date created: 2023-07-05T21:38:32+08:00
-date modified: 2024-01-14T17:34:42+08:00
-dg-publish: true
-tags: []
-title: onenote快捷键
-updated: 2023-04-15 08:19:19+08:00
+{"dg-publish":true,"permalink":"/0 日记与提升/笔记技巧/onenote/onenote操作技巧/onenote快捷键/","title":"onenote快捷键"}
 ---
+
 
 ## 表格
 - tab，以光标位置断开左右，生成表格。
