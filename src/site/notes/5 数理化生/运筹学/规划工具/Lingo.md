@@ -1,13 +1,7 @@
 ---
-aliases: []
-created: 2021-03-21 11:22:04+08:00
-date created: 2023-07-05T11:13:20+08:00
-date modified: 2024-01-14T16:45:16+08:00
-dg-publish: true
-tags: []
-title: Lingo
-updated: 2023-02-07 10:42:29+08:00
+{"dg-publish":true,"permalink":"/5 数理化生/运筹学/规划工具/Lingo/","title":"Lingo"}
 ---
+
 
 ## sum 设置从 m 到 k 求和
 无法实现，可以通过前缀和为变量，通过 if 判断是否为第一个数值实现。  
