@@ -1,11 +1,7 @@
 ---
-aliases: []
-date created: 2023-09-17T12:15:47+08:00
-date modified: 2024-01-13T19:21:09+08:00
-dg-publish: true
-tags: []
-title: python性能分析
+{"dg-publish":true,"permalink":"/3 计算机/编程语言和语法/python/库的运用/python性能分析/","title":"python性能分析"}
 ---
+
 
 viztracer、py-spy
 ## 相关截图
