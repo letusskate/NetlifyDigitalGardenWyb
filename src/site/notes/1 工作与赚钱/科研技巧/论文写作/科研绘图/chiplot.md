@@ -1,11 +1,7 @@
 ---
-aliases: []
-date created: 2023-09-03T23:20:16+08:00
-date modified: 2024-01-14T17:35:03+08:00
-dg-publish: true
-tags: []
-title: chiplot
+{"dg-publish":true,"permalink":"/1 工作与赚钱/科研技巧/论文写作/科研绘图/chiplot/","title":"chiplot"}
 ---
+
 
 一个在线作图工具
 ## 相关教程
