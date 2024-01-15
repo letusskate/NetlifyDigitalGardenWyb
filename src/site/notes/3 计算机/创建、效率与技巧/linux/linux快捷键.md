@@ -1,11 +1,7 @@
 ---
-aliases: []
-date created: 2023-07-12T14:44:03+08:00
-date modified: 2024-01-13T19:21:06+08:00
-dg-publish: true
-tags: []
-title: linux快捷键
+{"dg-publish":true,"permalink":"/3 计算机/创建、效率与技巧/linux/linux快捷键/","title":"linux快捷键"}
 ---
+
 
 ## 文件资源管理器打开路径栏
 crtl+L
