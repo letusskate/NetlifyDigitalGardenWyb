@@ -1,13 +1,7 @@
 ---
-aliases: []
-created: 2022-01-29 03:01:46+08:00
-date created: 2023-07-05T11:13:20+08:00
-date modified: 2024-01-13T19:21:09+08:00
-dg-publish: true
-tags: []
-title: parsec
-updated: 2022-12-03 13:17:53+08:00
+{"dg-publish":true,"permalink":"/3 计算机/创建、效率与技巧/备份与同步/远程控制/parsec/parsec/","title":"parsec"}
 ---
+
 
 parsec  
 2022 年 1 月 29 日  
