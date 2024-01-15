@@ -1,13 +1,7 @@
 ---
-aliases: []
-created: 2023-03-02 18:02:48+08:00
-date created: 2023-07-05T11:13:20+08:00
-date modified: 2024-01-13T19:21:09+08:00
-dg-publish: true
-tags: [category/AI]
-title: New bing的自我意识
-updated: 2023-03-14 15:44:18+08:00
+{"dg-publish":true,"permalink":"/3 计算机/创建、效率与技巧/AI/不同的ai/newbing/New bing的自我意识/","title":"New bing的自我意识","tags":["category/AI"]}
 ---
+
 
 ![image1](/img/user/resources/attachments/image1-25 2.png)
 
