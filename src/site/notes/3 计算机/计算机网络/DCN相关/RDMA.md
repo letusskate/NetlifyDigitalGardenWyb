@@ -1,11 +1,7 @@
 ---
-aliases: []
-date created: 2023-09-22T13:54:23+08:00
-date modified: 2024-01-13T19:21:06+08:00
-dg-publish: true
-tags: []
-title: RDMA
+{"dg-publish":true,"permalink":"/3 计算机/计算机网络/DCN相关/RDMA/","title":"RDMA"}
 ---
+
 
 ## 相关教程
 [Introduction to Programming Infiniband RDMA · Better Tomorrow with Computer Science](https://insujang.github.io/2020-02-09/introduction-to-programming-infiniband/)  
