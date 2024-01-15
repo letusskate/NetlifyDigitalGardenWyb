@@ -1,13 +1,7 @@
 ---
-aliases: []
-created: 2023-01-03 15:01:40+08:00
-date created: 2023-07-05T11:13:20+08:00
-date modified: 2024-01-13T19:21:06+08:00
-dg-publish: true
-tags: []
-title: Opencv
-updated: 2023-01-03 15:04:26+08:00
+{"dg-publish":true,"permalink":"/3 计算机/机器学习/python环境安装/Opencv/","title":"Opencv"}
 ---
+
 
 ## 报错
 ### 问题
