@@ -1,11 +1,7 @@
 ---
-aliases: []
-date created: 2024-01-10T16:21:28+08:00
-date modified: 2024-01-14T17:35:03+08:00
-dg-publish: true
-tags: []
-title: zotero7
+{"dg-publish":true,"permalink":"/1 工作与赚钱/科研技巧/文献管理与阅读/zotero/zotero7/","title":"zotero7"}
 ---
+
 
 ## zotero7 下载地址
 [beta\_builds [Zotero Documentation]](https://www.zotero.org/support/beta_builds)
