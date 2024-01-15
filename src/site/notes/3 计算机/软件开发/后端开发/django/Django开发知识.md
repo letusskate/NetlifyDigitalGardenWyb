@@ -1,13 +1,7 @@
 ---
-aliases: []
-created: 2022-11-05 00:10:21+08:00
-date created: 2023-07-05T16:15:59+08:00
-date modified: 2024-01-13T19:21:09+08:00
-dg-publish: true
-tags: []
-title: Django开发知识
-updated: 2023-04-06 17:16:49+08:00
+{"dg-publish":true,"permalink":"/3 计算机/软件开发/后端开发/django/Django开发知识/","title":"Django开发知识"}
 ---
+
 
 Django 开发知识  
 2022 年 11 月 5 日  
