@@ -1,13 +1,7 @@
 ---
-aliases: []
-created: 2021-12-15 21:04:42+08:00
-date created: 2023-07-05T11:13:20+08:00
-date modified: 2024-01-13T19:21:09+08:00
-dg-publish: true
-tags: []
-title: v2rayN
-updated: 2021-12-15 21:13:43+08:00
+{"dg-publish":true,"permalink":"/3 计算机/创建、效率与技巧/非编程软件/网络与下载工具/vpn/v2rayN/","title":"v2rayN"}
 ---
+
 
 1.github 下载 v2rayN  
 [Releases · 2dust/v2rayN (github.com)](https://github.com/2dust/v2rayN/releases)  
