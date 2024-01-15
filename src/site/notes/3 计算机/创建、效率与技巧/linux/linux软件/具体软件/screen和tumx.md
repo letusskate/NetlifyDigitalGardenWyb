@@ -1,11 +1,7 @@
 ---
-aliases: []
-date created: 2023-07-25T17:46:54+08:00
-date modified: 2024-01-13T19:21:09+08:00
-dg-publish: true
-tags: []
-title: screen和tumx
+{"dg-publish":true,"permalink":"/3 计算机/创建、效率与技巧/linux/linux软件/具体软件/screen和tumx/","title":"screen和tumx"}
 ---
+
 
 可以管理多个终端，可以持久化 ssh 链接。
 ## screen 相关教程
