@@ -1,13 +1,7 @@
 ---
-aliases: []
-created: 2022-11-03 17:55:04+08:00
-date created: 2023-07-05T16:15:59+08:00
-date modified: 2024-01-13T19:21:10+08:00
-dg-publish: true
-tags: []
-title: Shopping demo coding diary
-updated: 2022-11-11 17:38:19+08:00
+{"dg-publish":true,"permalink":"/3 计算机/软件开发/后端开发/django/silk后端培训Django/Shopping demo coding diary/","title":"Shopping demo coding diary"}
 ---
+
 
 ## 20221103 下午
 ### 1.
