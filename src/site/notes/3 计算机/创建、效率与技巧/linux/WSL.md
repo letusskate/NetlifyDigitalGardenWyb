@@ -1,13 +1,7 @@
 ---
-aliases: []
-created: 2022-12-05 15:15:20+08:00
-date created: 2023-07-05T11:13:20+08:00
-date modified: 2024-01-13T19:21:06+08:00
-dg-publish: true
-tags: []
-title: WSL
-updated: 2023-06-30 19:16:40+08:00
+{"dg-publish":true,"permalink":"/3 计算机/创建、效率与技巧/linux/WSL/","title":"WSL"}
 ---
+
 
 ## 什么是 WSL
 Windows Subsystem for Linux 适用于 Linux 的 Windows 子系统。  
