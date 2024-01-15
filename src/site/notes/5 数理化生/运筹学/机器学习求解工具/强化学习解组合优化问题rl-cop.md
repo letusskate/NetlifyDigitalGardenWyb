@@ -1,13 +1,7 @@
 ---
-aliases: []
-created: 2023-01-28 10:16:03+08:00
-date created: 2023-07-05T11:13:20+08:00
-date modified: 2024-01-14T16:45:16+08:00
-dg-publish: true
-tags: []
-title: 强化学习解组合优化问题rl-cop
-updated: 2023-01-29 15:56:14+08:00
+{"dg-publish":true,"permalink":"/5 数理化生/运筹学/机器学习求解工具/强化学习解组合优化问题rl-cop/","title":"强化学习解组合优化问题rl-cop"}
 ---
+
 
 ## 非线性整数规划与约束满足问题
 ### 知乎
