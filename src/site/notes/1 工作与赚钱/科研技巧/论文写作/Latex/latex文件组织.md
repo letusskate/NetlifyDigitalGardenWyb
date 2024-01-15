@@ -1,11 +1,7 @@
 ---
-aliases: []
-date created: 2023-07-24T20:23:45+08:00
-date modified: 2024-01-14T17:35:03+08:00
-dg-publish: true
-tags: []
-title: latex文件组织
+{"dg-publish":true,"permalink":"/1 工作与赚钱/科研技巧/论文写作/Latex/latex文件组织/","title":"latex文件组织"}
 ---
+
 
 ## latex 分开章节编写
 创建一个 chapter 文件夹，储存各个模块的文章内容，方便后期修改，使得文章更有条理。  
