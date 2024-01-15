@@ -1,13 +1,7 @@
 ---
-aliases: []
-created: 2023-04-30 15:02:50+08:00
-date created: 2023-07-05T11:13:20+08:00
-date modified: 2024-01-13T19:21:07+08:00
-dg-publish: true
-tags: []
-title: word文字公式垂直对齐
-updated: 2023-05-02 09:17:46+08:00
+{"dg-publish":true,"permalink":"/3 计算机/创建、效率与技巧/msoffice/我的office trick/word文字公式垂直对齐/","title":"word文字公式垂直对齐"}
 ---
+
 
 1、选择所在段落右击鼠标——打开段落。  
 ![image1](/img/user/resources/attachments/image1-18 2.png)  
