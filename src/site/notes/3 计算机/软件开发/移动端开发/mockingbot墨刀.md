@@ -1,12 +1,6 @@
 ---
-aliases: []
-created: 2022-01-08 11:31:24+08:00
-date created: 2023-07-05T11:13:20+08:00
-date modified: 2024-01-13T19:21:06+08:00
-dg-publish: true
-tags: []
-title: mockingbot墨刀
-updated: 2022-01-08 11:32:22+08:00
+{"dg-publish":true,"permalink":"/3 计算机/软件开发/移动端开发/mockingbot墨刀/","title":"mockingbot墨刀"}
 ---
+
 
 手动拖动模块即可，不需要编码。
