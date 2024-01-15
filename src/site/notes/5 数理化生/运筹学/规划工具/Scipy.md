@@ -1,13 +1,7 @@
 ---
-aliases: []
-created: 2023-01-11 15:34:07+08:00
-date created: 2023-07-05T11:13:20+08:00
-date modified: 2024-01-14T16:45:16+08:00
-dg-publish: true
-tags: []
-title: Scipy
-updated: 2023-01-13 17:48:36+08:00
+{"dg-publish":true,"permalink":"/5 数理化生/运筹学/规划工具/Scipy/","title":"Scipy"}
 ---
+
 
 ## 规划和寻根
 ### 官方文档
