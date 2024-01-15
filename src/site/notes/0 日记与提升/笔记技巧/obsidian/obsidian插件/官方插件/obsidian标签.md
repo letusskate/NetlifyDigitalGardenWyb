@@ -1,11 +1,7 @@
 ---
-aliases: []
-date created: 2023-07-09T13:15:15+08:00
-date modified: 2024-01-14T17:34:42+08:00
-dg-publish: true
-tags: []
-title: obsidian标签
+{"dg-publish":true,"permalink":"/0 日记与提升/笔记技巧/obsidian/obsidian插件/官方插件/obsidian标签/","title":"obsidian标签"}
 ---
+
 
 ## 我的标签
 通过标签管理笔记偏应用还是偏理论：竞赛、考试、课程、论文  
