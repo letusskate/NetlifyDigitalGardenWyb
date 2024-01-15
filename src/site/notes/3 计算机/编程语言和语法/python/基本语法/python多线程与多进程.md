@@ -1,13 +1,7 @@
 ---
-aliases: []
-created: 2023-02-09 14:27:27+08:00
-date created: 2023-07-05T11:13:20+08:00
-date modified: 2024-01-13T19:21:09+08:00
-dg-publish: true
-tags: []
-title: python多线程与多进程
-updated: 2023-04-16 12:27:06+08:00
+{"dg-publish":true,"permalink":"/3 计算机/编程语言和语法/python/基本语法/python多线程与多进程/","title":"python多线程与多进程"}
 ---
+
 
 ## 教程网站
 [(31条消息) Python之多进程与多线程_宗而研之的博客-CSDN博客_python 多线程](https://blog.csdn.net/zong596568821xp/article/details/99678390)
