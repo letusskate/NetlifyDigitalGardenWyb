@@ -1,13 +1,7 @@
 ---
-aliases: []
-created: 2021-12-28 17:51:27+08:00
-date created: 2023-07-05T11:13:20+08:00
-date modified: 2024-01-13T19:21:09+08:00
-dg-publish: true
-tags: []
-title: Web课程 副本
-updated: 2022-01-01 12:35:56+08:00
+{"dg-publish":true,"permalink":"/3 计算机/软件开发/川农的课/川农web/Web课程 副本/","title":"Web课程 副本"}
 ---
+
 
 网页的导航栏是超链接的集合，可以由此进入不同板块或页面  
 网站中的网页是逻辑相关的，可以通过超链接的方式背组织在一起。  
