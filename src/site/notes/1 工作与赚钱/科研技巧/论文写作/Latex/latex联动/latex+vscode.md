@@ -1,11 +1,7 @@
 ---
-aliases: []
-date created: 2023-08-22T21:48:48+08:00
-date modified: 2024-01-14T17:35:03+08:00
-dg-publish: true
-tags: []
-title: latex+vscode
+{"dg-publish":true,"permalink":"/1 工作与赚钱/科研技巧/论文写作/Latex/latex联动/latex+vscode/","title":"latex+vscode"}
 ---
+
 
 ## Latex+vscode
 ### 快捷键
