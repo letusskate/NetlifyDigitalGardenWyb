@@ -1,13 +1,7 @@
 ---
-aliases: []
-created: 2022-11-28 10:01:10+08:00
-date created: 2023-07-05T21:38:32+08:00
-date modified: 2024-01-14T17:34:42+08:00
-dg-publish: true
-tags: []
-title: onenote加速同步
-updated: 2022-11-28 10:33:50+08:00
+{"dg-publish":true,"permalink":"/0 日记与提升/笔记技巧/onenote/onenote同步与管理/onenote加速同步/","title":"onenote加速同步"}
 ---
+
 
 ## 再也没有比这更便捷的方法了
 话说 [自动同步](https://www.zhihu.com/search?q=%E8%87%AA%E5%8A%A8%E5%90%8C%E6%AD%A5&search_source=Entity&hybrid_search_source=Entity&hybrid_search_extra=%7B%22sourceType%22%3A%22answer%22%2C%22sourceId%22%3A1029145820%7D) 慢，那就手动同步啊  
