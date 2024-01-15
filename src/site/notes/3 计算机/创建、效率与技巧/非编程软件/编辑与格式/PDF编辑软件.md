@@ -1,13 +1,7 @@
 ---
-aliases: []
-created: 2023-02-06 14:23:42+08:00
-date created: 2023-07-05T11:13:20+08:00
-date modified: 2024-01-13T19:21:07+08:00
-dg-publish: true
-tags: []
-title: PDF编辑软件
-updated: 2023-02-06 14:23:52+08:00
+{"dg-publish":true,"permalink":"/3 计算机/创建、效率与技巧/非编程软件/编辑与格式/PDF编辑软件/","title":"PDF编辑软件"}
 ---
+
 
 Adobe arcobat
 
