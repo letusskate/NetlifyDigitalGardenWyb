@@ -1,11 +1,7 @@
 ---
-aliases: []
-date created: 2023-07-10T17:17:51+08:00
-date modified: 2024-01-14T17:34:42+08:00
-dg-publish: true
-tags: []
-title: vim-im-select
+{"dg-publish":true,"permalink":"/0 日记与提升/笔记技巧/obsidian/obsidian插件/第三方插件/vim-im-select/","title":"vim-im-select"}
 ---
+
 
 ## vim-im-select
 ### 使用注意事项
