@@ -1,11 +1,7 @@
 ---
-aliases: []
-date created: 2023-07-19T15:02:34+08:00
-date modified: 2024-01-13T19:21:06+08:00
-dg-publish: true
-tags: []
-title: BS 与 CS
+{"dg-publish":true,"permalink":"/3 计算机/计算机网络/计算机网络常识/BS 与 CS/","title":"BS 与 CS"}
 ---
+
 
 ## 知乎回答
 [安全验证 - 知乎](https://zhuanlan.zhihu.com/p/71222679)  
