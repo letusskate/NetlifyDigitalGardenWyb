@@ -1,13 +1,7 @@
 ---
-aliases: []
-created: 2023-03-31 01:07:27+08:00
-date created: 2023-07-10T17:17:51+08:00
-date modified: 2024-01-14T17:35:03+08:00
-dg-publish: true
-tags: [category/AI]
-title: 中科院学术chatgpt
-updated: 2023-04-16 11:29:10+08:00
+{"dg-publish":true,"permalink":"/1 工作与赚钱/科研技巧/AI科研/中科院学术chatgpt/","title":"中科院学术chatgpt","tags":["category/AI"]}
 ---
+
 
 ## 中科院学术 ai 官网
 <https://github.com/binary-husky/chatgpt_academic>  
