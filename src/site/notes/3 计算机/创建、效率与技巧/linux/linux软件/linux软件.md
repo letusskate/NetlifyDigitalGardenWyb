@@ -1,13 +1,7 @@
 ---
-aliases: []
-created: 2023-06-30 13:25:57+08:00
-date created: 2023-07-10T17:17:51+08:00
-date modified: 2024-01-13T19:21:06+08:00
-dg-publish: true
-tags: []
-title: linux软件
-updated: 2023-07-01 14:12:37+08:00
+{"dg-publish":true,"permalink":"/3 计算机/创建、效率与技巧/linux/linux软件/linux软件/","title":"linux软件"}
 ---
+
 
 ## 社交软件
 飞书  
