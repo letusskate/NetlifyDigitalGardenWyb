@@ -1,11 +1,7 @@
 ---
-aliases: []
-date created: 2023-08-12T17:58:43+08:00
-date modified: 2024-01-13T19:21:07+08:00
-dg-publish: true
-tags: []
-title: git安装与初始化
+{"dg-publish":true,"permalink":"/3 计算机/创建、效率与技巧/编程工具/git/git安装与初始化/","title":"git安装与初始化"}
 ---
+
 
 ## 安装
 一路默认
