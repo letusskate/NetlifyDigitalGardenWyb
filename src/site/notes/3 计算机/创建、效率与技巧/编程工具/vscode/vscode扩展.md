@@ -1,13 +1,7 @@
 ---
-aliases: []
-created: 2022-02-27 12:06:02+08:00
-date created: 2023-07-05T11:13:20+08:00
-date modified: 2024-01-13T19:21:07+08:00
-dg-publish: true
-tags: []
-title: vscode扩展
-updated: 2022-10-08 00:22:23+08:00
+{"dg-publish":true,"permalink":"/3 计算机/创建、效率与技巧/编程工具/vscode/vscode扩展/","title":"vscode扩展"}
 ---
+
 
 Chinese 简体中文插件  
 code runner 运行大部分代码  
