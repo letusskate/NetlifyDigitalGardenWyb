@@ -1,11 +1,7 @@
 ---
-aliases: []
-date created: 2023-07-24T19:09:47+08:00
-date modified: 2024-01-13T19:21:09+08:00
-dg-publish: true
-tags: []
-title: linux texlive
+{"dg-publish":true,"permalink":"/3 计算机/创建、效率与技巧/linux/linux软件/具体软件/linux texlive/","title":"linux texlive"}
 ---
+
 
 ## linux 下的 texlive 安装
 ### 官方文档
