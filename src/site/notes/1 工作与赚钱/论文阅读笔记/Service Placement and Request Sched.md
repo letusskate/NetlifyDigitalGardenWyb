@@ -1,13 +1,7 @@
 ---
-dg-publish: true
-aliases: []
-tags: []
-title: Service Placement and Request Sched
-updated: 2022-12-04T23:48:14.0000000+08:00
-created: 2022-12-04T23:47:43.0000000+08:00
-date created: 2023-07-05T11:13:20+08:00
-date modified: 2024-01-14T17:38:47+08:00
+{"dg-publish":true,"permalink":"/1 工作与赚钱/论文阅读笔记/Service Placement and Request Sched/","title":"Service Placement and Request Sched"}
 ---
+
 
 • Service Placement and Request Scheduling for Data-Intensive Applications in
 - 一、介绍
