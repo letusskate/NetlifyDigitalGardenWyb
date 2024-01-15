@@ -1,13 +1,7 @@
 ---
-aliases: []
-created: 2022-11-30 09:58:53+08:00
-date created: 2023-07-09T11:39:06+08:00
-date modified: 2024-01-14T17:35:03+08:00
-dg-publish: true
-tags: []
-title: Latex
-updated: 2023-05-17 17:07:20+08:00
+{"dg-publish":true,"permalink":"/1 工作与赚钱/科研技巧/论文写作/Latex/Latex/","title":"Latex"}
 ---
+
 
 ## Latex 入门
 ### 相关教程
