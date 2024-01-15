@@ -1,13 +1,7 @@
 ---
-dg-publish: true
-aliases: []
-tags: []
-title: Source Compression with Bounded DNN
-updated: 2023-01-17T16:11:18.0000000+08:00
-created: 2023-01-02T19:32:28.0000000+08:00
-date created: 2023-07-05T11:13:20+08:00
-date modified: 2024-01-14T17:38:47+08:00
+{"dg-publish":true,"permalink":"/1 工作与赚钱/论文阅读笔记/Source Compression with Bounded DNN/","title":"Source Compression with Bounded DNN"}
 ---
+
 
 ## 中文题目
 Iot 设备，边缘计算机视觉中，限制 DNN 预测损失的，源压缩方法
