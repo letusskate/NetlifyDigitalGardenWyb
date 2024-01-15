@@ -1,11 +1,7 @@
 ---
-aliases: []
-date created: 2023-07-19T21:41:05+08:00
-date modified: 2024-01-14T17:34:42+08:00
-dg-publish: true
-tags: []
-title: obsidian安卓端
+{"dg-publish":true,"permalink":"/0 日记与提升/笔记技巧/obsidian/obsidian多端协作/obsidian安卓端/","title":"obsidian安卓端"}
 ---
+
 
 ## FV 悬浮球
 
