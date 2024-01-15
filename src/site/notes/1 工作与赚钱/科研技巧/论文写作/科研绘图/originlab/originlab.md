@@ -1,13 +1,7 @@
 ---
-aliases: []
-created: 2023-05-05 19:31:49+08:00
-date created: 2023-07-11T12:51:59+08:00
-date modified: 2024-01-14T17:35:03+08:00
-dg-publish: true
-tags: []
-title: originlab
-updated: 2023-05-26 16:00:24+08:00
+{"dg-publish":true,"permalink":"/1 工作与赚钱/科研技巧/论文写作/科研绘图/originlab/originlab/","title":"originlab"}
 ---
+
 
 ## 官网
 [OriginLab - Origin and OriginPro - Data Analysis and Graphing Software](https://www.originlab.com/)
