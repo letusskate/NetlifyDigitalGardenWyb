@@ -1,11 +1,7 @@
 ---
-aliases: []
-date created: 2023-07-27T16:52:27+08:00
-date modified: 2024-01-14T17:34:41+08:00
-dg-publish: true
-tags: []
-title: obsidian实用脚本
+{"dg-publish":true,"permalink":"/0 日记与提升/笔记技巧/obsidian/obsidian实用脚本/","title":"obsidian实用脚本"}
 ---
+
 
 ## 文档字数统计并加入 yaml
 [markdown 字数统计工具设计](https://www.edony.ink/word-counter-tool-prototype/)
