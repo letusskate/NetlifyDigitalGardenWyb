@@ -1,13 +1,7 @@
 ---
-aliases: []
-created: 2022-12-02 17:22:13+08:00
-date created: 2023-07-05T11:13:20+08:00
-date modified: 2024-01-13T19:21:09+08:00
-dg-publish: true
-tags: []
-title: Github
-updated: 2023-03-28 17:57:34+08:00
+{"dg-publish":true,"permalink":"/3 计算机/创建、效率与技巧/编程工具/代码托管平台/github/Github/","title":"Github"}
 ---
+
 
 ## github 是什么
 github 提供的是一个代码管理平台。  
