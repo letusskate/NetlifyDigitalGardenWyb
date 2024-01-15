@@ -1,11 +1,7 @@
 ---
-aliases: []
-date created: 2023-08-04T18:25:21+08:00
-date modified: 2024-01-13T19:21:07+08:00
-dg-publish: true
-tags: []
-title: quicker
+{"dg-publish":true,"permalink":"/3 计算机/创建、效率与技巧/非编程软件/管理工具/quicker/","title":"quicker"}
 ---
+
 
 ## quicker 作用
 自定义动作，快速处理重复动作
