@@ -48,3 +48,32 @@ site configuration，Pretty URLs 关闭
 [Ignore builds | Netlify Docs](https://docs.netlify.com/configure-builds/ignore-builds/)
 ##### 官方 ignore 示例
 [[Support Guide] How to use the ignore command - Support / Support Guides - Netlify Support Forums](https://answers.netlify.com/t/support-guide-how-to-use-the-ignore-command/37517)
+##### 我的方法
+github 根目录 netlify.toml
+```
+[build]
+  publish = "dist"
+  command = "bash ./netlify-build-script.sh"
+  ignore = 'bash -c "[[ "$(date -d "5 minutes ago" +%s)" -gt "$(cat last_build_timestamp.txt 2>/dev/null || echo 0)" ]] && exit 1 || exit 0"'
+  
+
+[[redirects]]
+  from = "/api/*"
+  to = "/.netlify/functions/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/*"
+  to = "/404"
+  status = 404
+```
+netlify-build-script.sh
+```
+#!/bin/bash
+
+# 执行构建命令
+npm install && npm run build
+
+# 更新上一次构建的时间戳
+echo $(date +%s) > dist/last_build_timestamp.txt
+```
