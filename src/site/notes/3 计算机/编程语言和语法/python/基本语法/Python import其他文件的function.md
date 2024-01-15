@@ -1,13 +1,7 @@
 ---
-aliases: []
-created: 2022-12-08 13:04:40+08:00
-date created: 2023-07-05T11:13:20+08:00
-date modified: 2024-01-13T19:21:09+08:00
-dg-publish: true
-tags: []
-title: Python import其他文件的function
-updated: 2023-04-16 12:29:09+08:00
+{"dg-publish":true,"permalink":"/3 计算机/编程语言和语法/python/基本语法/Python import其他文件的function/","title":"Python import其他文件的function"}
 ---
+
 
 ## 导入文件
 python 可以引用同级的所有文件，如果是 django，当前目录是 manage.py。
