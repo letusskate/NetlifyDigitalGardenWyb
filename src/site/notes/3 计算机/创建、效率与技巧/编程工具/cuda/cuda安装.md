@@ -1,11 +1,7 @@
 ---
-aliases: []
-date created: 2023-09-13T14:56:43+08:00
-date modified: 2024-01-13T19:21:07+08:00
-dg-publish: true
-tags: []
-title: cuda安装
+{"dg-publish":true,"permalink":"/3 计算机/创建、效率与技巧/编程工具/cuda/cuda安装/","title":"cuda安装"}
 ---
+
 
 ## 查看 cuda 版本
 `nvcc -V`
