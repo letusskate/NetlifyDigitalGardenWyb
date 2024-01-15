@@ -1,11 +1,7 @@
 ---
-aliases: []
-date created: 2023-08-12T16:17:12+08:00
-date modified: 2024-01-14T17:35:03+08:00
-dg-publish: true
-tags: []
-title: latex文字段落
+{"dg-publish":true,"permalink":"/1 工作与赚钱/科研技巧/论文写作/Latex/latex文字段落/","title":"latex文字段落"}
 ---
+
 
 ## 文字
 ### 文字加粗  
