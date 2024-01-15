@@ -1,13 +1,7 @@
 ---
-aliases: []
-created: 2022-12-03 16:11:25+08:00
-date created: 2023-07-05T11:13:20+08:00
-date modified: 2024-01-13T19:21:09+08:00
-dg-publish: true
-tags: []
-title: python快速配环境
-updated: 2022-12-08 13:05:03+08:00
+{"dg-publish":true,"permalink":"/3 计算机/编程语言和语法/python/python环境配置/python快速配环境/","title":"python快速配环境"}
 ---
+
 
 ## Requirements.txt
 ### 生成
