@@ -1,11 +1,7 @@
 ---
-aliases: []
-date created: 2023-08-04T18:41:10+08:00
-date modified: 2024-01-14T17:35:03+08:00
-dg-publish: true
-tags: []
-title: zotero多端同步
+{"dg-publish":true,"permalink":"/1 工作与赚钱/科研技巧/文献管理与阅读/zotero/zotero多端同步/","title":"zotero多端同步"}
 ---
+
 
 ## Zotero+ 百度网盘同步空间
 ### 简单版
