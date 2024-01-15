@@ -1,13 +1,7 @@
 ---
-aliases: []
-created: 2023-05-17 17:56:50+08:00
-date created: 2023-07-11T12:51:59+08:00
-date modified: 2024-01-14T17:35:03+08:00
-dg-publish: true
-tags: []
-title: Mathtype【公式软件】
-updated: 2023-05-17 17:58:13+08:00
+{"dg-publish":true,"permalink":"/1 工作与赚钱/科研技巧/论文写作/公式/Mathtype【公式软件】/","title":"Mathtype【公式软件】"}
 ---
+
 
 ## 与 word 互转
 **二、将 MathType 公式转换为 LaTex 公式：**  
