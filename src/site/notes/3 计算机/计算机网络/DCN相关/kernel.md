@@ -1,11 +1,7 @@
 ---
-aliases: []
-date created: 2023-08-26T22:53:36+08:00
-date modified: 2024-01-13T19:21:06+08:00
-dg-publish: true
-tags: []
-title: kernel
+{"dg-publish":true,"permalink":"/3 计算机/计算机网络/DCN相关/kernel/","title":"kernel"}
 ---
+
 
 ## kernel 执行程序的观测
 并不是简单的程序 debug，比较复杂
