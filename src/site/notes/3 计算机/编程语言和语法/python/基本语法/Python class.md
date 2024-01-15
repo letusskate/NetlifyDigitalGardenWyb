@@ -1,13 +1,7 @@
 ---
-aliases: []
-created: 2023-02-14 15:45:31+08:00
-date created: 2023-07-05T11:13:20+08:00
-date modified: 2024-01-13T19:21:09+08:00
-dg-publish: true
-tags: []
-title: Python class
-updated: 2023-04-16 12:28:55+08:00
+{"dg-publish":true,"permalink":"/3 计算机/编程语言和语法/python/基本语法/Python class/","title":"Python class"}
 ---
+
 
 ## 类方便管理全局变量和函数
 python 函数可以应对很多情况，比如一个功能需要在不同的输入下实现。  
