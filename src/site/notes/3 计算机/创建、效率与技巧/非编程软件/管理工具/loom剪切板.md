@@ -1,11 +1,7 @@
 ---
-aliases: []
-date created: 2023-08-19T23:33:01+08:00
-date modified: 2024-01-13T19:21:07+08:00
-dg-publish: true
-tags: []
-title: loom剪切板
+{"dg-publish":true,"permalink":"/3 计算机/创建、效率与技巧/非编程软件/管理工具/loom剪切板/","title":"loom剪切板"}
 ---
+
 
 可以保存无限制的剪切板、快速翻译等功能，类似 utools
 ## 相关视频
