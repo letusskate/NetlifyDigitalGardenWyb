@@ -1,11 +1,7 @@
 ---
-aliases: []
-date created: 2023-07-08T12:22:17+08:00
-date modified: 2024-01-14T17:34:41+08:00
-dg-publish: true
-tags: []
-title: obsidian链接与路径
+{"dg-publish":true,"permalink":"/0 日记与提升/笔记技巧/obsidian/obsidian链接与路径/","title":"obsidian链接与路径"}
 ---
+
 
 ## 双向链接
 ### 什么是双向链接
