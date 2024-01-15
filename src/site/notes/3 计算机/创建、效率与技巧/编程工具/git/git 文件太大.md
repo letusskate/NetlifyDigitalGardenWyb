@@ -1,11 +1,7 @@
 ---
-aliases: []
-date created: 2023-09-13T15:21:47+08:00
-date modified: 2024-01-13T19:21:07+08:00
-dg-publish: true
-tags: []
-title: git 文件太大
+{"dg-publish":true,"permalink":"/3 计算机/创建、效率与技巧/编程工具/git/git 文件太大/","title":"git 文件太大"}
 ---
+
 
 ## 相关教程
 [如何解决 GitHub 提交次数过多 .git 文件过大的问题？ - 知乎](https://www.zhihu.com/question/29769130)  
