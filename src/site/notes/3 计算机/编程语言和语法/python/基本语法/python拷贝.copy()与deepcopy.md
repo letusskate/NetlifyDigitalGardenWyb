@@ -1,13 +1,7 @@
 ---
-aliases: []
-created: 2022-12-27 16:39:37+08:00
-date created: 2023-07-05T11:13:20+08:00
-date modified: 2024-01-13T19:21:09+08:00
-dg-publish: true
-tags: []
-title: python拷贝.copy()与deepcopy
-updated: 2023-02-16 10:11:32+08:00
+{"dg-publish":true,"permalink":"/3 计算机/编程语言和语法/python/基本语法/python拷贝.copy()与deepcopy/","title":"python拷贝.copy()与deepcopy"}
 ---
+
 
 ## 区别
 对于数字变量，直接赋值即可  
