@@ -1,11 +1,7 @@
 ---
-aliases: []
-date created: 2023-07-25T14:44:48+08:00
-date modified: 2024-01-13T19:21:09+08:00
-dg-publish: true
-tags: []
-title: github网页版操作
+{"dg-publish":true,"permalink":"/3 计算机/创建、效率与技巧/编程工具/代码托管平台/github/github网页版操作/","title":"github网页版操作"}
 ---
+
 
 ## commits 可以看到历史版本
 ![image1](/img/user/resources/attachments/image1-8 2.png)
