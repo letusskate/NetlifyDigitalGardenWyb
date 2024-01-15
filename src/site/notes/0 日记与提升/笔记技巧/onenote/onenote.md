@@ -1,13 +1,7 @@
 ---
-aliases: []
-created: 2023-04-19 17:36:25+08:00
-date created: 2023-07-05T21:38:32+08:00
-date modified: 2024-01-14T17:34:41+08:00
-dg-publish: true
-tags: []
-title: onenote
-updated: 2023-04-19 17:36:40+08:00
+{"dg-publish":true,"permalink":"/0 日记与提升/笔记技巧/onenote/onenote/","title":"onenote"}
 ---
+
 
 ## onenote
 微软的笔记软件，通过 onedrive 同步，仅支持自己的.one 格式
