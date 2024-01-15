@@ -1,11 +1,7 @@
 ---
-dg-publish: true
-aliases: []
-tags: []
-title: StaR Breaking the Scalability Limit for RDMA
-date created: 2023-11-21T15:30:55+08:00
-date modified: 2024-01-14T17:38:47+08:00
+{"dg-publish":true,"permalink":"/1 工作与赚钱/论文阅读笔记/StaR Breaking the Scalability Limit for RDMA/","title":"StaR Breaking the Scalability Limit for RDMA"}
 ---
+
 ## 设计思路
 通过将状态转移到通信另一端来解决 RDMA 的可扩展性问题。 StaR 利用数据中心应用中的非对称通信模式，让低并发的通信端为高并发的另一端保存状态，从而使瓶颈侧的 RNIC 成为无状态的。  
 特别是，经常有一些 RNIC 具有巨大的扇入/扇出，而其他 RNIC 仅保留少量连接。例如，Timestamp Oracle 中的服务器通常需要保持超过 2800 个并发连接，同时由于服务器数量较少，客户端只需要保持少量连接。这种非对称流量模式为我们提供了设计新颖的非对称 RNIC 状态维护机制的绝佳机会。具体来说，我们不维护连接两端的状态。相反，我们可以将双方的连接状态移至只有少量连接的 RNIC 一侧（称为客户端），而让拥有大量连接的另一侧成为无状态。之前已有工作 将这一思想应用于 TCP/IP 协议栈。受他们的启发，我们设计了 StaR 来解决 RDMA 可扩展性问题。
