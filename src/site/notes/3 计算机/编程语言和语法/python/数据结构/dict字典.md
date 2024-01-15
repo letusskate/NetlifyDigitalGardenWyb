@@ -1,13 +1,7 @@
 ---
-aliases: []
-created: 2022-04-09 08:46:53+08:00
-date created: 2023-07-05T11:13:20+08:00
-date modified: 2024-01-13T19:21:09+08:00
-dg-publish: true
-tags: []
-title: dict字典
-updated: 2023-04-16 12:25:17+08:00
+{"dg-publish":true,"permalink":"/3 计算机/编程语言和语法/python/数据结构/dict字典/","title":"dict字典"}
 ---
+
 
 dict 字典  
 2022 年 4 月 9 日  
