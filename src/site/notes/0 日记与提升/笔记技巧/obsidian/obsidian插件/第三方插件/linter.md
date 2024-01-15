@@ -1,11 +1,7 @@
 ---
-aliases: []
-date created: 2023-07-10T22:27:04+08:00
-date modified: 2024-01-14T17:34:42+08:00
-dg-publish: true
-tags: []
-title: linter
+{"dg-publish":true,"permalink":"/0 日记与提升/笔记技巧/obsidian/obsidian插件/第三方插件/linter/","title":"linter"}
 ---
+
 
 ## linter
 linter 是一个修改格式的插件，可以做到：  
