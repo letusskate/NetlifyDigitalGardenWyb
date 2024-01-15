@@ -1,13 +1,7 @@
 ---
-aliases: []
-created: 2021-03-16 19:41:06+08:00
-date created: 2023-07-05T11:13:20+08:00
-date modified: 2024-01-13T19:21:09+08:00
-dg-publish: true
-tags: []
-title: DP问题
-updated: 2021-03-16 19:41:17+08:00
+{"dg-publish":true,"permalink":"/3 计算机/数据结构与算法/书的笔记/挑战程序设计竞赛/DP问题/","title":"DP问题"}
 ---
+
 
 思考步骤：  
 1.什么东西在增加/减少使得问题规模逐渐增加？  
