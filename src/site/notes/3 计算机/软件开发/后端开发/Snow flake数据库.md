@@ -1,13 +1,7 @@
 ---
-aliases: []
-created: 2023-03-09 15:28:03+08:00
-date created: 2023-07-05T11:13:20+08:00
-date modified: 2024-01-13T19:21:06+08:00
-dg-publish: true
-tags: []
-title: Snow flake数据库
-updated: 2023-04-09 15:11:08+08:00
+{"dg-publish":true,"permalink":"/3 计算机/软件开发/后端开发/Snow flake数据库/","title":"Snow flake数据库"}
 ---
+
 
 ## Python Snowflake 安装
 - 下载 python 库：  
