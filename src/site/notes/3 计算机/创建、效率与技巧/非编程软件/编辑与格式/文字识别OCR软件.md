@@ -1,11 +1,7 @@
 ---
-aliases: []
-date created: 2023-08-16T22:47:38+08:00
-date modified: 2024-01-13T19:21:07+08:00
-dg-publish: true
-tags: []
-title: 文字识别OCR软件
+{"dg-publish":true,"permalink":"/3 计算机/创建、效率与技巧/非编程软件/编辑与格式/文字识别OCR软件/","title":"文字识别OCR软件"}
 ---
+
 
 ## meta 开源 ocr
 [Meta最新开源工具Nougat：OCR神器，学术党福音\_哔哩哔哩\_bilibili](https://www.bilibili.com/video/BV1Bj41117p4/?spm_id_from=333.337.search-card.all.click)
