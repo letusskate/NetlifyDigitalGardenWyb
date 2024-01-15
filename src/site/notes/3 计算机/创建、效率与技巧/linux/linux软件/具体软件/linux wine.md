@@ -1,11 +1,7 @@
 ---
-aliases: []
-date created: 2023-08-04T18:37:28+08:00
-date modified: 2024-01-13T19:21:09+08:00
-dg-publish: true
-tags: []
-title: linux wine
+{"dg-publish":true,"permalink":"/3 计算机/创建、效率与技巧/linux/linux软件/具体软件/linux wine/","title":"linux wine"}
 ---
+
 
 ## wine
 一个运行在 linux 上的 windows 兼容程序
