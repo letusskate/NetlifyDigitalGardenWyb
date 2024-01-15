@@ -1,12 +1,6 @@
 ---
-aliases: []
-created: 2023-03-22 14:05:36+08:00
-date created: 2023-07-05T11:13:20+08:00
-date modified: 2024-01-13T19:21:09+08:00
-dg-publish: true
-tags: [category/AI]
-title: new bing绘画
-updated: 2023-03-22 14:05:46+08:00
+{"dg-publish":true,"permalink":"/3 计算机/创建、效率与技巧/AI/不同的ai/ai绘画/new bing绘画/","title":"new bing绘画","tags":["category/AI"]}
 ---
+
 
 https://bing.com/create
