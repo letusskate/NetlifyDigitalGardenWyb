@@ -1,11 +1,7 @@
 ---
-aliases: [null]
-date created: 2023-08-22T14:26:32+08:00
-date modified: 2024-01-14T17:34:42+08:00
-dg-publish: true
-tags: [null]
-title: obsidian发布
+{"dg-publish":true,"permalink":"/0 日记与提升/笔记技巧/obsidian/obsidian发布/obsidian发布/","title":"obsidian发布"}
 ---
+
 
 ## obsidian 自带发布
 付费，4 美元
