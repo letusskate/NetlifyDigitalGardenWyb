@@ -1,13 +1,7 @@
 ---
-aliases: []
-created: 2022-12-15 16:10:34+08:00
-date created: 2023-07-05T11:13:20+08:00
-date modified: 2024-01-14T16:45:16+08:00
-dg-publish: true
-tags: []
-title: 拟阵matroid
-updated: 2022-12-16 12:29:33+08:00
+{"dg-publish":true,"permalink":"/5 数理化生/离散数学/拟阵matroid/","title":"拟阵matroid"}
 ---
+
 
 ## 拟阵理解
 拟阵是一个集合和一套关系的组合，要求这套关系必须在集合所有子集中都被满足。  
