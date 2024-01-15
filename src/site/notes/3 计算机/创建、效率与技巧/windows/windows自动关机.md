@@ -1,13 +1,7 @@
 ---
-aliases: []
-created: 2022-12-09 17:55:20+08:00
-date created: 2023-07-05T11:13:20+08:00
-date modified: 2024-01-13T19:21:06+08:00
-dg-publish: true
-tags: []
-title: windows自动关机
-updated: 2022-12-15 14:34:49+08:00
+{"dg-publish":true,"permalink":"/3 计算机/创建、效率与技巧/windows/windows自动关机/","title":"windows自动关机"}
 ---
+
 
 1、界面左下角搜索栏搜索“控制面板”，打开“控制面板”  
 2、然后点击控制面板里的“管理工具”  
