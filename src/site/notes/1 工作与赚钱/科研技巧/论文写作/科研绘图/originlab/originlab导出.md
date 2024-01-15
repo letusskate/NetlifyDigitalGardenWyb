@@ -1,11 +1,7 @@
 ---
-aliases: []
-date created: 2023-08-24T15:29:40+08:00
-date modified: 2024-01-14T17:35:03+08:00
-dg-publish: true
-tags: []
-title: originlab导出
+{"dg-publish":true,"permalink":"/1 工作与赚钱/科研技巧/论文写作/科研绘图/originlab/originlab导出/","title":"originlab导出"}
 ---
+
 
 右键 graph 选择导出。  
 ![](/img/user/resources/attachments/20230824originlab导出.png)
