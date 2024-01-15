@@ -14,3 +14,7 @@ NaiveProxy 插件下载地址：https://github.com/Qv2ray/QvPlugin-NaiveProxy/re
 
 ## 添加 SSR 订阅
 分组 - 新建 - 起名字 - 订阅设置 - 复制 ssr 的订阅地址 - 订阅类型选 basic64
+## 出错
+禁用系统代理，  
+启用绕过中国大陆  
+重新链接。
