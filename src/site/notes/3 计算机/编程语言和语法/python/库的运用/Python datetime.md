@@ -1,13 +1,7 @@
 ---
-aliases: []
-created: 2023-03-17 10:15:43+08:00
-date created: 2023-07-05T11:13:20+08:00
-date modified: 2024-01-13T19:21:09+08:00
-dg-publish: true
-tags: []
-title: Python datetime
-updated: 2023-03-17 10:28:18+08:00
+{"dg-publish":true,"permalink":"/3 计算机/编程语言和语法/python/库的运用/Python datetime/","title":"Python datetime"}
 ---
+
 
 ## 往后推 30 天
 import datetime
