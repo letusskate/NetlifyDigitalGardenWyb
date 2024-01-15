@@ -1,11 +1,7 @@
 ---
-aliases: []
-date created: 2023-08-20T15:55:06+08:00
-date modified: 2024-01-13T19:21:06+08:00
-dg-publish: true
-tags: []
-title: struct
+{"dg-publish":true,"permalink":"/3 计算机/编程语言和语法/cpp/struct/","title":"struct"}
 ---
+
 
 ## C 语言 typedef 写法
 ### 写法一
