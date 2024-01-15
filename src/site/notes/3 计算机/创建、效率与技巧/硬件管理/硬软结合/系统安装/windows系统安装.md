@@ -1,13 +1,7 @@
 ---
-aliases: []
-created: 2023-06-04 17:11:17+08:00
-date created: 2023-07-05T11:13:20+08:00
-date modified: 2024-01-13T19:21:09+08:00
-dg-publish: true
-tags: []
-title: windows系统安装
-updated: 2023-07-01 10:30:13+08:00
+{"dg-publish":true,"permalink":"/3 计算机/创建、效率与技巧/硬件管理/硬软结合/系统安装/windows系统安装/","title":"windows系统安装"}
 ---
+
 
 ## 视频教程
 [【装机教程】超详细WIN10系统安装教程，官方ISO直装与PE两种方法教程，UEFI+GUID分区与Legacy+MBR分区_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV1DJ411D79y/?spm_id_from=333.788.recommend_more_video.-1&vd_source=20cb3e7c6ad3d64f0eb2d763ff005080)  
