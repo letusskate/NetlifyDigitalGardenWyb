@@ -1,11 +1,7 @@
 ---
-aliases: []
-date created: 2023-07-28T16:43:07+08:00
-date modified: 2024-01-14T17:35:03+08:00
-dg-publish: true
-tags: []
-title: latex图片
+{"dg-publish":true,"permalink":"/1 工作与赚钱/科研技巧/论文写作/Latex/latex图片/","title":"latex图片"}
 ---
+
 
 ## latex 插入 svg
 ### 碰运气方式
