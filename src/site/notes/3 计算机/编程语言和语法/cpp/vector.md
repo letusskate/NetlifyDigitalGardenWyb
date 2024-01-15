@@ -1,11 +1,7 @@
 ---
-aliases: []
-date created: 2023-08-19T23:26:11+08:00
-date modified: 2024-01-13T19:21:06+08:00
-dg-publish: true
-tags: []
-title: vector
+{"dg-publish":true,"permalink":"/3 计算机/编程语言和语法/cpp/vector/","title":"vector"}
 ---
+
 
 通过下标就可以访问 vector 的元素。
 
