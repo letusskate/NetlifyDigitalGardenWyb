@@ -1,11 +1,7 @@
 ---
-aliases: []
-date created: 2023-07-26T13:06:06+08:00
-date modified: 2024-01-14T17:34:42+08:00
-dg-publish: true
-tags: []
-title: 图片识别插件OCR
+{"dg-publish":true,"permalink":"/0 日记与提升/笔记技巧/obsidian/obsidian插件/第三方插件/图片识别插件OCR/","title":"图片识别插件OCR"}
 ---
+
 
 [请问目前OB可以做到ocr图片并且把ocr后的内容纳入到全局搜索中吗？ - 疑问解答 - Obsidian 中文论坛](https://forum-zh.obsidian.md/t/topic/20153/2)
 
