@@ -1,13 +1,7 @@
 ---
-aliases: []
-created: 2022-11-03 20:12:44+08:00
-date created: 2023-07-05T21:38:32+08:00
-date modified: 2024-01-14T17:34:42+08:00
-dg-publish: true
-tags: []
-title: onenote正式版设置
-updated: 2022-12-04 13:36:44+08:00
+{"dg-publish":true,"permalink":"/0 日记与提升/笔记技巧/onenote/onenote同步与管理/onenote正式版设置/","title":"onenote正式版设置"}
 ---
+
 
 One note for win10 属于阉割版  
 我现在改为了正版 onenote，他的文字编辑功能和 word 一样强大。
