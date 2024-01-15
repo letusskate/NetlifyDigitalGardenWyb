@@ -1,13 +1,7 @@
 ---
-aliases: []
-created: 2021-07-06 17:13:18+08:00
-date created: 2023-07-05T21:38:32+08:00
-date modified: 2024-01-14T16:45:16+08:00
-dg-publish: true
-tags: []
-title: zq考题复习
-updated: 2021-07-07 08:23:38+08:00
+{"dg-publish":true,"permalink":"/5 数理化生/数理化生学习竞赛考试/川农的课/川农概率论/zq考题复习/","title":"zq考题复习"}
 ---
+
 
 卷积公式  
 z=x+y 的概率密度函数（P99）
