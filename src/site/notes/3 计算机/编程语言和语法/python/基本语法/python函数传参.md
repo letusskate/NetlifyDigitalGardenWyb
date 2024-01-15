@@ -1,13 +1,7 @@
 ---
-aliases: []
-created: 2022-10-31 09:12:50+08:00
-date created: 2023-07-05T11:13:20+08:00
-date modified: 2024-01-13T19:21:09+08:00
-dg-publish: true
-tags: []
-title: python函数传参
-updated: 2023-04-16 12:27:22+08:00
+{"dg-publish":true,"permalink":"/3 计算机/编程语言和语法/python/基本语法/python函数传参/","title":"python函数传参"}
 ---
+
 
 python 函数传参  
 2022 年 10 月 31 日  
