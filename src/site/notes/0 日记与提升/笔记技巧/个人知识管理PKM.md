@@ -1,12 +1,7 @@
 ---
-aliases: []
-date created: 2023-07-10T22:27:04+08:00
-date modified: 2024-01-14T17:34:41+08:00
-dg-publish: true
-modified: 2023-07-06 17:10:09+08:00
-tags: []
-title: 个人知识管理PKM
+{"dg-publish":true,"permalink":"/0 日记与提升/笔记技巧/个人知识管理PKM/","title":"个人知识管理PKM"}
 ---
+
 
 ## 个人知识管理
 即 PKM persenal knowledge management
