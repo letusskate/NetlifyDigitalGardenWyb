@@ -1,13 +1,7 @@
 ---
-aliases: []
-created: 2020-04-11 11:29:20+08:00
-date created: 2023-07-05T11:13:20+08:00
-date modified: 2024-01-13T19:21:07+08:00
-dg-publish: true
-tags: []
-title: 3Algorithm Building Blocks 算法构建块
-updated: 2020-04-14 23:50:11+08:00
+{"dg-publish":true,"permalink":"/3 计算机/数据结构与算法/书的笔记/Algorithms in a Nutshell 算法技术手册（影印版/3Algorithm Building Blocks 算法构建块/","title":"3Algorithm Building Blocks 算法构建块"}
 ---
+
 
 我们构建软件解决问题，但编程通常不可能找到现成代码解决特定问题。因此了解算法，根据问题找到算法，根据算法写出程序是很好的。
 
