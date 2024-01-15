@@ -1,13 +1,7 @@
 ---
-aliases: []
-created: 2022-11-23 20:38:51+08:00
-date created: 2023-07-05T11:13:20+08:00
-date modified: 2024-01-13T19:21:06+08:00
-dg-publish: true
-tags: []
-title: Robots.txt
-updated: 2022-11-23 20:41:14+08:00
+{"dg-publish":true,"permalink":"/3 计算机/软件开发/爬虫/Robots.txt/","title":"Robots.txt"}
 ---
+
 
 规定了爬虫的爬取规范
 
