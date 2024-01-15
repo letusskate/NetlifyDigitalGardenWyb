@@ -1,11 +1,7 @@
 ---
-aliases: []
-date created: 2023-07-25T14:07:30+08:00
-date modified: 2024-01-13T19:21:07+08:00
-dg-publish: true
-tags: []
-title: vscode云部署网页版
+{"dg-publish":true,"permalink":"/3 计算机/创建、效率与技巧/编程工具/vscode/vscode云部署网页版/","title":"vscode云部署网页版"}
 ---
+
 
 ## 意义
 通过浏览器运行一个 workspace，不用再多端同步代码
