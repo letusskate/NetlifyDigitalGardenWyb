@@ -1,11 +1,7 @@
 ---
-aliases: []
-date created: 2023-07-24T20:26:05+08:00
-date modified: 2024-01-14T17:35:03+08:00
-dg-publish: true
-tags: []
-title: latex编译选项
+{"dg-publish":true,"permalink":"/1 工作与赚钱/科研技巧/论文写作/Latex/latex编译选项/","title":"latex编译选项"}
 ---
+
 
 ## Ctex
 仅限于我的了解，不考虑文档类选项时，功能上的差异  
