@@ -1,11 +1,7 @@
 ---
-aliases: []
-date created: 2023-07-10T17:17:51+08:00
-date modified: 2024-01-13T19:21:06+08:00
-dg-publish: true
-tags: []
-title: linux多端同步
+{"dg-publish":true,"permalink":"/3 计算机/创建、效率与技巧/linux/linux多端同步/","title":"linux多端同步"}
 ---
+
 
 linux 与其他电脑传输数据比较麻烦，无法一个软件（如微信）实现多端传输
 
