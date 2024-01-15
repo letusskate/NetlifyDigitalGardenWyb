@@ -1,11 +1,7 @@
 ---
-aliases: []
-date created: 2023-10-25T10:59:02+08:00
-date modified: 2024-01-13T19:21:06+08:00
-dg-publish: true
-tags: []
-title: hello-algo
+{"dg-publish":true,"permalink":"/3 计算机/数据结构与算法/hello-algo/","title":"hello-algo"}
 ---
+
 
 hello algo 是一个 github 项目，简单的教算法
 ## 在线部署
