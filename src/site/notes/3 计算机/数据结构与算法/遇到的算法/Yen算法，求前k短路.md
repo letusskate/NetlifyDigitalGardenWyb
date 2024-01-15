@@ -1,13 +1,7 @@
 ---
-aliases: []
-created: 2023-01-09 14:35:02+08:00
-date created: 2023-07-05T11:13:20+08:00
-date modified: 2024-01-13T19:21:06+08:00
-dg-publish: true
-tags: []
-title: Yen算法，求前k短路
-updated: 2023-07-01 11:16:39+08:00
+{"dg-publish":true,"permalink":"/3 计算机/数据结构与算法/遇到的算法/Yen算法，求前k短路/","title":"Yen算法，求前k短路"}
 ---
+
 
 ## 相关知识
 [Yen 算法\_yen算法\_KZM2008的博客-CSDN博客](https://blog.csdn.net/KZM2008/article/details/5460152)  
@@ -77,7 +71,7 @@ def add_limit(path,s):#path=[[[1,3,4,6],5],[[1,3,5,6],7],[[1,2,4,6],8]
     result=[list(r) for r in list(set([tuple(t) for t in result]))]#去重
     return result
 
-def return_shortest_path_with_limit(network,s,d,limit_segment,choice):#limit_segment=[[3,5],[3,4\|3,5],[3,4]]
+def return_shortest_path_with_limit(network,s,d,limit_segment,choice):#limit_segment=[[3,5],[3,4]]
     mid_net=copy.deepcopy(network)
     for item in limit_segment:
         mid_net[item[0]-1][item[1]-1]=mid_net[item[1]-1][item[0]-1]=0
@@ -103,7 +97,7 @@ def k_shortest_path(network,s,d,k):
         if len(k_path)==k:break
         choice=k_path[-1][0]
         for i in range(len(choice)-1):
-            limit_path=[[choice[i],choice[i+1\|choice[i],choice[i+1]]]#限制选择的路径
+            limit_path=[[choice[i],choice[i+1]]]#限制选择的路径
             if len(k_path)!=1:
                 limit_path.extend(add_limit(k_path[:-1],choice[i]))
             mid_path=choice[:i]
