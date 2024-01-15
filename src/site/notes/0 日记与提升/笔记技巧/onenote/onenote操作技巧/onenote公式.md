@@ -1,13 +1,7 @@
 ---
-aliases: []
-created: 2022-12-05 20:21:22+08:00
-date created: 2023-07-05T21:38:32+08:00
-date modified: 2024-01-14T17:34:42+08:00
-dg-publish: true
-tags: []
-title: onenote公式
-updated: 2023-04-29 10:48:29+08:00
+{"dg-publish":true,"permalink":"/0 日记与提升/笔记技巧/onenote/onenote操作技巧/onenote公式/","title":"onenote公式"}
 ---
+
 
 ## 公式输入
 ### 网页资源
