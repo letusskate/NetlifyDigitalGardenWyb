@@ -1,11 +1,7 @@
 ---
-aliases: []
-date created: 2023-07-05T19:58:07+08:00
-date modified: 2024-01-13T19:21:06+08:00
-dg-publish: true
-tags: []
-title: markdown
+{"dg-publish":true,"permalink":"/3 计算机/编程语言和语法/markdown/","title":"markdown"}
 ---
+
 
 ## 表格
 如果格式正确却无法生成，试试在表格开头前输入回车
