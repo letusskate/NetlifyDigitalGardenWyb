@@ -1,11 +1,7 @@
 ---
-aliases: []
-date created: 2023-07-11T12:51:59+08:00
-date modified: 2024-01-13T19:21:07+08:00
-dg-publish: true
-tags: [category/AI]
-title: code interpreter
+{"dg-publish":true,"permalink":"/3 计算机/创建、效率与技巧/编程工具/AI编程/code interpreter/","title":"code interpreter","tags":["category/AI"]}
 ---
+
 
 一款 chatgpt 插件，云端自动执行代码  
  [chatGPT科研应用重磅升级！直接上传数据表格让GPT完成数据整理、统计分析及作图！从此数据分析及作图，有手就行！\_哔哩哔哩\_bilibili](https://www.bilibili.com/video/BV1D14y1o7Xk/?spm_id_from=333.999.0.0&vd_source=20cb3e7c6ad3d64f0eb2d763ff005080)  
