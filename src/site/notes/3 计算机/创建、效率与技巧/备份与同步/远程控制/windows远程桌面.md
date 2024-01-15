@@ -1,11 +1,7 @@
 ---
-aliases: []
-date created: 2023-07-07T12:58:54+08:00
-date modified: 2024-01-13T19:21:07+08:00
-dg-publish: true
-tags: []
-title: windows远程桌面
+{"dg-publish":true,"permalink":"/3 计算机/创建、效率与技巧/备份与同步/远程控制/windows远程桌面/","title":"windows远程桌面"}
 ---
+
 
 ## 自带远程桌面（更快）
 微软自带远程桌面 + 蒲公英/zerotier/tailscale
