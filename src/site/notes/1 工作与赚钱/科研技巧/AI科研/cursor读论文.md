@@ -1,11 +1,7 @@
 ---
-aliases: []
-date created: 2023-07-10T17:17:51+08:00
-date modified: 2024-01-14T17:35:03+08:00
-dg-publish: true
-tags: [category/AI]
-title: cursor读论文
+{"dg-publish":true,"permalink":"/1 工作与赚钱/科研技巧/AI科研/cursor读论文/","title":"cursor读论文","tags":["category/AI"]}
 ---
+
 
 ## cursor 是什么
 [cursor](../../../3%20计算机/创建、效率与技巧/AI/不同的ai/ai二次开发应用/cursor.md)
