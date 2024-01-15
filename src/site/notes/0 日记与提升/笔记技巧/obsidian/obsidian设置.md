@@ -1,12 +1,7 @@
 ---
-aliases: []
-date created: 2023-07-08T12:22:17+08:00
-date modified: 2024-01-14T17:34:41+08:00
-dg-publish: true
-modified: 2023-07-06 16:33:27+08:00
-tags: []
-title: obsidian设置
+{"dg-publish":true,"permalink":"/0 日记与提升/笔记技巧/obsidian/obsidian设置/","title":"obsidian设置"}
 ---
+
 
 ## 我的 obsidian 设置
 ### 编辑器
