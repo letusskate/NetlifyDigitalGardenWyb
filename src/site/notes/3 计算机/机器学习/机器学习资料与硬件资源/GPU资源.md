@@ -1,11 +1,7 @@
 ---
-aliases: []
-date created: 2023-07-07T16:50:19+08:00
-date modified: 2024-01-13T19:21:06+08:00
-dg-publish: true
-tags: []
-title: GPU资源
+{"dg-publish":true,"permalink":"/3 计算机/机器学习/机器学习资料与硬件资源/GPU资源/","title":"GPU资源"}
 ---
+
 
 ## colab
 [差生文具多（一）Google Colab - 知乎](https://zhuanlan.zhihu.com/p/467391606)  
