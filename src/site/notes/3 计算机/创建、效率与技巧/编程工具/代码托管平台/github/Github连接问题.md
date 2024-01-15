@@ -1,11 +1,7 @@
 ---
-aliases: []
-date created: 2023-07-25T14:36:33+08:00
-date modified: 2024-01-13T19:21:09+08:00
-dg-publish: true
-tags: []
-title: Github连接问题
+{"dg-publish":true,"permalink":"/3 计算机/创建、效率与技巧/编程工具/代码托管平台/github/Github连接问题/","title":"Github连接问题"}
 ---
+
 
 ## github 连接问题
 ### 相关软件
