@@ -1,11 +1,7 @@
 ---
-aliases: []
-date created: 2023-07-05T21:38:32+08:00
-date modified: 2024-01-14T17:34:41+08:00
-dg-publish: true
-tags: []
-title: obsidian
+{"dg-publish":true,"permalink":"/0 日记与提升/笔记技巧/obsidian/obsidian/","title":"obsidian"}
 ---
+
 
 ## obsidian 简介
 是一款 markdown 本地记笔记的软件，可以设置云端同步，有比较好的插件支持，支持双向链接功能，支持链接检索功能。
