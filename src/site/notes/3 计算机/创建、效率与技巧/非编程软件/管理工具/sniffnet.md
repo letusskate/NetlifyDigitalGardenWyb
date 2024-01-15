@@ -1,11 +1,7 @@
 ---
-aliases: []
-date created: 2023-09-02T23:26:33+08:00
-date modified: 2024-01-13T19:21:07+08:00
-dg-publish: true
-tags: []
-title: sniffnet
+{"dg-publish":true,"permalink":"/3 计算机/创建、效率与技巧/非编程软件/管理工具/sniffnet/","title":"sniffnet"}
 ---
+
 
 流量监控软件  
 [GitHub - GyulyVGC/sniffnet: Application to comfortably monitor your Internet traffic 🕵️‍♂️](https://github.com/GyulyVGC/sniffnet)
