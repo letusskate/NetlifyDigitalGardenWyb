@@ -1,13 +1,7 @@
 ---
-aliases: []
-created: 2023-07-01 14:20:53+08:00
-date created: 2023-07-05T11:13:20+08:00
-date modified: 2024-01-13T19:21:06+08:00
-dg-publish: true
-tags: []
-title: vitis vivado安装与初始化
-updated: 2023-07-01 14:26:51+08:00
+{"dg-publish":true,"permalink":"/3 计算机/计算机网络/硬件与硬件编程/vitis vivado安装与初始化/","title":"vitis vivado安装与初始化"}
 ---
+
 
 ## 安装时停在 'Generating installed device list'
 ### 网页
