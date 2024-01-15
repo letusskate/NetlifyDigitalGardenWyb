@@ -1,11 +1,7 @@
 ---
-aliases: []
-date created: 2023-09-02T21:18:09+08:00
-date modified: 2024-01-14T17:35:03+08:00
-dg-publish: true
-tags: []
-title: overleaf
+{"dg-publish":true,"permalink":"/1 工作与赚钱/科研技巧/论文写作/Latex/latex联动/overleaf/","title":"overleaf"}
 ---
+
 
 ## 官方网站（中国、外国）
 [*https://cn.overleaf.com/project*](https://cn.overleaf.com/project)  
