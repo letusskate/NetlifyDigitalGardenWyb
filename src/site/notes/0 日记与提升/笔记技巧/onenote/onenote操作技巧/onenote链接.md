@@ -1,13 +1,7 @@
 ---
-aliases: []
-created: 2022-12-05 20:18:01+08:00
-date created: 2023-07-05T21:38:32+08:00
-date modified: 2024-01-14T17:34:42+08:00
-dg-publish: true
-tags: []
-title: onenote链接
-updated: 2022-12-05 20:46:35+08:00
+{"dg-publish":true,"permalink":"/0 日记与提升/笔记技巧/onenote/onenote操作技巧/onenote链接/","title":"onenote链接"}
 ---
+
 
 **使用超链接**  
 OneNote 有一套强大的对象链接功能，可以创建指向**笔记本、分区组、分区、页面、段落**的链接，其中“段落”包括任何块级元素，包括页面上的**各级标题、自然段、列表项、[表格单元格](https://www.zhihu.com/search?q=%E8%A1%A8%E6%A0%BC%E5%8D%95%E5%85%83%E6%A0%BC&search_source=Entity&hybrid_search_source=Entity&hybrid_search_extra=%7B%22sourceType%22%3A%22answer%22%2C%22sourceId%22%3A1525594474%7D)**。  
