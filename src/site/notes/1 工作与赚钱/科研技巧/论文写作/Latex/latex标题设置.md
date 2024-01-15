@@ -1,11 +1,7 @@
 ---
-aliases: []
-date created: 2023-07-24T20:22:36+08:00
-date modified: 2024-01-14T17:35:03+08:00
-dg-publish: true
-tags: []
-title: latex标题设置
+{"dg-publish":true,"permalink":"/1 工作与赚钱/科研技巧/论文写作/Latex/latex标题设置/","title":"latex标题设置"}
 ---
+
 
 ## 标题设置
 ### ctex 网页教程
