@@ -1,13 +1,7 @@
 ---
-aliases: []
-created: 2022-03-15 10:48:24+08:00
-date created: 2023-07-05T21:38:32+08:00
-date modified: 2024-01-14T17:34:42+08:00
-dg-publish: true
-tags: []
-title: onenote体系管理
-updated: 2022-12-05 20:30:47+08:00
+{"dg-publish":true,"permalink":"/0 日记与提升/笔记技巧/onenote/onenote同步与管理/onenote体系管理/","title":"onenote体系管理"}
 ---
+
 
 一个学科一个笔记本，基本可以涵盖学术生涯  
 之后单列《日记与提升》《生活与娱乐》《赚钱》《速开笔记》四个笔记本  
