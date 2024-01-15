@@ -1,11 +1,7 @@
 ---
-aliases: []
-date created: 2023-09-17T12:23:17+08:00
-date modified: 2024-01-14T17:34:42+08:00
-dg-publish: true
-tags: []
-title: quick add
+{"dg-publish":true,"permalink":"/0 日记与提升/笔记技巧/obsidian/obsidian插件/第三方插件/quick add/","title":"quick add"}
 ---
+
 
 一款可以快速创建文件和统筹命令的软件。
 ## 相关教程
