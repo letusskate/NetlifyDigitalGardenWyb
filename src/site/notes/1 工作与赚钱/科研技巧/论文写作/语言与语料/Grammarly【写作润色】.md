@@ -1,13 +1,7 @@
 ---
-aliases: []
-created: 2022-10-08 00:02:15+08:00
-date created: 2023-07-09T11:39:06+08:00
-date modified: 2024-01-14T17:35:03+08:00
-dg-publish: true
-tags: []
-title: Grammarly【写作润色】
-updated: 2022-11-29 19:44:45+08:00
+{"dg-publish":true,"permalink":"/1 工作与赚钱/科研技巧/论文写作/语言与语料/Grammarly【写作润色】/","title":"Grammarly【写作润色】"}
 ---
+
 
 写作翻译
 
