@@ -1,13 +1,7 @@
 ---
-aliases: []
-created: 2021-08-21 17:52:14+08:00
-date created: 2023-07-05T11:13:20+08:00
-date modified: 2024-01-13T19:21:06+08:00
-dg-publish: true
-tags: []
-title: excel读取所有表
-updated: 2021-08-21 17:52:59+08:00
+{"dg-publish":true,"permalink":"/3 计算机/机器学习/pandas/excel读取所有表/","title":"excel读取所有表"}
 ---
+
 
 \#表单数据的存储  
 form=pd.DataFrame()  
