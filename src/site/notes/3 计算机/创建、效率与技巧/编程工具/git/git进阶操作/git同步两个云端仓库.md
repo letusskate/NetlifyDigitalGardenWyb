@@ -1,11 +1,7 @@
 ---
-aliases: []
-date created: 2024-01-12T09:41:12+08:00
-date modified: 2024-01-13T19:21:09+08:00
-dg-publish: true
-tags: []
-title: git同步两个云端仓库
+{"dg-publish":true,"permalink":"/3 计算机/创建、效率与技巧/编程工具/git/git进阶操作/git同步两个云端仓库/","title":"git同步两个云端仓库"}
 ---
+
 
 [干货！Git 如何使用多个托管平台管理代码 - 几个我 - 博客园](https://www.cnblogs.com/wenbinjiang/p/11122228.html)
 ## 背景
