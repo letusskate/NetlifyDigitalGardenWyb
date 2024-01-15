@@ -1,11 +1,7 @@
 ---
-aliases: []
-date created: 2023-07-19T21:55:07+08:00
-date modified: 2024-01-14T17:34:42+08:00
-dg-publish: true
-tags: []
-title: obsidian template
+{"dg-publish":true,"permalink":"/0 日记与提升/笔记技巧/obsidian/obsidian插件/官方插件/obsidian template/","title":"obsidian template"}
 ---
+
 
 ## 快速创建笔记
 template 实现快速创建格式化笔记（会议纪要、日记等）  
