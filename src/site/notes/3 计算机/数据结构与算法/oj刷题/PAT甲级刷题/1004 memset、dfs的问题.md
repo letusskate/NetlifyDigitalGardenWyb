@@ -1,13 +1,7 @@
 ---
-aliases: []
-created: 2021-01-29 09:45:29+08:00
-date created: 2023-07-05T11:13:20+08:00
-date modified: 2024-01-13T19:21:07+08:00
-dg-publish: true
-tags: []
-title: 1004 memset、dfs的问题
-updated: 2021-01-30 10:48:52+08:00
+{"dg-publish":true,"permalink":"/3 计算机/数据结构与算法/oj刷题/PAT甲级刷题/1004 memset、dfs的问题/","title":"1004 memset、dfs的问题"}
 ---
+
 
 1004 memset、dfs 的问题  
 2021 年 1 月 29 日  
