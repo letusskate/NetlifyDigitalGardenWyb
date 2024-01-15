@@ -1,11 +1,7 @@
 ---
-aliases: []
-date created: 2023-08-22T21:50:03+08:00
-date modified: 2024-01-14T17:35:03+08:00
-dg-publish: true
-tags: []
-title: excel与latex
+{"dg-publish":true,"permalink":"/1 工作与赚钱/科研技巧/论文写作/Latex/latex联动/excel与latex/","title":"excel与latex"}
 ---
+
 
 ## latex 转 excel
 [LaTeX 表格 转换为 Excel - 在线表格转换工具](https://tableconvert.com/zh-cn/latex-to-excel)
