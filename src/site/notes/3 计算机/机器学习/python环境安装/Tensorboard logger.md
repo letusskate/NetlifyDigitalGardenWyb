@@ -1,13 +1,7 @@
 ---
-aliases: []
-created: 2023-01-31 17:09:10+08:00
-date created: 2023-07-05T11:13:20+08:00
-date modified: 2024-01-13T19:21:06+08:00
-dg-publish: true
-tags: []
-title: Tensorboard logger
-updated: 2023-01-31 17:56:56+08:00
+{"dg-publish":true,"permalink":"/3 计算机/机器学习/python环境安装/Tensorboard logger/","title":"Tensorboard logger"}
 ---
+
 
 将 tensorboard 和 tensorflow 剥离开来。
 
