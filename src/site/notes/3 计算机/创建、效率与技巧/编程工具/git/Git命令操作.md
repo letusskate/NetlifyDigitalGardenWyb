@@ -32,6 +32,8 @@ discard 本地的所有更改，之后 pull 肯定没有任何问题了。pull �
 ## 克隆仓库
 在想要下载到的文件夹中，右键打开 git bash  
 Git clone + 链接，链接通常以.git 结尾
+### 多层次克隆
+`git clone --recursive xxxxx`
 
 ## 删除远程仓库的文件
 ### 第一步，在自己的工作区打开 git bash，进入分支 First
