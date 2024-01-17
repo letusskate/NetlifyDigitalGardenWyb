@@ -1,6 +1,7 @@
 [build]
   publish = "dist"
   command = "npm install && npm run build"
+  ignore = "exit 0"
 
 [[redirects]]
   from = "/api/*"
