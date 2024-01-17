@@ -20,7 +20,7 @@
 #### vercel
 [WybDigitalGarden](https://digital-garden-wyb.vercel.app/)  
 #### netlify
-[Nothing here](https://unrivaled-kashata-4a2ced.netlify.app/)
+[DgHome](https://wyb-blog.netlify.app/)
 ## 管理部署的服务器
 ###  vercel 
 vercel 每天部署的资源有限制，后面的提交会出错，此时我们等第二天再对仓库进行一次 push，他就会自动部署最新版本，自然也就包括对之前版本的修改了。  
@@ -36,11 +36,11 @@ vercel 本身也可以干这个事情，接收到的时间相近的部署请求�
 ![](/img/user/resources/attachments/2024011420240112digital garden配置obsidian.png)
 ### netlify
 #### 网址
-[Site overview | unrivaled-kashata-4a2ced | Netlify](https://app.netlify.com/sites/unrivaled-kashata-4a2ced/overview)
+[Team overview | letusskate | Netlify](https://app.netlify.com/teams/letusskate/overview)
 #### 特性
 1.一分钟只能部署一次，有效节约部署次数  
-2.域名不好看  
-3.额度多？或者额度是按月算？  
+2.域名不好看（site configuration 可改）  
+3.额度多？或者额度是按月算？  按月算，一个月 300 分钟，在 team overview 界面的 build 选项卡，选择 usage&insights 查看 build 时长情况。  
 4.国内能访问
 #### 配置
 site configuration，Pretty URLs 关闭
@@ -48,7 +48,12 @@ site configuration，Pretty URLs 关闭
 [Ignore builds | Netlify Docs](https://docs.netlify.com/configure-builds/ignore-builds/)
 ##### 官方 ignore 示例
 [[Support Guide] How to use the ignore command - Support / Support Guides - Netlify Support Forums](https://answers.netlify.com/t/support-guide-how-to-use-the-ignore-command/37517)
-##### 我的方法
+##### 关闭自动部署
+之后通过 netlify 的链接(build hook)触发部署，访问一次链接部署一次
+##### github action 触发 netlify 触发器
+用 github action 检测最近的提交时间，如果超过 15 分钟，再触发触发器。
+[api.netlify.com/build\_hooks/65a77015df78f3742a8265b4](https://api.netlify.com/build_hooks/65a77015df78f3742a8265b4)
+##### 在 netlify 层修改部署策略（无效）
 github 根目录 netlify.toml
 ```
 [build]
