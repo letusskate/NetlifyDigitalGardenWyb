@@ -3,7 +3,7 @@
 ---
 
 
-## 同步仓库到 [Github](github/Github.md)
+## 同步仓库到 [github](../github/github.md)
 点金仓库  
 管理  
 **仓库镜像管理**（限时开放）也许以后就不支持了
