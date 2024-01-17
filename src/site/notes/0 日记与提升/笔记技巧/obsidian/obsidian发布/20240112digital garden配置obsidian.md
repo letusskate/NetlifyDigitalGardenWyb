@@ -17,23 +17,10 @@
 5.配置 obsidian 的 digitalgarden 设置，取消修改 url。配置命令行方便快速发布  
 6.待做：通过脚本批量发布笔记。
 ### 数字花园网址
-#### vercel
-[WybDigitalGarden](https://digital-garden-wyb.vercel.app/)  
 #### netlify
 [DgHome](https://wyb-blog.netlify.app/)
 ## 管理部署的服务器
-###  vercel 
-vercel 每天部署的资源有限制，后面的提交会出错，此时我们等第二天再对仓库进行一次 push，他就会自动部署最新版本，自然也就包括对之前版本的修改了。  
-总之，一旦部署出错，就等到有免费部署额度的时候重新提交一次
-#### 网址
-[digital-garden-wyb – Deployment Overview – Vercel](https://vercel.com/wangyubos-projects-007ecc20/digital-garden-wyb/5G4Sw6bj97Qg8hLdzCSgHmpQZMrc)
-#### 如何多次 push 只部署一次，以节省额度？
-目前没找到方法，这是 digitalgarden 在 obsidian 的插件应该做的事情，他应该将多篇笔记作为一次 commitpush 到 github，  
-或者 digitalgarden 的 github 项目也可以做到这个事情，在设置部署的时候，设置相近的提交不部署，超过 10 分钟再部署。  
-vercel 本身也可以干这个事情，接收到的时间相近的部署请求自动忽略
-##### vercel 的 ignore 设置
-[Login – Vercel](https://vercel.com/wangyubos-projects-007ecc20/digital-garden-wyb/settings/git)  
-![](/img/user/resources/attachments/2024011420240112digital garden配置obsidian.png)
+
 ### netlify
 #### 网址
 [Team overview | letusskate | Netlify](https://app.netlify.com/teams/letusskate/overview)
@@ -46,14 +33,58 @@ vercel 本身也可以干这个事情，接收到的时间相近的部署请求�
 site configuration，Pretty URLs 关闭
 #### 如何 push 多次只 build 一次，节省额度？
 [Ignore builds | Netlify Docs](https://docs.netlify.com/configure-builds/ignore-builds/)
-##### 官方 ignore 示例
+##### 思路：github action 触发 netlify 触发器
+用 [github action](../../../../3%20计算机/创建、效率与技巧/编程工具/代码托管平台/github/github%20action.md) 检测最近的提交时间，如果超过 30 分钟，再触发触发器。只需要允许ignore  
+##### 1.配置 github netlify.toml
+在 build 中加入 `ignore = "exit 0"`，也就是取消所有自动部署
+##### 2.配置 netlify build hook
+netlify 界面申请一个 hook 就行  
+`https://api.netlify.com/build_hooks/65a77015df78f3742a8265b4`
+##### 3. 配置 github action 脚本
+目录在 github 项目的.github/workflow 下，脚本作用就是抓取仓库的最近两次提交，得到提交时间，查看时间的差值，如果大于 30min，就触发 build hook。
+```
+name: Check Push Time
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  check_push_time:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Get Last Two Commit Timestamps
+      id: last_two_commits
+      run: |
+        COMMITS=$(curl -s -H "Authorization: Bearer ${{ secrets.ACTION_NETLIFYDIGITALGARDEN_30MIN_PER_BUILD }}" \
+          "https://api.github.com/repos/${{ github.repository }}/commits?per_page=2")
+        LATEST_COMMIT_TIME=$(echo "$COMMITS" | jq -r '.[0].commit.author.date' | xargs -I{} date -d {} +%s)
+        PREVIOUS_COMMIT_TIME=$(echo "$COMMITS" | jq -r '.[1].commit.author.date' | xargs -I{} date -d {} +%s)
+        echo "::set-output name=latest_commit_timestamp::$LATEST_COMMIT_TIME"
+        echo "::set-output name=previous_commit_timestamp::$PREVIOUS_COMMIT_TIME"
+
+    - name: Check Push Time
+      run: |
+        LATEST_COMMIT_TIME=${{ steps.last_two_commits.outputs.latest_commit_timestamp }}
+        PREVIOUS_COMMIT_TIME=${{ steps.last_two_commits.outputs.previous_commit_timestamp }}
+        ELAPSED_TIME=$((LATEST_COMMIT_TIME - PREVIOUS_COMMIT_TIME))
+        echo "Elapsed time since last commit: $ELAPSED_TIME seconds"
+        if [ $ELAPSED_TIME -gt 1800 ]; then
+          echo "Time elapsed is greater than 30 minutes. Performing action..."
+          curl -X POST -d '{}' https://api.netlify.com/build_hooks/65a77015df78f3742a8265b4
+        else
+          echo "Time elapsed is within 30 minutes. Skipping action."
+        fi
+```
+##### 没用的尝试
+###### 官方 ignore 示例
 [[Support Guide] How to use the ignore command - Support / Support Guides - Netlify Support Forums](https://answers.netlify.com/t/support-guide-how-to-use-the-ignore-command/37517)
-##### 关闭自动部署
-之后通过 netlify 的链接(build hook)触发部署，访问一次链接部署一次
-##### github action 触发 netlify 触发器
-用 github action 检测最近的提交时间，如果超过 15 分钟，再触发触发器。
-[api.netlify.com/build\_hooks/65a77015df78f3742a8265b4](https://api.netlify.com/build_hooks/65a77015df78f3742a8265b4)
-##### 在 netlify 层修改部署策略（无效）
+###### 关闭自动部署，进行手动部署
+之后通过 netlify 的链接 (build hook) 触发部署，访问一次链接部署一次
+###### 在 netlify 层修改部署策略（无效）
+想通过把上一次部署时间记录在服务器上实现，但 netlify 服务器不支持写入新文件。  
 github 根目录 netlify.toml
 ```
 [build]
@@ -82,3 +113,16 @@ npm install && npm run build
 # 更新上一次构建的时间戳
 echo $(date +%s) > dist/last_build_timestamp.txt
 ```
+
+###  vercel 
+vercel 每天部署的资源有限制，后面的提交会出错，此时我们等第二天再对仓库进行一次 push，他就会自动部署最新版本，自然也就包括对之前版本的修改了。  
+总之，一旦部署出错，就等到有免费部署额度的时候重新提交一次
+#### 网址
+[digital-garden-wyb – Deployment Overview – Vercel](https://vercel.com/wangyubos-projects-007ecc20/digital-garden-wyb/5G4Sw6bj97Qg8hLdzCSgHmpQZMrc)
+#### 如何多次 push 只部署一次，以节省额度？
+目前没找到方法，这是 digitalgarden 在 obsidian 的插件应该做的事情，他应该将多篇笔记作为一次 commitpush 到 github，  
+或者 digitalgarden 的 github 项目也可以做到这个事情，在设置部署的时候，设置相近的提交不部署，超过 10 分钟再部署。  
+vercel 本身也可以干这个事情，接收到的时间相近的部署请求自动忽略
+##### vercel 的 ignore 设置
+[Login – Vercel](https://vercel.com/wangyubos-projects-007ecc20/digital-garden-wyb/settings/git)  
+![](/img/user/resources/attachments/2024011420240112digital garden配置obsidian.png)
