@@ -17,8 +17,9 @@
 5.配置 obsidian 的 digitalgarden 设置，取消修改 url。配置命令行方便快速发布  
 6.待做：通过脚本批量发布笔记。
 ### 数字花园网址
-#### netlify
-[DgHome](https://wyb-blog.netlify.app/)
+[netlifyDgHome](https://wyb-blog.netlify.app/)
+### 目前问题
+笔记之间的链接被少识别了一层，文件之间的双链都无法跳转
 ## 管理部署的服务器
 
 ### netlify
@@ -34,7 +35,7 @@ site configuration，Pretty URLs 关闭
 #### 如何 push 多次只 build 一次，节省额度？
 [Ignore builds | Netlify Docs](https://docs.netlify.com/configure-builds/ignore-builds/)
 ##### 思路：github action 触发 netlify 触发器
-用 [github action](../../../../3%20计算机/创建、效率与技巧/编程工具/代码托管平台/github/github%20action.md) 检测最近的提交时间，如果超过 30 分钟，再触发触发器。只需要允许ignore  
+用 [github action](../../../../3%20计算机/创建、效率与技巧/编程工具/代码托管平台/github/github%20action.md) 检测最近的提交时间，如果超过 30 分钟，再触发触发器。只需要允许 ignore  
 ##### 1.配置 github netlify.toml
 在 build 中加入 `ignore = "exit 0"`，也就是取消所有自动部署
 ##### 2.配置 netlify build hook
@@ -62,8 +63,10 @@ jobs:
           "https://api.github.com/repos/${{ github.repository }}/commits?per_page=2")
         LATEST_COMMIT_TIME=$(echo "$COMMITS" | jq -r '.[0].commit.author.date' | xargs -I{} date -d {} +%s)
         PREVIOUS_COMMIT_TIME=$(echo "$COMMITS" | jq -r '.[1].commit.author.date' | xargs -I{} date -d {} +%s)
-        echo "::set-output name=latest_commit_timestamp::$LATEST_COMMIT_TIME"
-        echo "::set-output name=previous_commit_timestamp::$PREVIOUS_COMMIT_TIME"
+        # echo "::set-output name=latest_commit_timestamp::$LATEST_COMMIT_TIME"
+        # echo "::set-output name=previous_commit_timestamp::$PREVIOUS_COMMIT_TIME"
+        echo "latest_commit_timestamp=$LATEST_COMMIT_TIME" >> $GITHUB_OUTPUT
+        echo "previous_commit_timestamp=$PREVIOUS_COMMIT_TIME" >> $GITHUB_OUTPUT
 
     - name: Check Push Time
       run: |
