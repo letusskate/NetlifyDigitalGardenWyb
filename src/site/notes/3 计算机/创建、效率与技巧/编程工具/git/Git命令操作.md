@@ -3,6 +3,21 @@
 ---
 
 
+## git 取消本地 commit（未推送远端）
+查看本地的 commit 历史：  
+`git log`  
+找到你想取消的 commit 的哈希值（通常是 commit ID 的前几个字符）。  
+使用 `git reset` 命令取消 commit：  
+`git reset --hard HEAD^`  
+或者使用 commit 的哈希值：  
+`git reset --hard <commit_hash>`  
+这会将你的 HEAD 移动到指定的 commit 上，同时删除最新的 commit。`--hard` 选项表示强制更新工作目录，丢弃未提交的更改。  
+强制推送到远端：  
+`git push origin <branch_name> --force`  
+注意：使用 `--force` 选项是因为你修改了本地的历史，需要强制推送。但请小心使用强制推送，因为它会覆盖远端的历史记录。确保你没有在本地修改重要的东西。  
+请替换 `<branch_name>` 为你的分支名称，通常是 `master` 或 `main`。  
+注意：强制推送可能会导致其他协作者的问题，因此在执行之前请确保其他人知晓，并确保你有足够的理由这样做。如果其他人已经基于你之前的提交进行了工作，最好的做法是与他们协调，以免造成代码丢失或冲突。
+
 ## 同步仓库到两个云端
 [git同步两个云端仓库](git进阶操作/git同步两个云端仓库.md)
 ## git 冲突解决
