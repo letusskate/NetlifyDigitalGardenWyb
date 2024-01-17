@@ -27,3 +27,6 @@ That character decides whether an external java interpreter or a shared library 
 [Widget](https://support.xilinx.com/s/question/0D52E00006uyTmwSAE/error-impl-21328-failed-to-generate-ip?language=ja)
 ### 快速方式
 启动的时候加入 faketime
+
+## 修改导出的变量的总线协议格式
+选中文件，右面有 derective，选择输入变量，右键 insert，之后选择 interface，下面选择 axis
