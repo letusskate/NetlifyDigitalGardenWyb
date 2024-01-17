@@ -17,8 +17,10 @@ jobs:
           "https://api.github.com/repos/${{ github.repository }}/commits?per_page=2")
         LATEST_COMMIT_TIME=$(echo "$COMMITS" | jq -r '.[0].commit.author.date' | xargs -I{} date -d {} +%s)
         PREVIOUS_COMMIT_TIME=$(echo "$COMMITS" | jq -r '.[1].commit.author.date' | xargs -I{} date -d {} +%s)
-        echo "::set-output name=latest_commit_timestamp::$LATEST_COMMIT_TIME"
-        echo "::set-output name=previous_commit_timestamp::$PREVIOUS_COMMIT_TIME"
+        # echo "::set-output name=latest_commit_timestamp::$LATEST_COMMIT_TIME"
+        # echo "::set-output name=previous_commit_timestamp::$PREVIOUS_COMMIT_TIME"
+        echo "{latest_commit_timestamp}={$LATEST_COMMIT_TIME}" >> $GITHUB_OUTPUT
+        echo "{previous_commit_timestamp}={$PREVIOUS_COMMIT_TIME}" >> $GITHUB_OUTPUT
 
     - name: Check Push Time
       run: |
