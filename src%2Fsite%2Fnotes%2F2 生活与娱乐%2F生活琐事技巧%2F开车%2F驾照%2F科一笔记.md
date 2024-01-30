@@ -1,0 +1,629 @@
+---
+dg-publish: true
+aliases: 
+tags: 
+title: 科一笔记
+updated: 2023-02-04T10:30:24.0000000+08:00
+created: 2023-01-28T15:35:20.0000000+08:00
+date created: 2023-07-05T11:13:20+08:00
+date modified: 2024-01-12T17:49:21+08:00
+---
+
+## 惩罚规则
+### 评判标准
+饮酒驾驶 20mg/100ml  
+醉酒驾驶是指车辆驾驶人员血液中的酒精含量大于或者等于 80mg/100mL 的驾驶行为  
+交通肇事罪：醉驾、开报废车辆、逃逸、无证驾驶  
+交通肇事罪 在出事故的前提下，无证驾驶、酒后驾驶、吸毒、严重超载、报废车驾驶、逃逸  
+危险驾驶罪：追逐竞驶，醉驾，载客车超载或超速，运输危险化学品  
+无证驾驶不构成危险驾驶罪  
+超速行驶、频繁穿插属于严重交通违法
+### 不能办驾照规则
+虚假材料申办、驾照考试舞弊 1 年不得重新申办驾照，驾照不正当手段欺骗 3 年不得重新申办  
+吊销 2 年；撤销 3 年；追逐竞驶或超员或超速或违反危险化学品安全管理规定运输危险化学品构成犯罪、超员超速并犯罪、饮酒营运、醉驾 5 年；未取得  
+驾驶证致人重伤死亡、醉驾开运营车辆 10 年；犯罪逃逸、醉驾犯罪终生。  
+3 年内吸毒不能办  
+饮酒后驾车驾驶证暂扣 6 个月  
+临时入境的机动车驾驶人在一个记分周期内记分满 12 分的，注销临时机动车驾驶许可
+### 分数规则
+#### 扣分规则
+1 分：超速 10-20%、载货超 0-30%、不会车、错误使用灯光、驾驶不按规定年检的普通车辆、驾驶机动车违反禁令标志或者禁止标线指示的、未系安全带、压实线、普通道路调头倒车、货车长宽高超标  
+3 分：**小车**普通车道超速 20%-50%、**其他载客汽车**超载 20-50%，**载货**超 30%-50% 或者未按规定载客、低于最低时速、出车祸不放标志开闪光、一般车道逆行、高速路或者快速路不按规定车道行驶、人行横道不减速、不按规定超车让行、货车疲劳驾驶 4h 未休息 20min、打电话、不避让校车、号牌带的不规范、开不按规定年检的大车  
+6 分：**校车中型客货车**高速 0-20% 超速或普通车道 20%-50% 超速、**小车**高速路 20-50% 超速或普通车道 50% 以上超速、**校车旅游车**超载 0-20%、**7 座以上载客**超载 20-50%、**其他载客汽车**超载 50%-100%、**货车**超载 50% 以上、逃逸后果轻微不构成犯罪、闯红灯、高速占应急车道、驾驶证被暂扣或扣留期间驾驶机动车、运输爆炸物品未提示并采取安全措施；  
+9 分：**校车中型载货车**普通道路超速 50% 以上、**7 座以上载客**汽车超载 50%-100%、中型载客以上疲劳驾驶 4h 未休息 20min、故意遮挡号牌或不带号牌、高速路或城市快速路违法停车、驾驶与准驾车型不符的机动车、未取得校车资格驾驶校车  
+12 分：**校车中型载货汽车**高速超速 20% 以上、**小车**高速路 50% 以上超速、**校车旅游车**超载 20% 以上、**其他载客车**超载 100% 以上、酒驾、轻伤逃逸不犯罪、高速或快速路倒车、伪造号牌、违法使用其他号牌行驶证、替别人扣分赚钱、把别人轻伤或死亡之后逃逸但不构成犯罪。
+#### 其他分数规则
+计分周期从初次领取驾驶证或者初次获得临时驾驶证开始计算  
+扣满 12 分学习 7 天，2 次 12 分或累计 24 分参加道路考试，36 分参加场地考试 + 道路考试  
+小汽车扣满 12 分两次，通过科目一后 30 天才能考科目三  
+小车一个记分周期内每满 12 分加学 7 天，最多 60 天；大客车、大货车每满 12 分加学 30 天，最多 120 天  
+网上学习 3 日内 30min 加 1 分、现场学习 1h 加 2 分、公益活动 1h 加 1 分  
+一个记分周期最多加 6 分  
+小车网络学习不少于 5 天，现场学习不少于两天；大型客车中型货车以上，网络学习不少于 10 天，现场学习不少于 5 天  
+分没扣满 12 分，也可以学习减分  
+如果今年积分未满 12，但是有罚款没交，那么罚款没交的记录扣的分会转入下一年的 12 分中  
+3 个周期内发生过酒驾，本周期或上一个周期内 2 次达到了满分，实习期内，不能加分  
+够 12 分暂扣驾驶证，如果学习加了分，还是要等暂扣期满才能拿到驾驶证
+### 罚款规则
+未带行驶证驾驶证，罚款  
+收到罚款的行政处罚决定书 15 日之内交罚款  
+机动车张贴标识或广告影响安全驾驶，警告或者 200 以下  
+改变车身颜色、更换发动机、车身或者车架，未按照规定的时限办理变更登记的，警告或者 200 以下  
+未按时办理转让登记，警告或者 200 以下  
+实习期单独上高速 20-200 罚款  
+补领后使用原驾照 20-200 罚款  
+实习期牵引挂车 20-200  
+驾驶人逾期不审验接着开车，200-500 罚款  
+机动车驾驶人身体条件发生变化不适合驾驶机动车，仍驾驶机动车的，回机动车驾驶证，处 200-500 罚款。  
+扣押扣留驾驶证期间，采用欺骗手段申领驾驶证 200-500 罚款  
+隐瞒、欺骗补领机动车驾驶证，200-500  
+满分学习弄虚作假，罚款 1000 以下  
+虚假材料申请驾驶证 500 以下罚款、驾照不正当手段欺骗或贿赂舞弊 2000 以下罚款  
+强迫驾驶人违法驾驶，造成事故不犯罪，1000  
+违反交通管制规定、强行通行、不听劝阻，罚款 200-2000，说 1000 也对  
+安装警报器 200 以上 2000 以下罚款  
+逃逸不犯罪 200-2000，说 1000 元罚款也是对的  
+把车交给没有驾驶证的人开，200-2000，并吊销驾驶证  
+拼装机动车、报废机动车上路，200-2000，并吊销驾驶证  
+超速 50%，200-2000，并吊销驾驶证  
+学车无人指导，200-2000  
+驾驶证被暂扣期间开车，200-2000，可以 15 日以下拘留  
+非法拦截、扣留机动车辆，200-2000  
+故意损毁、移动、涂改交通设施，200-2000，说 1000 也对  
+饮酒驾驶机动车，1000-2000  
+超速行驶、反复并线、频繁穿插，2000  
+伪造、变造或者使用伪造、变造的机动车登记证书、号牌、行驶证、驾驶证的，2000-5000  
+饮酒驾驶营运车辆，5000，15 日以下拘留  
+审验教育弄虚作假罚款 1000 以下、代替驾驶人参与审验教育罚款 2000 以下、组织别人审验弄虚作假罚款盈利的三倍不超过 2w。  
+让别人帮忙扣分并支付经济利益，3 倍经济利益的罚款不超过 5w 元  
+组织或参与不正当手段取得机动车驾驶证牟取经济利益的，处违法所得 3-5 倍罚款，但最高不超过 10w 元  
+未交保险，扣留车辆，投保最低责任限额应缴纳保费的 2 倍罚款  
+学车期间没有按照时间路线、没有张贴标志，罚教练 20-200 元
+### 量刑规则
+因饮酒后驾驶机动车被处罚，再次饮酒后驾驶机动车的，处十日以下拘留，并处 1000-2000 罚款，吊销机动车驾驶证。  
+逃逸不犯罪、违反交通管制的规定强行通行、可以 15 日以下拘留  
+替他人或他人替自己驾考，构成犯罪的，处拘役或者管制，并处或单处罚金  
+醉驾或者驾驶机动车在道路上追逐竞驶，情节恶劣：拘役 + 罚金  
+驾车与他人互殴，构成犯罪的，1 年以下有期徒刑、拘役或者管制，并处或单处罚金  
+对驾驶人使用暴力，构成犯罪的，1 年以下有期徒刑、拘役或者管制，并处或单处罚金  
+驾驶证考试组织作弊，构成犯罪的，处 3 年以下有期徒刑或者拘役，并处或单处罚金；情节严重的 3-7 年并处罚金  
+重大事故致人死亡或财产严重损失：3 年以下；重大事故逃逸：3-7；重大事故因逃逸致人死亡：7+
+### 扣车规则
+没带行驶证驾驶证  
+伪造号牌  
+伪造检验合格标志  
+未放置检验合格标志、保险标志  
+未交交强险  
+发生交通事故收集证据
+
+## 事故责任划分
+机动车静止，不承担责任；行人全责，机动车承担 10%  
+逃逸但是有证据证明对方也有责任，可以适当减轻；其他逃逸权责；  
+造成事故的责任是左侧车辆倒车没有避让正常行驶的车辆，右侧车辆看到前车掉头时没有停车等待：  
+![image1](/img/user/resources/attachments/image1-22.jpeg)  
+交通警察按程序做好现场记录后，对拒不撤离现场的，强制撤离，所需费用由当事人承担  
+未在道路交通事故现场报警，公安机关 3 日内作出是否受理的决定  
+当事人对交通事故损害赔偿有争议，各方当事人一致请求公安机关交通管理部门调解的，应当在收到交通事故认定书之日起 10 日内提出书面调解申请。
+
+## 驾照申请与机动车登记
+### 申请资格
+初次申领驾照最高 B2，大型货车。初次申请不得申请轻型牵引挂车  
+22 岁 -60 岁开大型客车；20 岁 -60 岁开大型货车、中型客车、轻型牵引挂车、有轨无轨电车；18 岁 -60 岁摩托车；18 岁 - 无限岁小轿车、残疾人专用小型自动挡。  
+学车出事，教练员负责。  
+发生过致人死亡的交通事故，不能申请大型货车、中型客车以上  
+年满 70 要把三轮摩托车换成轻便摩托车  
+70 周岁以上的，不得驾驶低速载货汽车、三轮汽车、轻型牵引挂车、普通三轮摩托车、普通二轮摩托车
+### 考试内容与时间
+自动挡科目二不考坡道起步，只考倒车入库、侧方停车、曲线行驶、直角转弯  
+轻型牵引挂车科目二不考侧方停车和倒车入库，考桩考、曲线行驶、直角转弯  
+摩托车科目二考试内容包括：桩考、坡道定点停车和起步、通过单边桥。  
+通过理论考试后，1 日内发放学习驾驶证明  
+学完科目一后，自动挡 20 天科目 3，手动挡、电车 30 天科目 3，大型客车、中型客车、大型货车 40 天科目 3.  
+小型车科三 3km 以上，大型车科三 10km 以上白天 5km 以上晚上 3km 以上
+### 增证
+小型车 1 年后可申请轻型牵引挂车、小型车 2 年后可申请中型客车、中型客车 2 年后可申请 A2A1  
+轻型牵引挂车要求 1 年内没有扣 12 分、中型客车和 A2 要求 2 年内没有扣 12 分、大型客车 3 年没有扣 12 分  
+增证找驾驶证**核发地申请**  
+C1 增 C6 考科二和科三的安全文明驾驶常识  
+残疾人增证、c2 增 c1，考科二科三  
+C1 增 c6，申请后**直接发放学习驾驶证明**  
+小轿车考完科目一，**一日内**发学习驾驶证明  
+已持有机动车驾驶证的，在**本记分周期和申请前最近一个记分周期**没有记满 12 分的可以申请增加准驾车型。
+### 实习期
+实习期摩托、轿车都是 12 月  
+实习期上高速需要 3 年驾龄的陪同  
+实习期不能牵引挂车  
+增驾不是新手，没有实习期
+### 驾照分类
+A1 大型客车、A2 重型牵引挂车、B1 中型客车、B2 大型货车
+### 机动车登记
+机动车的登记，分为注册登记、变更登记、转移登记、抵押登记和注销登记。**（两注转变押）**  
+申请危险货物运输车登记的，机动车所有人应当为单位。  
+只要材料齐全，要求公安部门**当场**办理手续  
+初次申领机动车号牌、行驶证的，应当向**居住地车管所**申请  
+迁入迁出变更登记在迁入地申请  
+在户籍地以外办理小型、微型非营运载客汽车注册登记的，不用提交居住证明或者居住登记证明  
+对实现信息共享、网上核查的，申请人不用提交相关证明凭证  
+机动车所有人在办理车辆登记业务时，可以使用电子签名
+
+## 审验与检查
+### 审验
+出事了，要在本轮 12 个月结束后 30 日内审验  
+审验内容：身体情况、违法行为处理情况、记 12 分后学习情况  
+70 岁以上，每年体检  
+身体条件证明 6 个月有效  
+残疾人每 6 个月出局身体证明  
+因服兵役、出国无法审验，最多延长 3 年  
+审验造假，罚款 1000，删除学习记录  
+1 年内无累积记分的机动车驾驶人，可以延长机动车驾驶证的审验期
+### 年检
+小车，10 年以内第 6 年和第 10 年进行检查，每两年拿一次检验标志。小车，10 年以上一年检查一次
+
+## 变更
+### 驾驶证变更
+驾驶证在**迁入地**或**变更后的居住地**车辆管理所重新申请  
+驾驶证遗失的，驾驶人应当向哪里的车辆管理所申请补发？**暂住地、核发地、居住地均可**  
+驾驶证过期 1 年不换就注销  
+驾驶证遗失，就算有补办证明也不能开车  
+6 换 10，10 换长期  
+驾驶人在驾驶证有效期满前 90 日内申请换证  
+超过机动车驾驶证有效期一年以上未换证的，被注销机动车驾驶证；被注销机动车驾驶证未超过二年的，机动车驾驶人参加**道路交通安全法律、法规和相关知识考试**合格后，可以恢复驾驶资格。
+### 行驶证变更
+机动车登记证书、行驶证灭失、丢失或者损毁的，机动车所有人应当向登记地车辆管理所补领
+### 登记信息变更
+已注册登记的机动车，所有人信息变更的，30 天以内应当向**登记地**车辆管理所备案。  
+大型货车、大型客车驾驶证持有人信息变更的，30 天以内应当向**从业单位所在地**车辆管理所备案
+### 车牌变更
+申请补领号牌后 15 天之内换上新的  
+换牌照，两辆车必须在一个车辆管理所，一年不能换多次  
+收到机动车号牌 3 日后，临时车牌作废
+### 车辆变更
+小型、微型载客汽车因改变车身颜色申请变更登记，车辆不在登记地的，可以向**车辆所在地**车辆管理所提出申请。  
+抵押向**登记该机动车的公安机关交通管理部门**申请抵押登记  
+在抵押登记、质押备案期间不可以办理转移登记  
+车辆转让后 30 天内向登记地车辆管理所办理转让登记  
+申请机动车注册登记时，需要交强险、身份证、购车发票，登记后才有行驶证  
+报废后交售给回收企业  
+迁出车辆，迁出地车管所受理后 3 日内检查车辆
+
+## 其他驾驶规范
+疲劳驾驶：4h 休息 20min  
+口 5 站 3：路口 50m，加油站 30m 内禁止停车  
+漫水路段要停车查看水情，而不是减速  
+年龄在 70 周岁以上的，不得驾驶低速载货汽车、三轮汽车、轻型牵引挂车、普通三轮摩托车、普通二轮摩托车。  
+载货汽车、半挂牵引车、拖拉机只允许牵引 1 辆挂车；载货汽车所牵引挂车的载质量不得超过载货汽车本身的载质量；  
+没有划分机动车道的，机动车在中间走  
+超车后不能立即回原车道，拉开安全距离后才可以  
+50m 外 100m 内设置警告标志（三脚架），高速在 150m 外设置警告标志  
+禁止左转的地方、急弯不能掉头  
+行车中超越同向行驶的自行车时，应注意观察动态，减速慢行，留有足够的安全距离（不能让自行车先行）  
+车辆在路边起步后不能尽快提速。  
+驾驶车辆驶入铁路道口前减速降挡，进入道口后**不能变换挡位，防止熄火**  
+按以下顺序，优先级依次递增：交通安全法 - 地方法规 - 明确的标志标线 - 交警指挥  
+高速公路不能靠右侧路肩行驶  
+高速公路 100km/h 时，100m 为安全距离，低于 100km/h，可以适当缩短，但不得低于 50m。  
+小型客车行驶在平坦的高速公路上，突然有颠簸感觉时，应迅速降低车速，防止爆胎。  
+山区行驶，超车要在宽阔的缓上坡  
+通过经常发生塌方、泥石流的山区地段，避免停车。  
+刮水器无法刮净雨水，应该立刻减速靠边停车  
+车辆涉水后，应保持低速行驶，间断轻踏以恢复制动效果  
+雾天行车多使用喇叭可引起对方注意；听到对方车辆鸣喇叭，也应鸣喇叭回应。  
+雪天行车中，在有车辙的路段应循车辙行驶。  
+当超越右侧车时，应该尽快超越，减少并行时间。  
+山区冰雪覆盖位置行车，驱动轮安装防滑链  
+湿滑路面制动过程中，发现车辆偏离方向，不要踩刹车  
+环形交叉路口可以调头  
+道路有水应该增加车距，因为溅起来的水会影响视线  
+使用软连接牵引装置时，牵引车与被牵引车之间应当保持 4m-10m 的车距  
+**停车视距**指的是同一车道上，车辆行驶时遇到前方障碍物而必须采取制动停车时所需要最短行车距离。停车视距由反应距离、制动距离和安全距离三个方面组成。  
+驾驶机动车在行驶中遇到横风时，应双手稳握方向盘，减速行驶，防止横风让方向产生偏移造成危险。  
+机动车在道路上临时停车应当遵守下列规定：按顺行方向停车，车身距道路边缘不超过 30 厘米。  
+车辆在泥泞的道路上侧滑时，向**侧滑的一侧**转动转向盘适量修正  
+遇到横风导致偏移，应双手握稳转向盘，向**来风的一侧**适当修正  
+在机动车道上可以从机动车右侧上下车  
+高速危险车间距：50m  
+专属停车位停车标线为黄色  
+前排不能坐未满 12 周岁未成年人  
+临时停车，车身距离路边缘不超过 30cm  
+不得擅自改变**行驶证**核定的座位数  
+安全头枕保护颈部  
+防抱死系统在冰雪路面不能缩短制动距离  
+安全头枕需要对准后脑勺  
+上车前，逆时针绕车一周进行检查  
+机动车突然着火，向上风方向撤离
+### 救助伤员
+失去知觉患者的搬运，要保持患者是侧卧位  
+抢救失血伤员时，先止血  
+救助全身燃烧伤员，喷冷水  
+救助烧伤伤员时，当伤口已经起泡的情况下，用塑料袋或保鲜膜覆盖在水泡上  
+抢救脊柱骨折的伤员，用三角巾固定，不能用软担架
+### 先行规则
+1、；  
+2、右方道路来车先转弯车辆让直行车辆先行行；  
+3、右转弯车让左转弯车辆先行。
+### 会车
+狭窄山路会车，不靠山体的一方先行  
+狭窄的道路，上坡的一方先行  
+未上坡车辆让下坡下一半的车辆先行
+### 灯光规范
+变更车道**之前**开启转向灯。  
+雪天开近光灯、雾天开雾灯和危险报警闪光灯  
+夜间没有路灯、照明不良或者遇有雾、雨、雪、沙尘、冰雹等低能见度情况下行驶，应当开启前照灯、示廓灯和后位灯  
+夜间通过急弯、坡路、拱桥、人行横道或者没有交通信号灯控制的路口时，或者确需超车时，应当交替使用远近光灯示意。  
+夜间行车在通过交叉路口时，应在距路口 50 到 100 米处减速，并将远光灯变为近光灯，同时开启转向灯示意行进方向。  
+夜间前方有行人非机动车的情况不能使用远光灯  
+雾天雨天停车，开警报闪光灯  
+夜间超车，变换近远光灯  
+夜间通过没有路灯或路灯照明不良时，应将近光灯转换为远光灯，但同向行驶的后车不得使用远光灯。  
+驾驶机动车在路上靠边停车，应该提前开启右转向灯。  
+夜间在道路上会车时，应在距离对向来车 150 米**外**将远光灯改用近光灯。  
+夜间在**视线较差的路口转弯**时，应该在离路口**30-100 米**时关闭远光灯，开启近光灯和转向灯，进入路口前降低车速，不断变换远、近光灯，确保安全通过。
+### 限速规范
+没有道路中心线的道路，城市道路为每小时 30 公里，公路为每小时 40 公里；  
+同方向只有 1 条机动车道的道路，城市道路为每小时 50 公里，公路为每小时 70 公里。  
+机动车借用非机动车道，15km/h  
+过铁路道口车速不得超过 30km/h  
+进出非机动车道 30km/h  
+陡坡转弯掉头 30km/h  
+窄路窄桥 30km/h  
+冰雪泥泞 30km/h  
+牵引发生事故的机动车 30km/h  
+高速最高限速：小车 120、大车 100、摩托 80  
+高速最低限速：2 条车道 100 和 60、3 条车道 110 和 90 和 60、4 条车道 110 和 90 和 90 和 60  
+高速能见度 200 最高 60km/h 车距 100m，能见度 100 最高 40km/h 车距 50m 开警报灯，能见度 50 最高 20km/h 开警报灯  
+高速公路匝道 40km/h
+
+## 专有名词与标志
+### 车内操作
+点火器操作：LOCK：切断电源，锁定方向盘；ACC：接通附件电源（比如收音机等附件）ON：接通除起动机外的全车全部电源；START：接通起动机电源，起动发动机。  
+左离合中制动右加速  
+上提左控制杆：右转向灯，下拉左控制杆：左转向灯  
+上下提右控制杆：刮水器
+### 专有名词
+TCS/ASR/TRC 车辆牵引力控制系统  
+AFS 车辆随动转向前照灯系统（Adaptive Front-Lighting System）  
+BSA 车辆盲点辅助系统（Blind Spot Assist）  
+ACC 自适应巡航（爱谁谁）  
+LDW 车辆偏离预警（deparcher warning）  
+FCW 前方碰撞预警系统（放 chuang 我）  
+CCS 定速巡航系统（Cruise Control System）  
+EBD 车辆电子制动力分配系统（Electric Brakeforce Distribution）  
+TSR 车辆交通标志识别系统（Traffic Sign Recogni-tion）  
+EBA 车辆紧急制动辅助系统（Electronic Brake Assist）  
+BSD 车辆盲点检测系统（Blind Spot Detection）  
+ALC 车辆自动变道辅助系统（Auto Lane Change）  
+AEB 车辆自动刹车辅助系统（Autonomous Emergency Braking）  
+ESP 车身电子稳定控制系统（Electronic Stability Program）  
+TMC 实时交通信息（Traffic Message Channel）
+### 车内提示灯
+驻车制动器处于制动状态  
+![image2](/img/user/resources/attachments/image2-6.jpeg)  
+制动系统出现异常  
+![image3](/img/user/resources/attachments/image3-1 1.jpeg)  
+油箱内燃油已到最低液面  
+![image4](/img/user/resources/attachments/image4 2.jpeg)  
+充电电路故障  
+![image5](/img/user/resources/attachments/image5 2.jpeg)  
+空气外循环  
+![image6](/img/user/resources/attachments/image6 1.jpeg)  
+前风窗刮水器  
+![image7](/img/user/resources/attachments/image7 2.jpeg)  
+冷却液不足  
+![image8](/img/user/resources/attachments/image8 2.jpeg)  
+发动机控制系统故障  
+![image9](/img/user/resources/attachments/image9 2.jpeg)
+### 信号灯
+黄灯不断闪烁：三个灯只有黄灯闪：路口交通信号暂时解除、只有一个黄灯闪：前方路口或道路是危险路段  
+黄灯时前轮出线，可以走；红灯时全车出线，可以走
+### 标志
+分向行驶预告：虚线隔开 没有距离和文字提示；分道信息预告：没有线 单个图形 有距离和文字；交叉路口预告：实线隔开 有文字和距离  
+红色：禁令标志；蓝色：指示标志指路标志；黄色：警告标志  
+三角形红《让》减速让行、八角形停车让行  
+白色菱形是人行横道预告  
+机动车车道：  
+![image10](/img/user/resources/attachments/image10 2.jpeg)
+
+错车道（有虚线是紧急停车带）：  
+![image11](/img/user/resources/attachments/image11.jpg)
+
+图 A 禁止通行、图 B 禁止驶入、图 C 表示禁止机动车驶入、图 D 表示禁止直行：  
+![image12](/img/user/resources/attachments/image12 2.png)
+
+两侧通行：  
+![image13](/img/user/resources/attachments/image13 2.png)  
+步行：  
+![image14](/img/user/resources/attachments/image14 1.png)  
+反向弯路：  
+![image15](/img/user/resources/attachments/image15 1.jpg)  
+连续弯路：  
+![image16](/img/user/resources/attachments/image16 1.jpg)  
+下陡坡：  
+![image17](/img/user/resources/attachments/image17 1.jpg)  
+连续下坡：  
+![image18](/img/user/resources/attachments/image18 1.jpg)  
+窄桥：  
+![image19](/img/user/resources/attachments/image19 1.jpg)  
+双向交通：  
+![image20](/img/user/resources/attachments/image20 1.jpg)  
+注意行人（前方是人行横道错）：  
+![image21](/img/user/resources/attachments/image21 1.jpg)  
+注意非机动车（前方是非机动车道错）：  
+![image22](/img/user/resources/attachments/image22.jpg)
+
+注意儿童：  
+![image23](/img/user/resources/attachments/image23.jpg)  
+注意牲畜：  
+![image24](/img/user/resources/attachments/image24 1.jpg)  
+注意野生动物：  
+![image25](/img/user/resources/attachments/image25.jpg)  
+注意落石：  
+![image26](/img/user/resources/attachments/image26 1.jpg)  
+注意横风：  
+![image27](/img/user/resources/attachments/image27.jpg)  
+易滑路段：  
+![image28](/img/user/resources/attachments/image28.jpg)  
+傍山险路：  
+![image29](/img/user/resources/attachments/image29.jpg)  
+堤坝路：  
+![image30](/img/user/resources/attachments/image30.jpg)  
+渡口：  
+![image31](/img/user/resources/attachments/image31.jpg)  
+驼峰桥：  
+![image32](/img/user/resources/attachments/image32.jpg)  
+路面不平（桥头跳车）：  
+![image33](/img/user/resources/attachments/image33 1.jpg)  
+路面低洼：  
+![image34](/img/user/resources/attachments/image34 1.jpg)  
+过水路面：  
+![image35](/img/user/resources/attachments/image35.jpg)  
+有人看守的铁路道口：  
+![image36](/img/user/resources/attachments/image36.jpg)  
+无人看守的铁路道口：  
+![image37](/img/user/resources/attachments/image37 1.jpg)
+
+多股铁路与道路相交  
+![image38](/img/user/resources/attachments/image38.jpg)  
+距无人看守的铁路道口 50m（一条杠 50m）：  
+![image39](/img/user/resources/attachments/image39.jpg)  
+距无人看守的铁路道口 100m：  
+![image40](/img/user/resources/attachments/image40.jpg)  
+事故易发路段（没有容易追尾的路段，只有事故多发路段）：  
+![image41](/img/user/resources/attachments/image41.jpg)  
+左右绕行：  
+![image42](/img/user/resources/attachments/image42.jpg)  
+左侧绕行：  
+![image43](/img/user/resources/attachments/image43.jpg)  
+注意危险：  
+![image44](/img/user/resources/attachments/image44.jpg)  
+施工路段：  
+![image45](/img/user/resources/attachments/image45.jpg)  
+建议速度（ 黄色数字→→最高速度 白色数字→→最低速度 黑色数字→→建议速度）：  
+![image46](/img/user/resources/attachments/image46.jpg)  
+隧道开灯：  
+![image47](/img/user/resources/attachments/image47.jpg)  
+注意潮汐车道：  
+![image48](/img/user/resources/attachments/image48.jpg)  
+注意保持车距：  
+![image49](/img/user/resources/attachments/image49.jpg)  
+注意分离式道路：  
+![image50](/img/user/resources/attachments/image50.jpg)  
+会车时让对方车先行：  
+![image51](/img/user/resources/attachments/image51.jpg)  
+禁止小型客车：  
+![image52](/img/user/resources/attachments/image52.jpg)  
+解除禁止超车：  
+![image53](/img/user/resources/attachments/image53.jpg)  
+禁止停放车辆：  
+![image54](/img/user/resources/attachments/image54.jpg)  
+禁止长时停车：  
+![image55](/img/user/resources/attachments/image55.jpg)  
+限制最高时速 40：  
+![image56](/img/user/resources/attachments/image56.jpg)  
+解除限速 40：  
+![image57](/img/user/resources/attachments/image57.jpg)  
+停车检查：  
+![image58](/img/user/resources/attachments/image58.jpg)  
+只准直行：  
+![image59](/img/user/resources/attachments/image59.jpg)  
+靠左侧道路行驶：  
+![image60](/img/user/resources/attachments/image60.jpg)  
+立体交叉直行和左转弯行驶：  
+![image61](/img/user/resources/attachments/image61.jpg)  
+立体交叉直行和右转弯行驶：  
+![image62](/img/user/resources/attachments/image62.jpg)  
+向左单行路：  
+![image63](/img/user/resources/attachments/image63.jpg)  
+向右单行路：  
+![image64](/img/user/resources/attachments/image64.jpg)  
+直行单行路：  
+![image65](/img/user/resources/attachments/image65.jpg)  
+应当鸣喇叭：  
+![image66](/img/user/resources/attachments/image66.jpg)  
+最低限速 50km/h：  
+![image67](/img/user/resources/attachments/image67.jpg)  
+干路先行：  
+![image68](/img/user/resources/attachments/image68.jpg)  
+会车先行：  
+![image69](/img/user/resources/attachments/image69.jpg)  
+左转车道：  
+![image70](/img/user/resources/attachments/image70.jpg)  
+公交线路专用车道：  
+![image71](/img/user/resources/attachments/image71.jpg)  
+有轨电车专用车道：  
+![image72](/img/user/resources/attachments/image72.jpg)  
+指示非机动车与行人分开空间通行：  
+![image73](/img/user/resources/attachments/image73.jpg)  
+指示非机动车与行人共享空间通行：  
+![image74](/img/user/resources/attachments/image74.jpg)
+
+机动车行驶：  
+![image75](/img/user/resources/attachments/image75.jpg)  
+非机动车车道：  
+![image76](/img/user/resources/attachments/image76.jpg)  
+BRT 车辆专用车道：（Bus rapid transit）  
+![image77](/img/user/resources/attachments/image77.jpg)  
+多乘员车辆专用车道：  
+![image78](/img/user/resources/attachments/image78.jpg)  
+交叉路口预告（实线）：  
+![image79](/img/user/resources/attachments/image79.jpg)  
+十字交叉路口预告：  
+![image80](/img/user/resources/attachments/image80.jpg)  
+丁字交叉路口预告：  
+![image81](/img/user/resources/attachments/image81.jpg)  
+Y 型交叉路口告知：  
+![image82](/img/user/resources/attachments/image82.jpg)  
+环形交叉路口告知：  
+![image83](/img/user/resources/attachments/image83.jpg)
+
+互通式立体交叉告知：  
+![image84](/img/user/resources/attachments/image84.jpg)  
+国道编号：  
+![image85](/img/user/resources/attachments/image85.jpg)
+
+县道编号：  
+![image86](/img/user/resources/attachments/image86.jpg)  
+乡道编号：  
+![image87](/img/user/resources/attachments/image87.jpg)  
+地点距离：  
+![image88](/img/user/resources/attachments/image88.jpg)
+
+露天停车场：  
+![image89](/img/user/resources/attachments/image89.jpg)  
+室内停车场：  
+![image90](/img/user/resources/attachments/image90.jpg)  
+超高绕行：  
+![image91](/img/user/resources/attachments/image91.jpg)  
+此路不通：  
+![image92](/img/user/resources/attachments/image92.jpg)  
+车道数增加：  
+![image93](/img/user/resources/attachments/image93.jpg)  
+车道数变少：  
+![image94](/img/user/resources/attachments/image94.jpg)
+
+线性诱导标志：  
+![image95](/img/user/resources/attachments/image95.jpg)  
+右侧通行：  
+![image96](/img/user/resources/attachments/image96.jpg)
+
+左侧通行  
+![image97](/img/user/resources/attachments/image97.png)
+
+高速公路入口预告  
+![image98](/img/user/resources/attachments/image98.jpg)  
+高速公路地点、方向预告：  
+![image99](/img/user/resources/attachments/image99.jpg)  
+高速公路地点距离预告：  
+![image100](/img/user/resources/attachments/image100.jpg)  
+高速公路命名编号：  
+![image101](/img/user/resources/attachments/image101.jpeg)  
+高速公路下一出口预告：  
+![image102](/img/user/resources/attachments/image102.jpg)  
+高速公路左侧出口预告：  
+![image103](/img/user/resources/attachments/image103.jpg)  
+高速公路起点：  
+![image104](/img/user/resources/attachments/image104.jpg)  
+高速公路终点：  
+![image105](/img/user/resources/attachments/image105.jpg)  
+高速公路特殊天气建议速度：  
+![image106](/img/user/resources/attachments/image106.jpg)  
+高速公路紧急电话：  
+![image107](/img/user/resources/attachments/image107.jpg)
+
+高速公路紧急停车带：  
+![image108](/img/user/resources/attachments/image108.jpg)
+
+高速公路服务区预告：  
+![image109](/img/user/resources/attachments/image109.jpg)  
+高速公路停车区预告：  
+![image110](/img/user/resources/attachments/image110.jpg)  
+不分离双向行驶路段：  
+![image20](/img/user/resources/attachments/image20 1.jpg)  
+十字路口警告标志  
+![image111](/img/user/resources/attachments/image111.jpg)  
+警告前方设有信号灯：  
+![image112](/img/user/resources/attachments/image112.jpg)  
+慢性或停车，确保干道车辆优先：  
+![image113](/img/user/resources/attachments/image113.jpg)  
+硬路肩允许行驶起点：  
+![image114](/img/user/resources/attachments/image114.jpeg)  
+硬路肩允许形式终点：  
+![image115](/img/user/resources/attachments/image115.jpg)  
+交通事故管理：  
+![image116](/img/user/resources/attachments/image116.jpeg)  
+注意行人：  
+![image117](/img/user/resources/attachments/image117.jpeg)  
+注意车道变少：  
+![image118](/img/user/resources/attachments/image118.jpg)  
+电子不停车收费通道：  
+![image119](/img/user/resources/attachments/image119.jpeg)  
+高速公路直出车道指引：  
+![image120](/img/user/resources/attachments/image120.jpeg)
+
+### 路面标记
+停止线以外和路口以外是一个意思，都是指在停止线之前  
+黄色虚线可以越线超车或转弯  
+黄色虚线是**指示标线**（作用是指示通行、分隔对向行驶的交通流）：  
+![image121](/img/user/resources/attachments/image121.jpeg)  
+双黄线是**禁止标线**：  
+![image122](/img/user/resources/attachments/image122.jpeg)  
+禁止跨越对向车道分界线：  
+![image123](/img/user/resources/attachments/image123.jpeg)  
+禁止跨越同向车道分界线：  
+![image124](/img/user/resources/attachments/image124.jpeg)  
+潮汐车道线：  
+![image125](/img/user/resources/attachments/image125.jpeg)  
+路口导向线：  
+![image126](/img/user/resources/attachments/image126.jpeg)  
+![image127](/img/user/resources/attachments/image127.jpeg)  
+导向车道线：  
+![image128](/img/user/resources/attachments/image128.jpeg)  
+可变导向车道线：  
+![image129](/img/user/resources/attachments/image129.jpeg)  
+车距确认线（一个双箭头 50m）：  
+![image130](/img/user/resources/attachments/image130.jpeg)  
+道路出口标线：  
+![image131](/img/user/resources/attachments/image131.jpeg)  
+固定停车方向停车位  
+![image132](/img/user/resources/attachments/image132.jpeg)  
+港湾式停靠站：  
+![image133](/img/user/resources/attachments/image133.jpg)  
+路面限速标记：  
+![image134](/img/user/resources/attachments/image134.jpg)  
+非机动车道：  
+![image135](/img/user/resources/attachments/image135.jpeg)  
+禁止长时间停车：  
+![image136](/img/user/resources/attachments/image136.jpeg)  
+禁止停车：  
+![image137](/img/user/resources/attachments/image137.jpeg)  
+停止线：  
+![image138](/img/user/resources/attachments/image138.jpeg)  
+停车让行线：  
+![image139](/img/user/resources/attachments/image139.jpeg)  
+减速让行线：  
+![image140](/img/user/resources/attachments/image140.jpeg)  
+导流线：  
+![image141](/img/user/resources/attachments/image141.jpeg)  
+中心圈：  
+![image142](/img/user/resources/attachments/image142.jpeg)  
+![image143](/img/user/resources/attachments/image143.jpeg)  
+网状线：  
+![image144](/img/user/resources/attachments/image144.jpeg)  
+车行道横向减速标线：  
+![image145](/img/user/resources/attachments/image145.jpeg)  
+接近障碍物标线：  
+![image146](/img/user/resources/attachments/image146.jpg)  
+立面标记：  
+![image147](/img/user/resources/attachments/image147.jpeg)
+
+车行道纵向减速标线：  
+![image148](/img/user/resources/attachments/image148.jpeg)
+### 交警
+左转弯：  
+![image149](/img/user/resources/attachments/image149.jpg)  
+左转弯待转信号：  
+![image150](/img/user/resources/attachments/image150.jpg)  
+变道信号：  
+![image151](/img/user/resources/attachments/image151.jpg)  
+减速慢行：  
+![image152](/img/user/resources/attachments/image152.jpg)
+
