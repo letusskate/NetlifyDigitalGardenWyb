@@ -1,0 +1,17 @@
+---
+dg-publish: true
+aliases: 
+tags: 
+title: 黄金价格查询网站
+updated: 2023-03-15T12:36:53.0000000+08:00
+created: 2023-03-01T14:24:45.0000000+08:00
+date created: 2023-07-05T21:38:32+08:00
+date modified: 2024-01-12T17:48:33+08:00
+---
+
+## 上海黄金交易所
+[行情走势-上海黄金交易所 (sge.com.cn)](https://www.sge.com.cn/sjzx/mrhq)
+
+## 其他金子平台
+[黄金价格实时走势中心 - 黄金价格_今日黄金价格_最新黄金价格_黄金价格走势_24小时走势_历史走势_走势分析图_国际黄金价格_上交所_美元走势_原油价格_原油走势图 (cngold.org)](https://www.cngold.org/img_date/)  
+[黄金T+D,黄金T+D价格走势图黄金T+D-第一黄金网 (dyhjw.com)](http://www.dyhjw.com/hjtd/)
