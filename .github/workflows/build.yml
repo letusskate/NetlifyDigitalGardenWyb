@@ -38,6 +38,7 @@ jobs:
           curl -X POST -d '{}' https://api.netlify.com/build_hooks/65a77015df78f3742a8265b4
         else
           echo "Time elapsed is within 30 minutes. Skipping action."
+          exit 1
         fi
   # end wyb 30min build once
   
