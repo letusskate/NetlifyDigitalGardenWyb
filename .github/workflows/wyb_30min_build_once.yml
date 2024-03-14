@@ -10,27 +10,30 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
     - name: Get Last Two Commit Timestamps
       id: last_two_commits
       run: |
-        COMMITS=$(curl -s -H "Authorization: Bearer ${{ secrets.ACTION_NETLIFYDIGITALGARDEN_30MIN_PER_BUILD }}" \
-          "https://api.github.com/repos/${{ github.repository }}/commits?per_page=2")
-        LATEST_COMMIT_TIME=$(echo "$COMMITS" | jq -r '.[0].commit.author.date' | xargs -I{} date -d {} +%s)
-        PREVIOUS_COMMIT_TIME=$(echo "$COMMITS" | jq -r '.[1].commit.author.date' | xargs -I{} date -d {} +%s)
-        # echo "::set-output name=latest_commit_timestamp::$LATEST_COMMIT_TIME"
-        # echo "::set-output name=previous_commit_timestamp::$PREVIOUS_COMMIT_TIME"
-        echo "latest_commit_timestamp=$LATEST_COMMIT_TIME" >> $GITHUB_OUTPUT
-        echo "previous_commit_timestamp=$PREVIOUS_COMMIT_TIME" >> $GITHUB_OUTPUT
+        # COMMITS=$(curl -s -H "Authorization: Bearer ${{ secrets.ACTION_NETLIFYDIGITALGARDEN_30MIN_PER_BUILD }}" \
+        #   "https://api.github.com/repos/${{ github.repository }}/commits?per_page=2")
+        # LATEST_COMMIT_TIME=$(echo "$COMMITS" | jq -r '.[0].commit.author.date' | xargs -I{} date -d {} +%s)
+        # PREVIOUS_COMMIT_TIME=$(echo "$COMMITS" | jq -r '.[1].commit.author.date' | xargs -I{} date -d {} +%s)
+        # # echo "::set-output name=latest_commit_timestamp::$LATEST_COMMIT_TIME"
+        # # echo "::set-output name=previous_commit_timestamp::$PREVIOUS_COMMIT_TIME"
+        # echo "latest_commit_timestamp=$LATEST_COMMIT_TIME" >> $GITHUB_OUTPUT
+        # echo "previous_commit_timestamp=$PREVIOUS_COMMIT_TIME" >> $GITHUB_OUTPUT
+        echo "The commit SHA is: $GITHUB_SHA"
 
     - name: Check Push Time
       run: |
-        LATEST_COMMIT_TIME=${{ steps.last_two_commits.outputs.latest_commit_timestamp }}
-        PREVIOUS_COMMIT_TIME=${{ steps.last_two_commits.outputs.previous_commit_timestamp }}
-        ELAPSED_TIME=$((LATEST_COMMIT_TIME - PREVIOUS_COMMIT_TIME))
-        echo "Elapsed time since last commit: $ELAPSED_TIME seconds"
-        if [ $ELAPSED_TIME -gt 1800 ]; then
-          echo "Time elapsed is greater than 30 minutes. Performing action..."
-          curl -X POST -d '{}' https://api.netlify.com/build_hooks/65a77015df78f3742a8265b4
-        else
-          echo "Time elapsed is within 30 minutes. Skipping action."
-        fi
+        # LATEST_COMMIT_TIME=${{ steps.last_two_commits.outputs.latest_commit_timestamp }}
+        # PREVIOUS_COMMIT_TIME=${{ steps.last_two_commits.outputs.previous_commit_timestamp }}
+        # ELAPSED_TIME=$((LATEST_COMMIT_TIME - PREVIOUS_COMMIT_TIME))
+        # echo "Elapsed time since last commit: $ELAPSED_TIME seconds"
+        # if [ $ELAPSED_TIME -gt 1800 ]; then
+        #   echo "Time elapsed is greater than 30 minutes. Performing action..."
+        #   curl -X POST -d '{}' https://api.netlify.com/build_hooks/65a77015df78f3742a8265b4
+        # else
+        #   echo "Time elapsed is within 30 minutes. Skipping action."
+        # fi
