@@ -23,10 +23,30 @@ jobs:
         # # echo "::set-output name=previous_commit_timestamp::$PREVIOUS_COMMIT_TIME"
         # echo "latest_commit_timestamp=$LATEST_COMMIT_TIME" >> $GITHUB_OUTPUT
         # echo "previous_commit_timestamp=$PREVIOUS_COMMIT_TIME" >> $GITHUB_OUTPUT
+        
+        # 当前commit的SHA
         CURRENT_SHA=$GITHUB_SHA
         echo "The commit SHA is: $GITHUB_SHA"
-        PREVIOUS_SHA=$(git rev-parse "$CURRENT_SHA" )
-        echo "Previous commit SHA: $PREVIOUS_SHA"
+        
+        # PREVIOUS_SHA=$(git rev-parse "$CURRENT_SHA~1")
+        # PREVIOUS_SHA=$(git rev-parse "$CURRENT_SHA^")
+        # echo "Previous commit SHA: $PREVIOUS_SHA"
+
+        # 获取至少20个 commit 的历史
+        COMMIT_HISTORY=$(git log --pretty=format:'%h %ai' --reverse -n 20)
+
+        # 找到当前 commit 的索引
+        COMMIT_INDEX=$(echo "$COMMIT_HISTORY" | grep " $CURRENT_SHA " | cut -d' ' -f1)
+
+        # 如果找到当前 commit，获取前一个 commit 的 SHA
+        if [ "$COMMIT_INDEX" != "" ]; then
+          PREVIOUS_COMMIT_INDEX=$(($COMMIT_INDEX - 1))
+          PREVIOUS_SHA=$(echo "$COMMIT_HISTORY" | cut -d' ' -f$PREVIOUS_COMMIT_INDEX)
+          echo "Previous commit SHA: $PREVIOUS_SHA"
+        else
+          echo "Current commit not found in the last 20 commits."
+        fi
+        
 
     - name: Check Push Time
       run: |
