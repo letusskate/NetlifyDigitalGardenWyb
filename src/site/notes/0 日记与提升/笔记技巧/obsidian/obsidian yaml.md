@@ -16,7 +16,9 @@ yaml-bulk-edit
 自己常用：title，last update
 ## yaml 的批量修改
 ### python 脚本
+#### 我的脚本
 [我的脚本](../../../resources/Scripts/20230711edit_yaml/edit_label.py)
+[updatedgshow](../../../resources/Scripts/20240113updateYAML/updatedgshow.py)
 #### 环境
 `AttributeError: module 'frontmatter' has no attribute 'loads'`  
 应该 pip install python-frontmatter
