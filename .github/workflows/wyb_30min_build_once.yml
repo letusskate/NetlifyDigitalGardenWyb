@@ -37,14 +37,9 @@ jobs:
         COMMIT_HISTORY=$(git log --pretty=format:'%H' --reverse -n 20)
         echo "commit history: $COMMIT_HISTORY"
 
-        # 将输出转换为以空格分隔的列表，并去除尾随空格
-        echo "$COMMIT_HISTORY" | tr '\n' ' ' | sed 's/ $//' > commit_history.txt
-
-        # 设置输出变量
-        echo "$(cat commit_history.txt)"
-
         # 找到当前 commit 的索引
-        COMMIT_INDEX=$(echo "$COMMIT_HISTORY" | grep " $CURRENT_SHA " | cut -d' ' -f1)
+        # COMMIT_INDEX=$(echo "$COMMIT_HISTORY" | grep " $CURRENT_SHA " | cut -d' ' -f1)
+        COMMIT_INDEX=$(echo "$COMMIT_HISTORY" | grep "$CURRENT_SHA" | cut -d: -f1)
         echo "commit index: $COMMIT_INDEX"
 
         # 如果找到当前 commit，获取前一个 commit 的 SHA
