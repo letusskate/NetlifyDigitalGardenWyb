@@ -58,7 +58,9 @@ jobs:
         CURRENT_COMMIT_DATA=$(echo "$COMMITS" | jq -r --arg current_sha "$CURRENT_SHA" 'map(select(.sha == $current_sha)) | .[0]')
         CURRENT_COMMIT_TIME=$(echo "$CURRENT_COMMIT_DATA" | jq -r '.commit.author.date'| xargs -I{} date -d {} +%s)
         echo "Current commit time: $CURRENT_COMMIT_TIME"
-        
+        # 上一个commit的时间
+        PREVIOUS_COMMIT_DATA=$(echo "$COMMITS" | jq -r --arg current_sha "$current_SHA" 'map(select(.sha == $current_sha)) | .[0] | .parents[] | .sha')
+        PREVIOUS_COMMIT_TIME=$(echo "$COMMITS" | jq -r --arg current_sha "$current_SHA" --arg previous_sha "$PREVIOUS_COMMIT_DATA" 'map(select(.sha == $previous_sha)) | .[0] | .commit.author.date' | xargs -I{} date -d {} +%s)
         
     - name: Check Push Time
       run: |
