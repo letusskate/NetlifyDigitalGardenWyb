@@ -19,4 +19,6 @@ W+g xbox game bar 可以录屏
 Crtl+shift+esc 任务管理器  
 crtl+alt+del 三大金刚键 cad  
 alt+shift+numloc，小键盘当鼠标。5 代表左键，\* 代表右键  
-新建文件夹：crtl+shift+n
+新建文件夹：crtl+shift+n  
+win+x 快捷选单  
+xin+x 再按两下 u 关机
