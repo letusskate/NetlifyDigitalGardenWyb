@@ -55,6 +55,8 @@ jobs:
         COMMITS=$(curl -s -H "Authorization: Bearer ${{ secrets.ACTION_NETLIFYDIGITALGARDEN_30MIN_PER_BUILD }}" \
           "https://api.github.com/repos/${{ github.repository }}/commits?per_page=20")
         # 当前commit的时间
+        CURRENT_INDEX=$COMMITS | jq -r --arg current_sha "$CURRENT_SHA" '(.index("$CURRENT_SHA") // -1) + 1'
+        echo "current index $CURRENT_INDEX"
         CURRENT_COMMIT_DATA=$(echo "$COMMITS" | jq -r --arg current_sha "$CURRENT_SHA" 'map(select(.sha == $current_sha)) | .[0]')
         echo "Current commit data: $CURRENT_COMMIT_DATA"
         CURRENT_COMMIT_TIME=$(echo "$CURRENT_COMMIT_DATA" | jq -r '.commit.author.date'| xargs -I{} date -d {} +%s)
