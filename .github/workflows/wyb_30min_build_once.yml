@@ -33,7 +33,8 @@ jobs:
         # echo "Previous commit SHA: $PREVIOUS_SHA"
 
         # 获取至少20个 commit 的历史
-        COMMIT_HISTORY=$(git log --pretty=format:'%H %ai' --reverse -n 20)
+        # COMMIT_HISTORY=$(git log --pretty=format:'%H %ai' --reverse -n 20)
+        COMMIT_HISTORY=$(git log --pretty=format:'%H' --reverse -n 20)
         echo "commit history: $COMMIT_HISTORY"
 
         # 将输出转换为以空格分隔的列表，并去除尾随空格
