@@ -40,7 +40,7 @@ jobs:
         echo "$COMMIT_HISTORY" | tr '\n' ' ' | sed 's/ $//' > commit_history.txt
 
         # 设置输出变量
-        echo "::set-output name=commit_history::$(cat commit_history.txt)"
+        echo "$(cat commit_history.txt)"
 
         # 找到当前 commit 的索引
         COMMIT_INDEX=$(echo "$COMMIT_HISTORY" | grep " $CURRENT_SHA " | cut -d' ' -f1)
