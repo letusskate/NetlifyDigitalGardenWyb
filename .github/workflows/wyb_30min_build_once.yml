@@ -56,7 +56,7 @@ jobs:
           "https://api.github.com/repos/${{ github.repository }}/commits?per_page=20")
         # 当前commit的时间
         CURRENT_COMMIT_DATA=$(echo "$COMMITS" | jq -r --arg current_sha "$CURRENT_SHA" 'map(select(.sha == $current_sha)) | .[0]')
-        CURRENT_COMMIT_TIME=$(echo "$CURRENT_COMMIT_DATA" | jq -r '.commit.author.date')
+        CURRENT_COMMIT_TIME=$(echo "$CURRENT_COMMIT_DATA" | jq -r '.commit.author.date'| xargs -I{} date -d {} +%s)
         echo "Current commit time: $CURRENT_COMMIT_TIME"
         
         
