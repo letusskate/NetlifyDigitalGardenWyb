@@ -38,8 +38,8 @@ jobs:
         echo "commit history: $COMMIT_HISTORY"
 
         # 找到当前 commit 的索引
-        # COMMIT_INDEX=$(echo "$COMMIT_HISTORY" | grep " $CURRENT_SHA " | cut -d' ' -f1)
-        COMMIT_INDEX=$(echo "$COMMIT_HISTORY" | grep "$CURRENT_SHA" | cut -d: -f1)
+        COMMIT_INDEX=$(echo "$COMMIT_HISTORY" | grep " $CURRENT_SHA " | cut -d' ' -f1)
+        # COMMIT_INDEX=$(echo "$COMMIT_HISTORY" | grep "$CURRENT_SHA" | cut -d: -f1)
         echo "commit index: $COMMIT_INDEX"
 
         # 如果找到当前 commit，获取前一个 commit 的 SHA
