@@ -60,7 +60,8 @@ jobs:
         CURRENT_COMMIT_TIME=$(echo "$CURRENT_COMMIT_DATA" | jq -r '.commit.author.date'| xargs -I{} date -d {} +%s)
         echo "Current commit time: $CURRENT_COMMIT_TIME"
         # 上一个commit的时间
-        PREVIOUS_COMMIT_DATA=$(echo "$COMMITS" | jq -r --arg current_sha "$current_SHA" 'map(select(.sha == $current_sha)) | .[0] | .parents[] | .sha')
+        PREVIOUS_COMMIT_DATA=$(echo "$COMMITS" | jq -r --arg current_sha "$current_SHA" 'map(select(.sha == $current_sha)) | .[0] | .parents[0] | .sha')
+        echo "Previous commit data: $PREVIOUS_COMMIT_DATA"
         PREVIOUS_COMMIT_TIME=$(echo "$PREVIOUS_COMMIT_DATA" | jq -r '.commit.author.date' | xargs -I{} date -d {} +%s)
         echo "Previous commit time: $PREVIOUS_COMMIT_TIME"
         
