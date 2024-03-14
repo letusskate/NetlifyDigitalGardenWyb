@@ -34,6 +34,7 @@ jobs:
 
         # 获取至少20个 commit 的历史
         COMMIT_HISTORY=$(git log --pretty=format:'%H %ai' --reverse -n 20)
+        echo "commit history: $COMMIT_HISTORY"
 
         # 找到当前 commit 的索引
         COMMIT_INDEX=$(echo "$COMMIT_HISTORY" | grep " $CURRENT_SHA " | cut -d' ' -f1)
