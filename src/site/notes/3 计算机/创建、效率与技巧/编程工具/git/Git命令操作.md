@@ -2,30 +2,20 @@
 {"dg-publish":true,"permalink":"/3 计算机/创建、效率与技巧/编程工具/git/Git命令操作/","title":"Git命令操作"}
 ---
 
-
-## git 取消本地 commit（未推送远端）
-查看本地的 commit 历史：  
-`git log`  
-找到你想取消的 commit 的哈希值（通常是 commit ID 的前几个字符）。  
-使用 `git reset` 命令取消 commit：  
-`git reset --hard HEAD^`  
-或者使用 commit 的哈希值：  
-`git reset --hard <commit_hash>`  
-这会将你的 HEAD 移动到指定的 commit 上，同时删除最新的 commit。`--hard` 选项表示强制更新工作目录，丢弃未提交的更改。  
-强制推送到远端：  
-`git push origin <branch_name> --force`  
-注意：使用 `--force` 选项是因为你修改了本地的历史，需要强制推送。但请小心使用强制推送，因为它会覆盖远端的历史记录。确保你没有在本地修改重要的东西。  
-请替换 `<branch_name>` 为你的分支名称，通常是 `master` 或 `main`。  
-注意：强制推送可能会导致其他协作者的问题，因此在执行之前请确保其他人知晓，并确保你有足够的理由这样做。如果其他人已经基于你之前的提交进行了工作，最好的做法是与他们协调，以免造成代码丢失或冲突。
-
 ## 同步仓库到两个云端
 [git同步两个云端仓库](git进阶操作/git同步两个云端仓库.md)
-## git 冲突解决
-[使用命令行解决合并冲突 - GitHub 文档](https://docs.github.com/zh/pull-requests/collaborating-with-pull-requests/addressing-merge-conflicts/resolving-a-merge-conflict-using-the-command-line)
-### 如何避免 git 冲突
-discard 本地的所有更改，之后 pull 肯定没有任何问题了。pull 之后再把新写的代码粘贴上去。  
-如果直接 commit 了，那无法撤销 commit，只能选择保留的内容，之后作为“解决冲突”的 commit 提交。
-
+## git 发布流程
+记得养成一个良好 git 发布流程的习惯
+```shell
+# 分支合并发布流程：
+git add .			# 将所有新增、修改或删除的文件添加到暂存区
+git commit -m "版本发布" # 将暂存区的文件发版
+git status 			# 查看是否还有文件没有发布上去
+git checkout test	# 切换到要合并的分支
+git pull			# 在test 分支上拉取最新代码，避免冲突
+git merge dev   	# 在test 分支上合并 dev 分支上的代码
+git push			# 上传test分支代码
+```
 ## 通过 git 初始化并 提交到云端
 初始化：  
 `git init`  
@@ -43,13 +33,11 @@ discard 本地的所有更改，之后 pull 肯定没有任何问题了。pull �
 `git push -f origin master(main)`
 ### 我的总结
 3 步：add commit push
-
 ## 克隆仓库
 在想要下载到的文件夹中，右键打开 git bash  
 Git clone + 链接，链接通常以.git 结尾
 ### 多层次克隆
 `git clone --recursive xxxxx`
-
 ## 删除远程仓库的文件
 ### 第一步，在自己的工作区打开 git bash，进入分支 First
 git pull origin First \# 将 First 修改为自己的分支名
