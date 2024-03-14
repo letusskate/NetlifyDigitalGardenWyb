@@ -24,6 +24,8 @@ jobs:
         # echo "latest_commit_timestamp=$LATEST_COMMIT_TIME" >> $GITHUB_OUTPUT
         # echo "previous_commit_timestamp=$PREVIOUS_COMMIT_TIME" >> $GITHUB_OUTPUT
         echo "The commit SHA is: $GITHUB_SHA"
+        PREVIOUS_SHA=$(git rev-list --max-parents=0 "$GITHUB_SHA"^)
+        echo "Previous commit SHA: $PREVIOUS_SHA"
 
     - name: Check Push Time
       run: |
