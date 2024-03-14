@@ -35,8 +35,8 @@ jobs:
         # 获取至少20个 commit 的历史
         # COMMIT_HISTORY=$(git log --pretty=format:'%H %ai' --reverse -n 20)
         # COMMIT_HISTORY=$(git log --pretty=format:'%H' --reverse -n 5)
-        COMMIT_HISTORY=$(git log -n 10| tail -n 1)
-        COMMIT_HISTORYY=$(git log -n 10| tail -n 2)
+        COMMIT_HISTORY=$(git log --pretty=format:'%H' -n 10| tail -n 1)
+        COMMIT_HISTORYY=$(git log --pretty=format:'%H' -n 10| tail -n 2)
         echo "commit history: $COMMIT_HISTORY"
         echo "commit history: $COMMIT_HISTORYY"
 
