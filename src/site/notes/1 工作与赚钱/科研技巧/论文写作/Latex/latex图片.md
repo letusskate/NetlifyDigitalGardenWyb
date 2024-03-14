@@ -5,7 +5,14 @@
 
 ## latex 插入 svg
 ### 碰运气方式
+
 #### 引入包
+```
+% svg (can not use)
+
+\usepackage[inkscapelatex=false]{svg}
+```
+
 ```
 \usepackage{svg}
 \svgsetup{
@@ -14,6 +21,7 @@
 }
 
 ```
+
 #### 插入图片
 ```
 \begin{figure}[ht]
@@ -52,17 +60,29 @@ Inkspace svg 转 pdf，之后插入
 4. \setlength{\abovecaptionskip}{0.cm} %调整标题下⽅的距离；
 ```
 ### 图片位置不正确
+Latex 提供了一些命令来控制图片的位置。我们可以通过使用 `\begin{figure}[位置选项]` 来控制图片的位置。位置选项可以有 h、t、b、p、!这五个，分别表示以下含义：
+- h: 表示放在当前位置，不过有时由于论文的格式限制，可能放不下。
+- t: 表示放在页面的顶部。
+- b: 表示放在页面的底部。
+- p: 表示放在单独一页。
+- !: 表示可以忽略一些限制，例如允许超过页面上限等。
 #### 方法一
 ```
 \begin{figure}[htbp]
 ```
 #### 方法二
+解决办法  
+要想将参考文献调整到图片后，可以在论文开头引入包：`\usepackage[section]{placeins}`  
+但这样的话图片只会在 section 内，我们期望的是图片跟随着文字下方。也就是跟随在 subsection 之内。但没有 `\usepackage[subsection]{placeins}` 的参数，因此，可以在图片下方加上 `\FloatBarrier`，这样图片就不会浮动  
+    如：
 ```
 \usepackage[section]{placeins}
 
 这是一段文字。
 
-\begin{figure}[t]          include 一张图片。  \end{figure}
+\begin{figure}[t]          
+include 一张图片。  
+\end{figure}
 
 \FloatBarrier
 
