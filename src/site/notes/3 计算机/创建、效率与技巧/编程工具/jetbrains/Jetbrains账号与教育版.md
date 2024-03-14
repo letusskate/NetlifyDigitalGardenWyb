@@ -7,8 +7,12 @@
 目前我只有一个账号 157707905@qq.com  
 ![image1](/img/user/resources/attachments/image1-9 2.png)  
 这个账号通过右面的 linked emails 连接了另一个邮箱 201902255@stu.sicau.edu.cn  
+还链接了 wang_yubo@tju.edu.cn  
 这个账号可以使用所有教育邮箱的证书、许可证，如学生免费版  
 未来可以通过 linked emails 连接其他邮箱。
+### 小号
+`letusskate@163.com`  
+密码：`hAdcH26.HAE8sgt`
 ## Jetbrains 教育版
 ![image2](/img/user/resources/attachments/image2-8 2.png)  
 点击 renew my education pack  
