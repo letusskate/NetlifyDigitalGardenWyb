@@ -57,9 +57,8 @@ jobs:
         # 当前commit的时间
         # Extract commit SHAs from the API response
         COMMIT_SHAS=$(echo "$COMMITS" | jq -r '.[].sha')
-        echo "$COMMIT_SHAS"
         # Find the index of the current commit
-        for ((i=0; i<$(echo "$COMMITS" | jq '.length'); i++)); do
+        for ((i=0; i<$(echo "$COMMITS" | jq 20); i++)); do
           if [ "$(echo "$COMMIT_SHAS" | jq --argjson x "$(jq -r ".[$i]" "$COMMITS")" -r "$x")" == "$CURRENT_SHA" ]; then
             CURRENT_INDEX=$i
             break
