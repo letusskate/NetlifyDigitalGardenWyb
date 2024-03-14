@@ -25,7 +25,7 @@ jobs:
         # echo "previous_commit_timestamp=$PREVIOUS_COMMIT_TIME" >> $GITHUB_OUTPUT
         CURRENT_SHA=$GITHUB_SHA
         echo "The commit SHA is: $GITHUB_SHA"
-        PREVIOUS_SHA=$(git rev-parse --max-parents=0 84a4fce79f503205891155be578dadbdda60ee6a`^` )
+        PREVIOUS_SHA=$(git rev-list --max-parents=0 84a4fce79f503205891155be578dadbdda60ee6a`^` )
         echo "Previous commit SHA: $PREVIOUS_SHA"
 
     - name: Check Push Time
