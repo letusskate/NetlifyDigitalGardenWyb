@@ -9,6 +9,6 @@
 ortools 是 google 的开源寻优框架 [Ortools](规划工具/Ortools.md)
 ## 简介
 约束满足问题就是一个规划问题的约束条件中，很多约束条件不容易被公式化，而是表现为 if-else 语句的类似形式。比如，如果选择 x1=1 时，x2 必须大于 3。  
-是运筹学、组合数学、数学优化的一种 [组合数学](../../组合数学/组合数学.md)
+是运筹学、组合数学、数学优化的一种 [离散数学](../离散数学/离散数学.md)
 ## 求解工具
 Google OR-Tools 中解决整数规划问题有 MP Solver 和 CP Solver 两种工具。CP Solver 一般用于约束满足问题 (Constraint Satisfaction Problem)，简称 CSP。
