@@ -15,6 +15,7 @@ jobs:
     - name: Get Last Two Commit Timestamps
       id: last_two_commits
       run: |
+        # 获取最新的两个commit(X)（由于github action的执行有延迟，因此最新的两个提交的间隔不见得是当前提交和上一个提交的间隔）
         # COMMITS=$(curl -s -H "Authorization: Bearer ${{ secrets.ACTION_NETLIFYDIGITALGARDEN_30MIN_PER_BUILD }}" \
         #   "https://api.github.com/repos/${{ github.repository }}/commits?per_page=2")
         # LATEST_COMMIT_TIME=$(echo "$COMMITS" | jq -r '.[0].commit.author.date' | xargs -I{} date -d {} +%s)
@@ -28,31 +29,27 @@ jobs:
         CURRENT_SHA=$GITHUB_SHA
         echo "The commit SHA is: $GITHUB_SHA"
         
+        # 获取上一个SHA(X) （github action的git命令只能获取当前提交，gitlog没有历史记录）
         # PREVIOUS_SHA=$(git rev-parse "$CURRENT_SHA~1")
         # PREVIOUS_SHA=$(git rev-parse "$CURRENT_SHA^")
         # echo "Previous commit SHA: $PREVIOUS_SHA"
-
+        
+        # 获取上一个SHA(X)（github action的git命令只能获取当前提交，gitlog没有历史记录）
         # 获取至少20个 commit 的历史
         # COMMIT_HISTORY=$(git log --pretty=format:'%H %ai' --reverse -n 20)
         # COMMIT_HISTORY=$(git log --pretty=format:'%H' --reverse -n 5)
-        COMMIT_HISTORY=$(git log --pretty=format:'%H' -n 10| tail -n 1)
-        COMMIT_HISTORYY=$(git log --pretty=format:'%H' -n 10| tail -n 2)
-        echo "commit history: $COMMIT_HISTORY"
-        echo "commit history: $COMMIT_HISTORYY"
-
         # 找到当前 commit 的索引
         # COMMIT_INDEX=$(echo "$COMMIT_HISTORY" | grep " $CURRENT_SHA " | cut -d' ' -f1)
-        COMMIT_INDEX=$(echo "$COMMIT_HISTORY" | grep "$CURRENT_SHA" | cut -d: -f1)
-        echo "commit index: $COMMIT_INDEX"
-
+        # COMMIT_INDEX=$(echo "$COMMIT_HISTORY" | grep "$CURRENT_SHA" | cut -d: -f1)
+        # echo "commit index: $COMMIT_INDEX"
         # 如果找到当前 commit，获取前一个 commit 的 SHA
-        if [ "$COMMIT_INDEX" != "" ]; then
-          PREVIOUS_COMMIT_INDEX=$(($COMMIT_INDEX - 1))
-          PREVIOUS_SHA=$(echo "$COMMIT_HISTORY" | cut -d' ' -f$PREVIOUS_COMMIT_INDEX)
-          echo "Previous commit SHA: $PREVIOUS_SHA"
-        else
-          echo "Current commit not found in the last 20 commits."
-        fi
+        # if [ "$COMMIT_INDEX" != "" ]; then
+        #   PREVIOUS_COMMIT_INDEX=$(($COMMIT_INDEX - 1))
+        #   PREVIOUS_SHA=$(echo "$COMMIT_HISTORY" | cut -d' ' -f$PREVIOUS_COMMIT_INDEX)
+        #   echo "Previous commit SHA: $PREVIOUS_SHA"
+        # else
+        #   echo "Current commit not found in the last 20 commits."
+        # fi
         
 
     - name: Check Push Time
