@@ -57,11 +57,12 @@ jobs:
         
         # 当前commit的时间
         # 将 JSON 字符串转换为数组
-        IFS=$'\n' read -rd '' -a COMMITS_ARRAY <<< "$(echo "$COMMITS" | jq -r '.[].sha')"
+        # IFS=$'\n' read -rd '' -a COMMITS_ARRAY <<< "$(echo "$COMMITS" | jq -r '.[].sha')"
+        COMMIT_SHAS=$(echo "$COMMITS" | jq -r '.[].sha')
         # 获取当前 commit 的索引
         CURRENT_INDEX=0
-        for i in "${!COMMITS_ARRAY[@]}"; do
-          if [ "${COMMITS_ARRAY[$i]}" == "$current_SHA" ]; then
+        for i in "${!COMMIT_SHAS[@]}"; do
+          if [ "${COMMIT_SHAS[$i]}" == "$current_SHA" ]; then
             CURRENT_INDEX=$i
             break
           fi
