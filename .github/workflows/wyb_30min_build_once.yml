@@ -56,17 +56,28 @@ jobs:
           "https://api.github.com/repos/${{ github.repository }}/commits?per_page=20")
         
         # 当前commit的时间
-        # Extract commit SHAs from the API response
-        COMMIT_SHAS=$(echo "$COMMITS" | jq -r '.[].sha')
-        echo "COMMIT_SHAS $COMMIT_SHAS"
-        # Find the index of the current commit
-        for (i=0; i<20; i++); do
-          if [ "$(echo "$COMMIT_SHAS" | jq --argjson x "$(jq -r ".[$i]" "$COMMITS")" -r "$x")" == "$CURRENT_SHA" ]; then
+        # 将 JSON 字符串转换为数组
+        IFS=$'\n' read -rd '' -a COMMITS_ARRAY <<< "$(echo "$COMMITS" | jq -r '.[].sha')"
+        # 获取当前 commit 的索引
+        CURRENT_INDEX=0
+        for i in "${!COMMITS_ARRAY[@]}"; do
+          if [ "${COMMITS_ARRAY[$i]}" == "$current_SHA" ]; then
             CURRENT_INDEX=$i
             break
           fi
         done
         echo "current index $CURRENT_INDEX"
+        # # Extract commit SHAs from the API response
+        # COMMIT_SHAS=$(echo "$COMMITS" | jq -r '.[].sha')
+        # echo "COMMIT_SHAS $COMMIT_SHAS"
+        # # Find the index of the current commit
+        # for (i=0; i<20; i++); do
+        #   if [ "$(echo "$COMMIT_SHAS" | jq --argjson x "$(jq -r ".[$i]" "$COMMITS")" -r "$x")" == "$CURRENT_SHA" ]; then
+        #     CURRENT_INDEX=$i
+        #     break
+        #   fi
+        # done
+        # echo "current index $CURRENT_INDEX"
 
         
         CURRENT_COMMIT_DATA=$(echo "$COMMITS" | jq -r --arg current_sha "$CURRENT_SHA" 'map(select(.sha == $current_sha)) | .[0]')
