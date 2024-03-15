@@ -71,6 +71,17 @@ jobs:
           fi
         done
         echo "current index $CURRENT_INDEX"
+        # 如果当前 commit 不是末尾的，则获取前一个 commit 的 SHA
+        if [ $CURRENT_INDEX -lq 19 ]; then
+          PREVIOUS_COMMIT_SHA=${COMMIT_SHAS[$((current_INDEX + 1))]}
+          # 当前commit的提交时间
+          LATEST_COMMIT_TIME=$(echo "$COMMITS" | jq -r --argjson commit_data "$(echo "$COMMITS" | jq -r ".[$CURRENT_INDEX]")" '.commit.author.date' | xargs -I{} date -d {} +%s)
+          # 获取前一个 commit 的提交时间
+          PREVIOUS_COMMIT_TIME=$(echo "$COMMITS" | jq -r --arg previous_sha "$PREVIOUS_COMMIT_SHA" '.[] | select(.sha == $previous_sha) | .commit.author.date' | xargs -I{} date -d {} +%s)
+          # 输出下一步
+          echo "latest_commit_timestamp=$LATEST_COMMIT_TIME" >> $GITHUB_OUTPUT
+          echo "previous_commit_timestamp=$PREVIOUS_COMMIT_TIME" >> $GITHUB_OUTPUT
+        fi
 
         
         # CURRENT_COMMIT_DATA=$(echo "$COMMITS" | jq -r --arg current_sha "$CURRENT_SHA" 'map(select(.sha == $current_sha)) | .[0]')
@@ -85,13 +96,13 @@ jobs:
         
     - name: Check Push Time
       run: |
-        # LATEST_COMMIT_TIME=${{ steps.last_two_commits.outputs.latest_commit_timestamp }}
-        # PREVIOUS_COMMIT_TIME=${{ steps.last_two_commits.outputs.previous_commit_timestamp }}
-        # ELAPSED_TIME=$((LATEST_COMMIT_TIME - PREVIOUS_COMMIT_TIME))
-        # echo "Elapsed time since last commit: $ELAPSED_TIME seconds"
-        # if [ $ELAPSED_TIME -gt 1800 ]; then
-        #   echo "Time elapsed is greater than 30 minutes. Performing action..."
-        #   curl -X POST -d '{}' https://api.netlify.com/build_hooks/65a77015df78f3742a8265b4
-        # else
-        #   echo "Time elapsed is within 30 minutes. Skipping action."
-        # fi
+        LATEST_COMMIT_TIME=${{ steps.last_two_commits.outputs.latest_commit_timestamp }}
+        PREVIOUS_COMMIT_TIME=${{ steps.last_two_commits.outputs.previous_commit_timestamp }}
+        ELAPSED_TIME=$((LATEST_COMMIT_TIME - PREVIOUS_COMMIT_TIME))
+        echo "Elapsed time since last commit: $ELAPSED_TIME seconds"
+        if [ $ELAPSED_TIME -gt 1800 ]; then
+          echo "Time elapsed is greater than 30 minutes. Performing action..."
+          curl -X POST -d '{}' https://api.netlify.com/build_hooks/65a77015df78f3742a8265b4
+        else
+          echo "Time elapsed is within 30 minutes. Skipping action."
+        fi
