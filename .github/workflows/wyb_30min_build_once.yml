@@ -50,24 +50,23 @@ jobs:
         # else
         #   echo "Current commit not found in the last 20 commits."
         # fi
-
+        
+        # 遍历深度
+        depth = 20
         # 最新的20个commit列表
         COMMITS=$(curl -s -H "Authorization: Bearer ${{ secrets.ACTION_NETLIFYDIGITALGARDEN_30MIN_PER_BUILD }}" \
-          "https://api.github.com/repos/${{ github.repository }}/commits?per_page=20")
+          "https://api.github.com/repos/${{ github.repository }}/commits?per_page=$depth")
         
         # 当前commit的时间
         # 将 JSON 字符串转换为数组
-        # IFS=$'\n' read -rd '' -a COMMITS_ARRAY <<< "$(echo "$COMMITS" | jq -r '.[].sha')"
         COMMIT_SHAS=$(echo "$COMMITS" | jq -r '.[].sha')
         # IFS=$'\n' read -rd '' -a SHAS_ARRAY <<< "$COMMIT_SHAS"
         SHAS_ARRAY=($(echo "$COMMIT_SHAS" | tr '\n' ' '))
-        echo "COMMIT_SHAS 1 ${COMMIT_SHAS[1]} "
         echo "SHAS_ARRAY 1 ${SHAS_ARRAY[1]}"
         # 获取当前 commit 的索引
-        CURRENT_INDEX=0
-        for i in "${!COMMIT_SHAS[@]}"; do
-          echo "commit_sha $i is ${COMMIT_SHAS[$i]} "
-          if [ "${COMMIT_SHAS[$i]}" == "$current_SHA" ]; then
+        CURRENT_INDEX=$depth
+        for i in "${!SHAS_ARRAY[@]}"; do
+          if [ "${SHAS_ARRAY[$i]}" == "$current_SHA" ]; then
             CURRENT_INDEX=$i
             echo "find current index success~!!"
             break
