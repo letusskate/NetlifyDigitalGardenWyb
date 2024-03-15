@@ -15,18 +15,83 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
     - name: Get Last Two Commit Timestamps
       id: last_two_commits
       run: |
+        # 获取最新的两个commit(X)（由于github action的执行有延迟，因此最新的两个提交的间隔不见得是当前提交和上一个提交的间隔）
+        # COMMITS=$(curl -s -H "Authorization: Bearer ${{ secrets.ACTION_NETLIFYDIGITALGARDEN_30MIN_PER_BUILD }}" \
+        #   "https://api.github.com/repos/${{ github.repository }}/commits?per_page=2")
+        # LATEST_COMMIT_TIME=$(echo "$COMMITS" | jq -r '.[0].commit.author.date' | xargs -I{} date -d {} +%s)
+        # PREVIOUS_COMMIT_TIME=$(echo "$COMMITS" | jq -r '.[1].commit.author.date' | xargs -I{} date -d {} +%s)
+        # # echo "::set-output name=latest_commit_timestamp::$LATEST_COMMIT_TIME"
+        # # echo "::set-output name=previous_commit_timestamp::$PREVIOUS_COMMIT_TIME"
+        # echo "latest_commit_timestamp=$LATEST_COMMIT_TIME" >> $GITHUB_OUTPUT
+        # echo "previous_commit_timestamp=$PREVIOUS_COMMIT_TIME" >> $GITHUB_OUTPUT
+        
+        # 当前commit的SHA
+        CURRENT_SHA=$GITHUB_SHA
+        echo "The commit SHA is: $GITHUB_SHA"
+        
+        # 获取上一个SHA(X) （github action的git命令只能获取当前提交，gitlog没有历史记录）
+        # PREVIOUS_SHA=$(git rev-parse "$CURRENT_SHA~1")
+        # PREVIOUS_SHA=$(git rev-parse "$CURRENT_SHA^")
+        # echo "Previous commit SHA: $PREVIOUS_SHA"
+        
+        # 获取上一个SHA(X)（github action的git命令只能获取当前提交，gitlog没有历史记录）
+        # 获取至少20个 commit 的历史
+        # COMMIT_HISTORY=$(git log --pretty=format:'%H %ai' --reverse -n 20)
+        # COMMIT_HISTORY=$(git log --pretty=format:'%H' --reverse -n 5)
+        # 找到当前 commit 的索引
+        # COMMIT_INDEX=$(echo "$COMMIT_HISTORY" | grep " $CURRENT_SHA " | cut -d' ' -f1)
+        # COMMIT_INDEX=$(echo "$COMMIT_HISTORY" | grep "$CURRENT_SHA" | cut -d: -f1)
+        # echo "commit index: $COMMIT_INDEX"
+        # 如果找到当前 commit，获取前一个 commit 的 SHA
+        # if [ "$COMMIT_INDEX" != "" ]; then
+        #   PREVIOUS_COMMIT_INDEX=$(($COMMIT_INDEX - 1))
+        #   PREVIOUS_SHA=$(echo "$COMMIT_HISTORY" | cut -d' ' -f$PREVIOUS_COMMIT_INDEX)
+        #   echo "Previous commit SHA: $PREVIOUS_SHA"
+        # else
+        #   echo "Current commit not found in the last 20 commits."
+        # fi
+        
+        # 最新的20个commit列表
         COMMITS=$(curl -s -H "Authorization: Bearer ${{ secrets.ACTION_NETLIFYDIGITALGARDEN_30MIN_PER_BUILD }}" \
-          "https://api.github.com/repos/${{ github.repository }}/commits?per_page=2")
-        LATEST_COMMIT_TIME=$(echo "$COMMITS" | jq -r '.[0].commit.author.date' | xargs -I{} date -d {} +%s)
-        PREVIOUS_COMMIT_TIME=$(echo "$COMMITS" | jq -r '.[1].commit.author.date' | xargs -I{} date -d {} +%s)
-        # echo "::set-output name=latest_commit_timestamp::$LATEST_COMMIT_TIME"
-        # echo "::set-output name=previous_commit_timestamp::$PREVIOUS_COMMIT_TIME"
-        echo "latest_commit_timestamp=$LATEST_COMMIT_TIME" >> $GITHUB_OUTPUT
-        echo "previous_commit_timestamp=$PREVIOUS_COMMIT_TIME" >> $GITHUB_OUTPUT
+          "https://api.github.com/repos/${{ github.repository }}/commits?per_page=20")
+        
+        # 当前commit的时间
+        # 将 JSON 字符串转换为数组
+        COMMIT_SHAS=$(echo "$COMMITS" | jq -r '.[].sha')
+        # IFS=$'\n' read -rd '' -a SHAS_ARRAY <<< "$COMMIT_SHAS"
+        SHAS_ARRAY=($(echo "$COMMIT_SHAS" | tr '\n' ' '))
+        # 获取当前 commit 的索引
+        CURRENT_INDEX=20
+        for i in "${!SHAS_ARRAY[@]}"; do
+          echo "SHAS_ARRAY $i is ${SHAS_ARRAY[$i]}"
+          if [ "${SHAS_ARRAY[$i]}" == "$CURRENT_SHA" ]; then
+            CURRENT_INDEX=$i
+            echo "find current index success~!!"
+            break
+          fi
+        done
+        echo "current index $CURRENT_INDEX"
+        # 如果当前 commit 不是末尾的，则获取前一个 commit 的 SHA
+        if [ $CURRENT_INDEX -lt 19 ]; then
+          PREVIOUS_INDEX=${CURRENT_INDEX+1}
+          echo "previous index $PREVIOUS_INDEX"
+          # 当前commit的提交时间
+          LATEST_COMMIT_TIME=$(echo "$COMMITS" | jq -r --argjson CURRENT_INDEX "$CURRENT_INDEX" '.[$CURRENT_INDEX].commit.author.date' | xargs -I{} date -d {} +%s)
+          echo "latest_commit_time $LATEST_COMMIT_TIME"
+          # 获取前一个 commit 的提交时间
+          PREVIOUS_COMMIT_TIME=$(echo "$COMMITS" | jq -r --argjson PREVIOUS_INDEX "$PREVIOUS_INDEX" '.[$PREVIOUS_INDEX].commit.author.date' | xargs -I{} date -d {} +%s)
+          echo "previous_commit_time $PREVIOUS_COMMIT_TIME"
+          # 输出下一步
+          echo "latest_commit_timestamp=$LATEST_COMMIT_TIME" >> $GITHUB_OUTPUT
+          echo "previous_commit_timestamp=$PREVIOUS_COMMIT_TIME" >> $GITHUB_OUTPUT
+        fi
 
+        
     - name: Check Push Time
       run: |
         LATEST_COMMIT_TIME=${{ steps.last_two_commits.outputs.latest_commit_timestamp }}
