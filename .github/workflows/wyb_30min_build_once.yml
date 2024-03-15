@@ -64,7 +64,7 @@ jobs:
         CURRENT_INDEX=20
         for i in "${!SHAS_ARRAY[@]}"; do
           echo "SHAS_ARRAY $i is ${SHAS_ARRAY[$i]}"
-          if [ "${SHAS_ARRAY[$i]}" == "$current_SHA" ]; then
+          if [ "${SHAS_ARRAY[$i]}" == "$CURRENT_SHA" ]; then
             CURRENT_INDEX=$i
             echo "find current index success~!!"
             break
