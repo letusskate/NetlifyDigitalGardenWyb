@@ -51,11 +51,9 @@ jobs:
         #   echo "Current commit not found in the last 20 commits."
         # fi
         
-        # 遍历深度
-        DEPTH = 20
         # 最新的20个commit列表
         COMMITS=$(curl -s -H "Authorization: Bearer ${{ secrets.ACTION_NETLIFYDIGITALGARDEN_30MIN_PER_BUILD }}" \
-          "https://api.github.com/repos/${{ github.repository }}/commits?per_page=${DEPTH}")
+          "https://api.github.com/repos/${{ github.repository }}/commits?per_page=20")
         
         # 当前commit的时间
         # 将 JSON 字符串转换为数组
@@ -64,7 +62,7 @@ jobs:
         SHAS_ARRAY=($(echo "$COMMIT_SHAS" | tr '\n' ' '))
         echo "SHAS_ARRAY 1 ${SHAS_ARRAY[1]}"
         # 获取当前 commit 的索引
-        CURRENT_INDEX=$DEPTH
+        CURRENT_INDEX=20
         for i in "${!SHAS_ARRAY[@]}"; do
           if [ "${SHAS_ARRAY[$i]}" == "$current_SHA" ]; then
             CURRENT_INDEX=$i
