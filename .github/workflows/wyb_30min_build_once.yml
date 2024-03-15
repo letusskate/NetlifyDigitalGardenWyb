@@ -62,6 +62,7 @@ jobs:
         # 获取当前 commit 的索引
         CURRENT_INDEX=0
         for i in "${!COMMIT_SHAS[@]}"; do
+          echo "commit_sha $i is $COMMIT_SHAS[$i] "
           if [ "${COMMIT_SHAS[$i]}" == "$current_SHA" ]; then
             CURRENT_INDEX=$i
             echo "find current index success~!!"
