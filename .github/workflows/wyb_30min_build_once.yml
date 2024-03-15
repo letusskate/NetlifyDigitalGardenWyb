@@ -75,7 +75,7 @@ jobs:
         if [ $CURRENT_INDEX -lt 19 ]; then
           PREVIOUS_COMMIT_SHA=${COMMIT_SHAS[$((current_INDEX + 1))]}
           # 当前commit的提交时间
-          LATEST_COMMIT_TIME=$(echo "$COMMITS" | jq -r --arg CURRENT_INDEX "$CURRENT_INDEX" '.[$CURRENT_INDEX].commit.author.date' | xargs -I{} date -d {} +%s)
+          LATEST_COMMIT_TIME=$(echo "$COMMITS" | jq -r --argjson CURRENT_INDEX "$CURRENT_INDEX" '.[$CURRENT_INDEX].commit.author.date' | xargs -I{} date -d {} +%s)
           # LATEST_COMMIT_TIME=$(echo "$COMMITS" | jq -r --argjson commit_data "$(echo "$COMMITS" | jq -r ".[$CURRENT_INDEX]")" '.commit.author.date' | xargs -I{} date -d {} +%s)
           echo "latest_commit_time $LATEST_COMMIT_TIME"
           # 获取前一个 commit 的提交时间
