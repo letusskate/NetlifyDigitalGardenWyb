@@ -73,29 +73,18 @@ jobs:
         echo "current index $CURRENT_INDEX"
         # 如果当前 commit 不是末尾的，则获取前一个 commit 的 SHA
         if [ $CURRENT_INDEX -lt 19 ]; then
-          PREVIOUS_COMMIT_SHA=${COMMIT_SHAS[$((current_INDEX + 1))]}
+          PREVIOUS_INDEX=CURRENT_INDEX+1
           # 当前commit的提交时间
           LATEST_COMMIT_TIME=$(echo "$COMMITS" | jq -r --argjson CURRENT_INDEX "$CURRENT_INDEX" '.[$CURRENT_INDEX].commit.author.date' | xargs -I{} date -d {} +%s)
-          # LATEST_COMMIT_TIME=$(echo "$COMMITS" | jq -r --argjson commit_data "$(echo "$COMMITS" | jq -r ".[$CURRENT_INDEX]")" '.commit.author.date' | xargs -I{} date -d {} +%s)
           echo "latest_commit_time $LATEST_COMMIT_TIME"
           # 获取前一个 commit 的提交时间
-          PREVIOUS_COMMIT_TIME=$(echo "$COMMITS" | jq -r --arg previous_sha "$PREVIOUS_COMMIT_SHA" '.[] | select(.sha == $PREVIOUS_SHA) | .commit.author.date' | xargs -I{} date -d {} +%s)
+          PREVIOUS_COMMIT_TIME=$(echo "$COMMITS" | jq -r --argjson PREVIOUS_INDEX "$CURRENT_INDEX+1" '.[$PREVIOUS_INDEX].commit.author.date' | xargs -I{} date -d {} +%s)
           echo "previous_commit_time $PREVIOUS_COMMIT_TIME"
           # 输出下一步
           echo "latest_commit_timestamp=$LATEST_COMMIT_TIME" >> $GITHUB_OUTPUT
           echo "previous_commit_timestamp=$PREVIOUS_COMMIT_TIME" >> $GITHUB_OUTPUT
         fi
 
-        
-        # CURRENT_COMMIT_DATA=$(echo "$COMMITS" | jq -r --arg current_sha "$CURRENT_SHA" 'map(select(.sha == $current_sha)) | .[0]')
-        # echo "Current commit data: $CURRENT_COMMIT_DATA"
-        # CURRENT_COMMIT_TIME=$(echo "$CURRENT_COMMIT_DATA" | jq -r '.commit.author.date'| xargs -I{} date -d {} +%s)
-        # echo "Current commit time: $CURRENT_COMMIT_TIME"
-        # # 上一个commit的时间
-        # PREVIOUS_COMMIT_DATA=$(echo "$COMMITS" | jq -r --arg current_sha "$current_SHA" 'map(select(.sha == $current_sha)) | .[0] | .parents[0] | .sha')
-        # echo "Previous commit data: $PREVIOUS_COMMIT_DATA"
-        # PREVIOUS_COMMIT_TIME=$(echo "$PREVIOUS_COMMIT_DATA" | jq -r '.commit.author.date' | xargs -I{} date -d {} +%s)
-        # echo "Previous commit time: $PREVIOUS_COMMIT_TIME"
         
     - name: Check Push Time
       run: |
