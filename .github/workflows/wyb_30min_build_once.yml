@@ -54,6 +54,7 @@ jobs:
         # 最新的20个commit列表
         COMMITS=$(curl -s -H "Authorization: Bearer ${{ secrets.ACTION_NETLIFYDIGITALGARDEN_30MIN_PER_BUILD }}" \
           "https://api.github.com/repos/${{ github.repository }}/commits?per_page=20")
+        
         # 当前commit的时间
         # Extract commit SHAs from the API response
         COMMIT_SHAS=$(echo "$COMMITS" | jq -r '.[].sha')
