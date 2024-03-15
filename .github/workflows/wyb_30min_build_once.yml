@@ -60,11 +60,10 @@ jobs:
         COMMIT_SHAS=$(echo "$COMMITS" | jq -r '.[].sha')
         # IFS=$'\n' read -rd '' -a SHAS_ARRAY <<< "$COMMIT_SHAS"
         SHAS_ARRAY=($(echo "$COMMIT_SHAS" | tr '\n' ' '))
-        echo "SHAS_ARRY 0 ${SHAS_ARRAY[0]}"
-        echo "SHAS_ARRAY 1 ${SHAS_ARRAY[1]}"
         # 获取当前 commit 的索引
         CURRENT_INDEX=20
         for i in "${!SHAS_ARRAY[@]}"; do
+          echo "SHAS_ARRAY $i is ${SHAS_ARRAY[$i]}"
           if [ "${SHAS_ARRAY[$i]}" == "$current_SHA" ]; then
             CURRENT_INDEX=$i
             echo "find current index success~!!"
