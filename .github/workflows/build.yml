@@ -100,7 +100,7 @@ jobs:
         echo "Elapsed time since last commit: $ELAPSED_TIME seconds"
         if [ $ELAPSED_TIME -gt 1800 ]; then
           echo "Time elapsed is greater than 30 minutes. Performing action..."
-          curl -X POST -d '{}' https://api.netlify.com/build_hooks/65a77015df78f3742a8265b4
+          # curl -X POST -d '{}' https://api.netlify.com/build_hooks/65a77015df78f3742a8265b4
         else
           echo "Time elapsed is within 30 minutes. Skipping action."
           exit 1
