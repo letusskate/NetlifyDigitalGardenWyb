@@ -1,0 +1,13 @@
+---
+aliases: 
+tags: 
+dg-publish: true
+title: 孟德尔随机化与基因测序
+date created: 2024-01-25T14:04:42+08:00
+date modified: 2024-01-25T14:07:48+08:00
+---
+
+## 孟德尔随机化调查饮酒对健康的影响
+[关于东亚人适量饮酒与健康的误解\_哔哩哔哩\_bilibili](https://www.bilibili.com/video/BV1rg4y1273W/?spm_id_from=333.1007.tianma.1-1-1.click&vd_source=20cb3e7c6ad3d64f0eb2d763ff005080)  
+## 基因测序
+基因测序很危险，一旦泄露，后果严重
