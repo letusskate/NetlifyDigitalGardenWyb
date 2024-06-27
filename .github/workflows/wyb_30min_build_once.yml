@@ -25,10 +25,6 @@ jobs:
         # echo "latest_commit_timestamp=$LATEST_COMMIT_TIME" >> $GITHUB_OUTPUT
         # echo "previous_commit_timestamp=$PREVIOUS_COMMIT_TIME" >> $GITHUB_OUTPUT
         
-        # 当前commit的SHA
-        CURRENT_SHA=$GITHUB_SHA
-        echo "The commit SHA is: $GITHUB_SHA"
-        
         # 获取上一个SHA(X) （github action的git命令只能获取当前提交，gitlog没有历史记录）
         # PREVIOUS_SHA=$(git rev-parse "$CURRENT_SHA~1")
         # PREVIOUS_SHA=$(git rev-parse "$CURRENT_SHA^")
@@ -50,6 +46,10 @@ jobs:
         # else
         #   echo "Current commit not found in the last 20 commits."
         # fi
+
+        # 当前commit的SHA
+        CURRENT_SHA=$GITHUB_SHA
+        echo "The commit SHA is: $GITHUB_SHA"
         
         # 最新的20个commit列表
         COMMITS=$(curl -s -H "Authorization: Bearer ${{ secrets.ACTION_NETLIFYDIGITALGARDEN_30MIN_PER_BUILD }}" \
