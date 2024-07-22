@@ -1,3 +1,8 @@
+# WYB blog site
+This blog is published on netlify.
+[WYB's blog](https://wyb-blog.netlify.app/)
+It serves as my personal knowledgement management.
+
 # Digital Obsidian Garden
 This is the template to be used together with the [Digital Garden Obsidian Plugin](https://github.com/oleeskild/Obsidian-Digital-Garden). 
 See the README in the plugin repo for information on how to set it up.
