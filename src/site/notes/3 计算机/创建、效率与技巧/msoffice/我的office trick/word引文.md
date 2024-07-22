@@ -15,3 +15,7 @@ word 自带的引文与书目功能：
 正文中选择交叉引用，选择先前插入的完整文献。  
 [word论文中如何用方括号引用参考文献_360新知 (so.com)](https://xinzhi.wenda.so.com/a/1661744207201778)  
 [word论文中如何用方括号引用参考文献 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/342024576)
+
+## bib 插入 word
+### bibtex4word
+[word使用Bibtex4word插入参考文献-CSDN博客](https://blog.csdn.net/m0_37412775/article/details/120854017)

@@ -8,4 +8,6 @@ code runner 运行大部分代码
 docs-markdown markdown 插件  
 learn Vim 学习 vim 插件  
 Svg Preview 查看 svg 矢量图插件  
-GPT Runner 文件和 [chatgpt](../../AI/不同的ai/chatgpt/chatgpt.md) 对话
+GPT Runner 文件和 [chatgpt](../../AI/不同的ai/chatgpt/chatgpt.md) 对话  
+todo tree 显示所有 todo  
+grammarly 写文章纠正语法错误

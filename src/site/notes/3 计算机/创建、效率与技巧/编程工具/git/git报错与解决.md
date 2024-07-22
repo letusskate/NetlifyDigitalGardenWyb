@@ -61,3 +61,6 @@ git config --global --unset https.proxy
 ## The requested URL returned error: 403 没有权限
 ### 相关网页资源
 [(25条消息) 彻底解决关于The requested URL returned error: 403错误_qwerqaqqq的博客-CSDN博客_the requested url returned error: 403](https://blog.csdn.net/qq_40226073/article/details/119801341)
+
+## kex_exchange_identification: Connection closed by remote hostConnection closed by ::1 port 22
+重启

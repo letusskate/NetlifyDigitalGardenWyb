@@ -4,4 +4,5 @@
 
 
 ## 中文
-help -> changelanguage -> chinese -> 图表中保持英文
+help -> changelanguage -> chinese -> 图表中保持英文  
+**注意这种设置会导致图表中逗号变为中文逗号**，因此想用英文逗号必须用英文界面。

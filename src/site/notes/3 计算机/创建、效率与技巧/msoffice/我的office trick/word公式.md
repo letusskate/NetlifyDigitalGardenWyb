@@ -30,10 +30,9 @@
 
 ![image3](/img/user/resources/attachments/image3-1 2.jpg)
 
-## 从图片识别公式
+## 从图片识别公式插入 word
 [https://mathpix.com/](https://link.zhihu.com/?target=https%3A//mathpix.com/)  
 直接利用【Mathpix】软件，按【Ctrl+Alt+M】即可启动 Mathpix，自动将公式图片转为 LaTeX 语言，再去 word 中插入即可  
 点击 LaTeX，将公式粘贴按【enter】，公式就转换完成了。  
 也可以从 mathpix 直接复制为 word 公式。  
 ![image4](/img/user/resources/attachments/image4-1 1.jpg)  
-**

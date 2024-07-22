@@ -2,7 +2,9 @@
 {"dg-publish":true,"permalink":"/3 计算机/计算机网络/DCN相关/RDMA/","title":"RDMA"}
 ---
 
-
+## RDMA应用
+[在各互联网公司中，有将 RDMA 技术用于生产环境的实例吗？ - 知乎](https://www.zhihu.com/question/59122163/answer/3151911363)
+[usenix.org/system/files/nsdi23-bai.pdf](https://www.usenix.org/system/files/nsdi23-bai.pdf)
 ## 相关教程
 [Introduction to Programming Infiniband RDMA · Better Tomorrow with Computer Science](https://insujang.github.io/2020-02-09/introduction-to-programming-infiniband/)  
 [9. RDMA之Queue Pair - 知乎](https://zhuanlan.zhihu.com/p/195757767)  

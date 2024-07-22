@@ -15,7 +15,8 @@
 ![image4](/img/user/resources/attachments/image4-1 3.png)  
 只需要在网址 github 后面添加 1s 即可进入 vscode 格式预览界面。
 ### github 官方支持
-在 github 界面按英文的.，会直接进入 vscode 格式界面。
+在 github 界面按英文的 `.`，会直接进入 vscode 格式界面。  
+改成 github.dev
 ## Github 删除分支
 ![image5](/img/user/resources/attachments/image5 3.png)  
 View all branches 可以查看所有分支并管理。

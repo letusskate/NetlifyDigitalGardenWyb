@@ -87,12 +87,58 @@ include 一张图片。
 \FloatBarrier
 
 ```
-### 图片过大
+### 图片大小
 ```
 \includegraphics[scale=0.5]{filename}
 \includegraphics[width=2.5in]{fig1}
 ```
-### 实例
+### 多图插入
+[Latex(2):LaTex图片、公式、数学符号、伪代码、参考文献引用学习记录\_latex乘号-CSDN博客](https://blog.csdn.net/BIT_HXZ/article/details/126999182)
+```
+\begin{figure}[!t]
+	\centering %居中显示
+	\subfloat[picture 1.]{\includegraphics[width=1.5in]{fig1}%picture 1是子图名称
+		\label{fig_first_case}} %子图标签
+		\hspace{0.1in} %调整横向间距 0.1in是可以调整的数值
+		\vspace{0.2in} %调整纵向间距 0.2in是可以调整的数值
+	\subfloat[picture 2.]{\includegraphics[width=1.5in]{fig1}
+		\label{fig_second_case}}
+		\hfil %图像换行（双栏时换栏也是换行的意思）
+	\subfloat[picture 3.]{\includegraphics[width=1.5in]{fig1}
+		\label{fig_first_case}} 
+		\hspace{0.1in} 
+	\subfloat[picture 4.]{\includegraphics[width=1.5in]{fig1}
+		\label{fig_second_case}}	
+	\caption{Pictures.}%图的名称
+	\label{fig_sim}%图的标签，用于在文章中快速引用
+\end{figure}
+```
+![](/img/user/resources/attachments/20240401latex图片.png)
+#### 多图垂直居中
+[zhihu.com/question/63029836](https://www.zhihu.com/question/63029836)
+[subfloat的子图如何垂直居中对齐？ - LaTeX问答](https://ask.latexstudio.net/ask/question/7338.html)
+### 图片空白裁剪
+裁剪顺序：左下右上
+#### 裁剪前
+```
+\centering
+\includegraphics[width=1\textwidth]{figures/learning.pdf}
+\caption{An overview of our dual-channel model framework.}
+\label{fig:framework}
+\end{figure*}
+```
+#### 裁剪后
+```
+\begin{figure*}[t]
+\centering
+\includegraphics[width=1\textwidth, trim=1cm 0cm 1cm 0cm, clip]{figures/learning.pdf} 
+%  left, botton, right,top
+\caption{An overview of our dual-channel model framework.}
+\label{fig:framework}
+\end{figure*}
+```
+[Site Unreachable](https://blog.csdn.net/weixin_41862755/article/details/133786408)
+### 通用实例
 ```
  \centerline{\includegraphics[angle=90,height=1\textheight,width=1\textwidth]{图片文件名称}}
 

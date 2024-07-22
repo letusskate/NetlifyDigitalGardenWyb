@@ -8,3 +8,5 @@
 [Cohere | Building the Future of AI](https://cohere.com/)
 ## 我的 apikey
 b4J5ixSW42vCVn0gqtcXCVyYg5SaA24vt40wIPg0
+
+目前已经不能用

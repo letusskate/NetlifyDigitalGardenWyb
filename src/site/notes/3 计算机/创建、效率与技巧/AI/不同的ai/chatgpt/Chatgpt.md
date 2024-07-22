@@ -5,3 +5,5 @@
 
 ## 官网
 [ChatGPT: Optimizing Language Models for Dialogue (openai.com)](https://openai.com/blog/chatgpt/)
+### api管理
+[Fetching Title#qtp4](https://platform.openai.com/apps)

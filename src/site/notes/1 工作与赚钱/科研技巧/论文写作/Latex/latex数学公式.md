@@ -13,8 +13,16 @@
 [Latex 数学符号速查字典（第2版）\_latex字典\_长行的博客-CSDN博客](https://blog.csdn.net/Changxing_J/article/details/115265901)
 ### 常用符号
 [latex常用符号 - PilgrimHui - 博客园](https://www.cnblogs.com/liaohuiqiang/p/9671302.html)
+### 希腊字母
+[latex 常见字符 - 砖猿 - 博客园](https://www.cnblogs.com/auspice/p/16596300.html)
+### 数学公式字母
+在 latex workshop 插件就有
 
 ## 语法
+### 集合
+```
+\mid    竖线
+```
 ### 乘法
 ```
 \ast 
@@ -42,7 +50,7 @@ $\overset{标记}{\bigcup\limits_{i=1}^n} A_i$
 
 加宽^：\widehat{x}
 
-加波浪线：\widetilde{x}
+加波浪线：\Tilde{x}  \widetilde{x}
 
 加一个点：\dot{x}
 
@@ -96,5 +104,23 @@ $\overset{标记}{\bigcup\limits_{i=1}^n} A_i$
 [latex数学公式之编号 - 知乎](https://zhuanlan.zhihu.com/p/634984148)
 ### 矩阵
 [如何用latex编写矩阵（包括各类复杂、大型矩阵）？ - 知乎](https://zhuanlan.zhihu.com/p/266267223)
+
+## word 公式转 latex 公式
+word 中选中【公式】栏目，选中想复制的公式，打开【LaTex】选项，把复制公式时勾选为【MathML】被复制到剪贴板转换为纯文本  
+![](/img/user/resources/attachments/20240616latex数学公式.png)
+### mathml 转 latex
+[MathML to LaTeX Converter](https://jgostick.github.io/mml2latex/)
+## 花写字母
+[【LaTex】如何输入英文字母的花体字？花体字最全总结\_latex花体字母-CSDN博客](https://blog.csdn.net/weixin_39589455/article/details/133846783)
+### 花写 1
+mathcal
+### 花写 2
+mathpzc
+### 花写 3
+```
+\mathscr{} \usepackage{mathrsfs}
+```
+## 空心字母
+mathbb
 ## 高级用法
 [知乎上的LaTeX公式的使用心得 - 知乎](https://zhuanlan.zhihu.com/p/464115714?utm_id=0)

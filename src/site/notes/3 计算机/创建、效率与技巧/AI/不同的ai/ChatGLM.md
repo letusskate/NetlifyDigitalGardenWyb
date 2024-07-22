@@ -2,7 +2,8 @@
 {"dg-publish":true,"permalink":"/3 计算机/创建、效率与技巧/AI/不同的ai/ChatGLM/","title":"ChatGLM"}
 ---
 
-
+## 免费使用
+[智谱清言](https://chatglm.cn/main/alltoolsdetail)
 ## 介绍视频
 【新一代 ChatGLM2-6B 模型开箱｜中文 LLM 要崛起了？- 哔哩哔哩】 https://b23.tv/himydka
 

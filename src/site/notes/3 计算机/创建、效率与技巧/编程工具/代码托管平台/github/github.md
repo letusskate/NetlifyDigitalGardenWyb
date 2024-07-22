@@ -21,3 +21,7 @@ project 可以和某些仓库关联
 ### Milestone
 用来管理一类 issue 统一管理截止时间，并查看这一类 issue 的处理进度。
 
+## github awesome
+集合了 github 的所有有趣话题  
+[awesome · GitHub Topics · GitHub](https://github.com/topics/awesome)  
+[GitHub - sindresorhus/awesome: 😎 Awesome lists about all kinds of interesting topics](https://github.com/sindresorhus/awesome)

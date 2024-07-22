@@ -4,7 +4,7 @@
 
 
 ## Word 转 latex（mathml 与 latex 互转）
-### 转公式
+### word 公式转 latex 公式
 [texmath demo (johnmacfarlane.net)](https://johnmacfarlane.net/texmath)  
 1.打开 Word 2016  
 2.点击你要转换的公式，切记一定要先点击公式  

@@ -16,3 +16,7 @@
 ## 简体中文
 安装 extension  
 crtl+shift+p 输入 display，设置语言即可。
+
+## 主题
+
+现代浅色 default light modern 纯白色，边框也是白色。方便分屏
