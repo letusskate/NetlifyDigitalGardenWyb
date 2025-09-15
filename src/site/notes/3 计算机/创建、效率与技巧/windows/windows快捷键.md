@@ -21,4 +21,8 @@ crtl+alt+del 三大金刚键 cad
 alt+shift+numloc，小键盘当鼠标。5 代表左键，\* 代表右键  
 新建文件夹：crtl+shift+n  
 win+x 快捷选单  
-xin+x 再按两下 u 关机
+xin+x 再按两下 u 关机  
+win+z 快照组（[win11快照组snap](Win11/win11快照组snap.md)）  
+win+shift+ 左右 把当前窗口切换到另一个屏幕
+
+win+.    win+; 打开表情面板

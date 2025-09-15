@@ -47,6 +47,7 @@ https://github.com/denolehov/obsidian-git/issues/459
 android 端失效后，只能在 mgit 上 push，之后重新加载 obsidian。
 #### 教程
 ##### 不用 ob git，手动同步
+termux，Mgit 手动同步即可  
 https://gist.github.com/Makeshift/43c7ecb3f1c28a623ea4386552712114
 ##### 用 android 其他软件代替手机端 ob（我的选择 [git journal](../../../../2%20生活与娱乐/生活琐事技巧/电器/手机/APP/git%20journal.md)）
 https://sspai.com/post/65316  
@@ -66,12 +67,18 @@ google 搜索即可，不然要去 google play 商店，华为上不去
 https://f-droid.org/zh_Hans/packages/com.manichord.mgit/
 
 ## 云同步方法
+用 remotely save 插件管理同步内容和同步时机
+### OOS
+[Obsidian 配合 RemotelySave 实现阿里云 OSS 云同步云加密\_哔哩哔哩\_bilibili](https://www.bilibili.com/video/BV18K411Z7Su/?spm_id_from=333.337.search-card.all.click&vd_source=20cb3e7c6ad3d64f0eb2d763ff005080)
 ### 坚果云 webdav
-支持手机（syncfolder）、windows、linux
+支持手机（syncfolder APP）、windows、linux  
+读取次数有限制（[使用坚果云+remotely save同步Windows和iPad端obsidian - 疑问解答 - Obsidian 中文论坛](https://forum-zh.obsidian.md/t/topic/40500)）  
 ### 坚果云文件夹同步
 支持 windows、linux
 ### onedrive
-支持手机（syncfolder）、windows
+支持手机（syncfolder APP）、windows
+### infinicloud（webdav）
+支持大量文件的索引
 ### 百度网盘同步文件夹
 支持 windows
 ### NAS

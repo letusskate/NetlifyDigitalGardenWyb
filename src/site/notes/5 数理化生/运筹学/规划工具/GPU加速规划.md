@@ -5,6 +5,12 @@
 
 ## 相关文章
 [运筹系列53：GPU用于线性规划和整数规划调研\_使用gpu加速线性规划\_IE06的博客-CSDN博客](https://blog.csdn.net/kittyzc/article/details/109043633)
+## cuOpt
+[NVIDIA cuOpt - NVIDIA Docs](https://docs.nvidia.com/cuopt/index.html)  
+[Site Unreachable](https://zhuanlan.zhihu.com/p/2707677384)  
+[Site Unreachable](https://build.nvidia.com/nim?q=llm)  
+### 试用网站（只能针对特定问题）
+[Site Unreachable](https://build.nvidia.com/nvidia/nvidia-cuopt)
 ## CuPy
 一个类似 numpy 的包，可以用 gpu 加速矩阵运算。
 ### 安装
@@ -18,6 +24,8 @@
 
 ## CuSPARSE
 [What libraries for linear solvers on CUDA can you recommend? - Accelerated Computing / GPU-Accelerated Libraries - NVIDIA Developer Forums](https://forums.developer.nvidia.com/t/what-libraries-for-linear-solvers-on-cuda-can-you-recommend/233775)
+### cg sample with CuSPARSE API
+[CUDALibrarySamples/cuSPARSE/cg at master · NVIDIA/CUDALibrarySamples · GitHub](https://github.com/NVIDIA/CUDALibrarySamples/tree/master/cuSPARSE/cg)
 ## nvida
 [加速的 AI 物流和路线优化软件 | NVIDIA Developer](https://developer.nvidia.com/zh-cn/cuopt-logistics-optimization)  
 [NVIDIA CUDA-X | NVIDIA 开发者](https://developer.nvidia.cn/zh-cn/gpu-accelerated-libraries)

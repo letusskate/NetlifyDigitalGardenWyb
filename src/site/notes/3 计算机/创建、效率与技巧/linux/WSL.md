@@ -21,3 +21,8 @@ Windows Subsystem for Linux 适用于 Linux 的 Windows 子系统。
 [WSL没有图形界面？快速搭建Python和C++开发环境\_哔哩哔哩\_bilibili](https://www.bilibili.com/video/BV1u44y1N78v/?spm_id_from=333.337.search-card.all.click)
 ### wsl 基本使用
 [使用Windows构建高效的Linux开发环境\_哔哩哔哩\_bilibili](https://www.bilibili.com/video/BV1Du4y1q7YJ/?buvid=XY630CE669F34078F341989B1EE06E60B0127&is_story_h5=false&mid=g8UDjEqHIS5oCexxb9oAEQ%3D%3D&p=1&plat_id=116&share_from=ugc&share_medium=android&share_plat=android&share_session_id=f80f4845-05c0-4627-a93c-c4001dc78ba3&share_source=COPY&share_tag=s_i&timestamp=1692548494&unique_k=3ADudyz&up_id=15135791)
+## wsl 的卸载
+[如何在Win10/Win11上彻底卸载 WSL\_哔哩哔哩\_bilibili](https://www.bilibili.com/video/BV1BWUxYAEW1/?spm_id_from=333.337.top_right_bar_window_history.content.click)
+## wsl 有残余
+打开此电脑，搜索 `*.vhdx`  
+[给Windows WSL2瘦身释放硬盘空间减少硬盘占用\_哔哩哔哩\_bilibili](https://www.bilibili.com/video/BV1mh4y1T7Mn/?spm_id_from=333.337.search-card.all.click&vd_source=20cb3e7c6ad3d64f0eb2d763ff005080)

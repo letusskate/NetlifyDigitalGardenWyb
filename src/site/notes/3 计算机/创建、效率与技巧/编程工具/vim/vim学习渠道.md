@@ -10,7 +10,7 @@
 [GitHub - wsdjeg/Learn-Vim\_zh\_cn](https://github.com/wsdjeg/Learn-Vim_zh_cn)  
 [GitHub - iggredible/Learn-Vim: Learning Vim and Vimscript doesn't have to be hard. This is the guide that you're looking for 📖](https://github.com/iggredible/Learn-Vim)  
 我下载到本地 resources 了  
-[Learn-Vim_zh_cn-master](../../../../resources/OtherNotes/Learn-Vim_zh_cn-master.zip)
+[Learn-Vim_zh_cn-master](../../../../resources/OtherNotes/github_learn_vim/Learn-Vim_zh_cn-master.zip)
 ### vscode learn vim
 可以在 vscode learn vim 学习插件中学 vim。  
 可视化界面非常好，虽然是英文教程，但用词比较简单，挺好读懂的。我下载到本地 resources 了  

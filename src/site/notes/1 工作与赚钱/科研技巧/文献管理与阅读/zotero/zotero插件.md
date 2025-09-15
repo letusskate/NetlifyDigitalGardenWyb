@@ -3,6 +3,8 @@
 ---
 
 
+## 官方插件推荐
+[plugins \[Zotero Documentation\]](https://www.zotero.org/support/plugins)
 ## 实用插件列表
 
 | 插件名称                                                                             | 主要功能                                                     | 安装链接                                                       |
@@ -44,4 +46,11 @@ Zotero connector
 ### 免费密钥
 [Zotero GPT | 免费密钥配置必杀技，小白也能用哦～\_哔哩哔哩\_bilibili](https://www.bilibili.com/video/BV1JP411Y7kz/?buvid=XY630CE669F34078F341989B1EE06E60B0127&is_story_h5=false&mid=g8UDjEqHIS5oCexxb9oAEQ%3D%3D&p=1&plat_id=116&share_from=ugc&share_medium=android&share_plat=android&share_session_id=53731ec7-662f-4e25-9600-0855b4881c64&share_source=COPY&share_tag=s_i&timestamp=1693186096&unique_k=M2AC2qO&up_id=381558745&vd_source=20cb3e7c6ad3d64f0eb2d763ff005080)
 ## zotero reference
-可以方便的查看当前文献的参考文献。
+可以方便的查看当前文献的参考文献。  
+[【zotero使用】使用crush reference插件一键抓取文章参考文献列表中的文献条目和PDF\_哔哩哔哩\_bilibili](https://www.bilibili.com/video/BV1Jb4y1G7gd/?buvid=XY630CE669F34078F341989B1EE06E60B0127&from_spmid=tm.recommend.0.0&is_story_h5=false&mid=g8UDjEqHIS5oCexxb9oAEQ%3D%3D&p=1&plat_id=116&share_from=ugc&share_medium=android&share_plat=android&share_session_id=ce8b7de2-2730-461a-9364-7823f24c72ed&share_source=COPY&share_tag=s_i&spmid=united.player-video-detail.0.0&timestamp=1705760210&unique_k=phcQZNT&up_id=1466593175)
+## zotero better bibtex
+[Site Unreachable](https://zhuanlan.zhihu.com/p/458340252)  
+[Zotero | 06-如何在LaTeX写作中使用Zotero（Better-BibTeX的使用）\_哔哩哔哩\_bilibili](https://www.bilibili.com/video/BV1K7411p75F/?spm_id_from=333.337.search-card.all.click)  
+zotero 导出时选择 bibtex，之后选择自动更新，就能时刻和文献库同步。  
+设置中可以取消导出字段，`note,extra,file,keywords`  
+是否将 URL 添加到 bibtex 导出的，可以选为是，这样就能显示网站网址了。

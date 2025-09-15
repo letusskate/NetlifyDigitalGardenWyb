@@ -39,15 +39,20 @@
 [07-简单3步搞定Zotero坚果云同步-WebDAV版\_哔哩哔哩\_bilibili](https://www.bilibili.com/video/BV1j8411V7fw/?spm_id_from=333.788&vd_source=20cb3e7c6ad3d64f0eb2d763ff005080)  
 [Zotero 5.0 + 坚果云同步盘 + papership 配置教程\_papership 同步zotero\_alxe\_made的博客-CSDN博客](https://blog.csdn.net/alxe_made/article/details/105480762)  
 [文献管理软件Zotero详细教程四（如何实现与坚果云的云同步）\_哔哩哔哩\_bilibili](https://www.bilibili.com/video/BV1cP411N766/?spm_id_from=333.337.search-card.all.click&vd_source=20cb3e7c6ad3d64f0eb2d763ff005080)
-#### 坚果云 webdev 帐号
+#### 坚果云 webdev 帐号密码
 https://dav.jianguoyun.com/dav/  
 157707905@qq.com  
 a46p949jgjccc6bp
 
 ## zotero 手机端
 [苹果和安卓移动平台上的Zotero app推荐 - 知乎](https://zhuanlan.zhihu.com/p/103503064)  
-[GitHub - mickstar/Zoo-For-Zotero: This is an Android app for viewing Zotero libraries.](https://github.com/mickstar/Zoo-For-Zotero)
-
+[GitHub - mickstar/Zoo-For-Zotero: This is an Android app for viewing Zotero libraries.](https://github.com/mickstar/Zoo-For-Zotero)  
+### 我的 redmi turbo 3 zoo token  
+`zT4g4QKh33R9dve6JWVXB1M4`
+### 设置 webdav
+进入设置，打开 use webdav，之后 config
+### 新的安卓端
+[Zotero安卓最新版安装及配置教程，安卓平板也能体验文献阅读的快乐\_哔哩哔哩\_bilibili](https://www.bilibili.com/video/av113119959450791/?vd_source=20cb3e7c6ad3d64f0eb2d763ff005080)
 ## linux zotero
 ### zotero 在 linux 的安装
 [installation [Zotero Documentation]](https://www.zotero.org/support/installation)

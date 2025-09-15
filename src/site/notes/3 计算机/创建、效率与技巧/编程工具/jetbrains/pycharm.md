@@ -59,3 +59,7 @@ Crtl+q 查看代码文档
 这些索引可以共享，使得初始化项目的时候不需要再计算生成新的 local 的索引。
 ## pycharm terminal 环境变量问题
 重启 pycharm 才能刷新环境变量，重开 terminal 没用
+## pycharm ssh
+[pycharm配置SSH远程连接服务器（0基础详细版）\_pycharm ssh-CSDN博客](https://blog.csdn.net/m0_48632667/article/details/139216975)  
+[【pycharm使用ssh连接服务器】\_pycharm ssh连接服务器-CSDN博客](https://blog.csdn.net/CSTGYinZong/article/details/136631246)  
+和 vscode 不同，pycharm 是在本地修改代码，之后推到服务器。这不好。

@@ -10,4 +10,4 @@
 [两千元能买到的做工顶流，绿联私有云DX4600实机体验！\_哔哩哔哩\_bilibili](https://www.bilibili.com/video/BV1HM411t7iY/?spm_id_from=333.337.search-card.all.click)
 
 ## 自己搭建 NAS
-[NAS服务器](../../软件开发/服务器搭建/NAS服务器.md)
+[NAS服务器](../../软件开发/服务器server搭建/服务器用途/NAS服务器.md)

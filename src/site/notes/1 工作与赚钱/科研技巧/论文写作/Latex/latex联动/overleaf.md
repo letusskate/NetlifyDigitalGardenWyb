@@ -18,7 +18,8 @@
 ### 方案一：git 同步
 通过 overleaf 提供的 git 平台，clone，或者 push  
 优点：完全脱离了网页操作，很方便  
-缺点：无法选择是否同步网页内容到本地，容易导致冲突
+缺点：无法选择是否同步网页内容到本地，容易导致冲突  
+我的 git 令牌：`olp_2v1eyoBKSLKzY3ii1ronD7sdUDU17E1UifT3`
 ### 方案二：github 同步（最优）
 通过 overleaf 链接 github。更新 github 后，直接在 overleaf 网页上点击上传，即可同步 github 内容到 overleaf 中。更新 overleaf 后，在 overleaf 网页上点击同步到 github，即可同步 overleaf 内容到 github 中。  
 优点：不容易导致冲突  

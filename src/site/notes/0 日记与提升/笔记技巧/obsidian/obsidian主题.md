@@ -11,6 +11,12 @@
 [Obsidian 外观CSS，一次退烧 V2.0\_哔哩哔哩\_bilibili](https://www.bilibili.com/video/BV1uR4y127UT/?spm_id_from=333.337.search-card.all.click&vd_source=20cb3e7c6ad3d64f0eb2d763ff005080)  
 [【Obsidian教程】AnuPpuccin 主题完全设置与讲解\_哔哩哔哩\_bilibili](https://www.bilibili.com/video/BV1Ds4y1Q7T9/?spm_id_from=333.337.search-card.all.click&vd_source=20cb3e7c6ad3d64f0eb2d763ff005080)  
 [3分钟带你设置obsidian最美主题\_哔哩哔哩\_bilibili](https://www.bilibili.com/video/BV1nv4y1q78D/?spm_id_from=333.337.search-card.all.click)
+### 合适的浅色背景
+notion  
+atom
+### rainbo folder 颜色设置
+#### atom
+![|400](/img/user/resources/attachments/20240923obsidian主题.png)
 
 ## border
 圆角卡片，浅色主题比较好看，配置简单

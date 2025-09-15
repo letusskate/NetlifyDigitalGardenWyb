@@ -19,6 +19,18 @@
 在 latex workshop 插件就有
 
 ## 语法
+### 求和
+```
+默认策略（若显示错误，则加上limits或nolimits）：\sum_{}^{}
+约束放在上下：\sum\limits_{}^{}
+约束放在右面：\sum\nolimits_{}^{}
+```
+### 撇号
+```
+^{\prime}
+'
+%% 这两种是一样的
+```
 ### 集合
 ```
 \mid    竖线
@@ -46,7 +58,7 @@ $\overset{标记}{\bigcup\limits_{i=1}^n} A_i$
 ```
 加^号：\hat{x}
 
-加横线：\overline{x}
+加横线：\overline{x}  \bar{x}   \overset{-}{L}
 
 加宽^：\widehat{x}
 
@@ -59,8 +71,9 @@ $\overset{标记}{\bigcup\limits_{i=1}^n} A_i$
 ### 空心符号
 需要的宏包：\usepackage{amsfonts,amssymb}  
 命令：\mathbb{}
-### 多行对齐
-用 split  
+### 公式多行对齐
+详解网页：[Site Unreachable](https://zhuanlan.zhihu.com/p/482828562)  
+用 equation+split 或 subequations+align  
 `&` 标注在每一行的对齐位置  
 如果外面有一个括号就会报错，如下例  
 第一行错误，第二行正确
@@ -110,17 +123,84 @@ word 中选中【公式】栏目，选中想复制的公式，打开【LaTex】�
 ![](/img/user/resources/attachments/20240616latex数学公式.png)
 ### mathml 转 latex
 [MathML to LaTeX Converter](https://jgostick.github.io/mml2latex/)
-## 花写字母
+
+## 特殊字母
+### 花写字母
 [【LaTex】如何输入英文字母的花体字？花体字最全总结\_latex花体字母-CSDN博客](https://blog.csdn.net/weixin_39589455/article/details/133846783)
-### 花写 1
+#### 花写 1
 mathcal
-### 花写 2
+#### 花写 2
 mathpzc
-### 花写 3
+#### 花写 3
 ```
 \mathscr{} \usepackage{mathrsfs}
 ```
-## 空心字母
+### 空心字母
 mathbb
+### 汇总
+```
+\documentclass{article}
+\usepackage[UTF8]{ctex}
+\usepackage{threeparttable}
+\usepackage[scale={0.9,0.9}]{geometry}
+
+\DeclareMathAlphabet{\mathpzc}{OT1}{pzc}{m}{it}%数学符号字体的设置
+%\usepackage{bm}      % 粗斜体 \bm
+\usepackage{bbm}     % \mathbbm, \mathbbss, \mathbbmtt
+\usepackage{dsfont}  % \mathds
+\usepackage{yfonts}  % \textfrak, \textswab
+\usepackage{amssymb} % \mathfrak, \mathcal
+\usepackage{mathrsfs}% \mathscr, 不同于\mathcal or \mathfrak 之类的英文花体字体%产生拉普拉斯变换式的字母
+
+\begin{document}
+
+\newcommand{\testmath}[1]{ \begin{tabular}{l}
+    $#1{ABCDEFGHIJKLMNOPQRSTUVWXYZ}$ \\[-5pt]
+    $#1{abcdefghijklmnopqrstuvwxyz\ 0123456789}$ 
+\end{tabular}}
+\newcommand{\testtext}[1]{ \begin{tabular}{l}
+    #1{ABCDEFGHIJKLMNOPQRSTUVWXYZ} \\[-5pt]
+    #1{abcdefghijklmnopqrstuvwxyz\ 0123456789} 
+\end{tabular}}
+
+\begin{table}
+\centering
+\begin{threeparttable}
+\begin{tabular}{c|l|c}
+  \hline
+  command          &       result            & package \\\hline
+  default          & \testmath{}             & non        \\\hline
+  \verb|\mathrm|   & \testmath{\mathrm}      & non        \\\hline
+  \verb|\mathit|   & \testmath{\mathit}      & non        \\\hline
+  \verb|\mathbf|   & \testmath{\mathbf}      & non        \\\hline
+  \verb|\mathtt|   & \testmath{\mathtt}      & non        \\\hline
+  \verb|\mathsf|   & \testtext{\textsf}      & non\tnote{a}        \\\hline
+  \verb|\mathcal|  & \testmath{\mathcal}     & non\tnote{b}        \\\hline
+  \verb|\mathbb|   & \testmath{\mathbb}      & \verb|\usepackage{amssymb}|\tnote{c}   \\\hline
+  \verb|\mathfrak| & \testmath{\mathfrak}    & \verb|\usepackage{amssymb}|   \\\hline
+%  \verb|\bm|       & \testmath{\bm}          & \verb|\usepackage{bm}|        \\\hline
+  \verb|\mathbbm|  & \testmath{\mathbbm}     & \verb|\usepackage{bbm}|       \\\hline
+  \verb|\mathbbmss|  & \testmath{\mathbbmss} & \verb|\usepackage{bbm}|       \\\hline
+  \verb|\mathbbmtt|  & \testmath{\mathbbmtt} & \verb|\usepackage{bbm}|       \\\hline
+  \verb|\mathscr|  & \testmath{\mathscr}     & \verb|\usepackage{mathrsfs}|  \\\hline
+  \verb|\mathds|   & \testmath{\mathds}      & \verb|\usepackage{dsfont}|\tnote{d}  \\\hline
+  \verb|\mathpzc|  & \testmath{\mathpzc}     & non\tnote{e}  \\\hline
+  \verb|\textfrak| & \testtext{\textfrak}     & \verb|\usepackage{yfonts}|  \\\hline
+  \verb|\textswab| & \testtext{\textswab}     & \verb|\usepackage{yfonts}|  \\\hline
+\end{tabular}
+\begin{tablenotes}
+\item [a] \verb|\mathpzc| conflicts with \verb|\mathsf|, so here the result is in fact from \verb|\textsf|
+       which gives the same result with \verb|\mathsf|.
+\item [b] The useage of package \verb|eucal| can change the font appearence.
+\item [c] The \verb|amssymb| package is a superset of the \verb|amsfonts| package.
+\item [d] Using \verb|sans| option, \verb|\usepackage[sans]{dsfont}|, gives sans version font.
+\item [e] Need the command: \verb|\DeclareMathAlphabet{\mathpzc}{OT1}{pzc}{m}{it}|
+\end{tablenotes}
+\end{threeparttable}
+\end{table}
+\end{document}
+
+```
+![](/img/user/resources/attachments/20240911latex数学公式.png)
 ## 高级用法
 [知乎上的LaTeX公式的使用心得 - 知乎](https://zhuanlan.zhihu.com/p/464115714?utm_id=0)

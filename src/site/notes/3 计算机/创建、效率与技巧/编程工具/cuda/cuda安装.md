@@ -3,7 +3,7 @@
 ---
 
 
-## 查看 cuda 版本
+## 查看 cuda 版本、验证 cuda 安装成功
 `nvcc -V`
 ## 安装前查看最高支持版本
 cmd 执行 `nvidia-smi`

@@ -2,7 +2,8 @@
 {"dg-publish":true,"permalink":"/3 计算机/创建、效率与技巧/编程工具/git/git 文件太大/","title":"git 文件太大"}
 ---
 
-
+## git 大文件管理
+[别再往 git 提交大文件啦！\_哔哩哔哩\_bilibili](https://www.bilibili.com/video/BV1Fe4y1F75N/?spm_id_from=333.337.search-card.all.click&vd_source=20cb3e7c6ad3d64f0eb2d763ff005080)
 ## 相关教程
 [如何解决 GitHub 提交次数过多 .git 文件过大的问题？ - 知乎](https://www.zhihu.com/question/29769130)  
 [git仓库清理瘦身解决 .git文件夹过大的问题\_git pack文件过大\_码农有梦想的博客-CSDN博客](https://blog.csdn.net/weixin_41791737/article/details/128646757)

@@ -6,8 +6,8 @@
 ## 意义
 通过浏览器运行一个 workspace，不用再多端同步代码
 
-## github workspace（github 部署）
-[github workspaces](../代码托管平台/github/github.md#github%20workspaces)
+## github codespaces（github 部署）
+[github codespaces](../代码托管平台/github/github%20codespaces.md)
 
 ## code-server 服务器（自己部署）
 [云服务器部署VS Code网页版（使用code-server）\_哔哩哔哩\_bilibili](https://www.bilibili.com/video/BV1w44y1y7S2/)

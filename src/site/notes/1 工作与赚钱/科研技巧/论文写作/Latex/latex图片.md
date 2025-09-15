@@ -33,7 +33,7 @@
 ### 方式
 #### 格式转化
 Inkspace svg 转 pdf，之后插入  
-[svg 转 pdf](../../../../3%20计算机/创建、效率与技巧/非编程软件/编辑与格式/格式转化.md#svg%20转%20pdf)
+[svg 转 pdf](../../../../3%20计算机/创建、效率与技巧/非编程软件/编辑与格式/SVG转PDF.md#svg%20转%20pdf)
 #### 引入包
 ```tex
 \usepackage{graphicx} % 需使用包
@@ -93,6 +93,23 @@ include 一张图片。
 \includegraphics[width=2.5in]{fig1}
 ```
 ### 多图插入
+相关库，需要二选一，同时用会报错  
+subfig(不推荐，如果在 figure 中使用 float 环境，会导致图片上放有空白，不适用 float 环境又会导致图片之间间距太大)
+```
+% \usepackage[caption=false,font=normalsize,labelfont=sf,textfont=sf]{subfig}
+% %% wyb more beautiful subfig
+% \usepackage[caption=false,font=footnotesize,labelfont=rm,textfont=rm]{subfig}
+% %% end wyb more beautiful subfig
+```
+subcaption（推荐，但需要自己设置字体格式，比较麻烦）
+```
+%% wyb subcaption 
+\usepackage{graphicx}
+% \usepackage{caption}
+\usepackage{subcaption}
+%% end wyb subcaption 
+```
+#### subfloat
 [Latex(2):LaTex图片、公式、数学符号、伪代码、参考文献引用学习记录\_latex乘号-CSDN博客](https://blog.csdn.net/BIT_HXZ/article/details/126999182)
 ```
 \begin{figure}[!t]
@@ -114,8 +131,124 @@ include 一张图片。
 \end{figure}
 ```
 ![](/img/user/resources/attachments/20240401latex图片.png)
+#### minipage
+```
+\begin{figure}[htbp]
+	\centering
+	\begin{minipage}{0.49\linewidth}
+		\centering
+		\includegraphics[width=0.9\linewidth]{Figure/chutian.JPG}
+		\caption{chutian1}
+		\label{chutian1}%文中引用该图片代号
+	\end{minipage}
+	\begin{minipage}{0.49\linewidth}
+		\centering
+		\includegraphics[width=0.9\linewidth]{Figure/chutian.JPG}
+		\caption{chutian2}
+		\label{chutian2}%文中引用该图片代号
+	\end{minipage}
+	%\qquad
+	%让图片换行，
+	
+	\begin{minipage}{0.49\linewidth}
+		\centering
+		\includegraphics[width=0.9\linewidth]{Figure/chutian.JPG}
+		\caption{chutian3}
+		\label{chutian3}%文中引用该图片代号
+	\end{minipage}
+	\begin{minipage}{0.49\linewidth}
+		\centering
+		\includegraphics[width=0.9\linewidth]{Figure/chutian.JPG}
+		\caption{chutian4}
+		\label{chutian4}%文中引用该图片代号
+	\end{minipage}
+\end{figure}
+```
+#### subfigure
+```
+\begin{figure*}[thbp]
+    \centering
+    \begin{subfigure}[b]{0.162\textwidth}
+        \centering
+        \includegraphics[width=\textwidth,trim=0cm 0cm 4cm 1.5cm, clip]{graph/motivation-DP-Graph5.pdf}
+        % \captionsetup{font={\footnotesize,bf,stretch=1.25}}
+        \captionsetup{font=scriptsize, justification=centering}
+        \vspace{-0.6cm}
+        \caption{DP in edge.}
+        \label{fig:motivation-DP}
+    \end{subfigure}
+    ~~
+    \begin{subfigure}[b]{0.162\textwidth}
+        \centering
+        \includegraphics[width=\textwidth,trim=0cm 0cm 4cm 2cm, clip]{graph/motivation-PPTP-TPPP.pdf}
+        % \captionsetup{font={\footnotesize,bf,stretch=1.25}}
+        \captionsetup{font=scriptsize, justification=centering}
+        \vspace{-0.6cm}
+        \caption{MP in edge.}
+        \label{fig:motivation-PPTP}
+    \end{subfigure}
+    ~~
+    \begin{subfigure}[b]{0.162\textwidth}
+        \centering
+        \includegraphics[width=\textwidth,trim=0cm 0cm 4cm 2cm, clip]{graph/motivation-multitask-multitaskgraph.pdf}
+        % \captionsetup{font={\footnotesize,bf,stretch=1.25}}
+        \captionsetup{font=scriptsize, justification=centering}
+        \vspace{-0.6cm}
+        \caption{Multi task in one GPU.}
+        \label{fig:motivation-task}
+    \end{subfigure}
+    ~~
+    \begin{subfigure}[b]{0.162\textwidth}
+        \centering
+        \includegraphics[width=\textwidth,trim=0cm 0.05cm 4cm 2cm, clip]{graph/motivation-batchsize-Graph4.pdf}
+        % \captionsetup{font={\footnotesize,bf,stretch=1.25}}
+        \captionsetup{font=scriptsize, justification=centering}
+        \vspace{-0.6cm}
+        \caption{Batch processing.}
+        \label{fig:motivation-batch}
+    \end{subfigure}
+    ~~
+    \begin{subfigure}[b]{0.162\textwidth}
+        \centering
+        \includegraphics[width=\textwidth,trim=0cm 0cm 4cm 2cm, clip]{motivation-2-schedule-Graph1.pdf}
+        \captionsetup{font=scriptsize, justification=centering}
+        \vspace{-0.6cm}
+        \caption{Centralized schedule.}
+        \label{fig:motivation-service_placement}
+    \end{subfigure}
+    ~~
+    \begin{subfigure}[b]{0.162\textwidth}
+        \centering
+        \includegraphics[width=\textwidth,trim=0cm 0cm 0cm 0.7cm, clip]{graph/motivation-2-modelload-Graph3.pdf}
+        % \captionsetup{font={\footnotesize,bf,stretch=1.25}}
+        \captionsetup{font=scriptsize, justification=centering}
+        \vspace{-0.6cm}
+        \caption{Load models to GPU.}
+        \label{fig:motivation-model_load}
+    \end{subfigure}
+    % \vspace{-0.3cm}
+    \caption{\EPARAbf is committed to serving real-time categorized AI parallel inference in edge.}\label{fig:motivation}
+    \vspace{-0.1cm}
+\end{figure*}
+```
+#### 什么也不用直接 include 多张
+这样做必须减小图片大小，因为多个直接 include 会存在 margin。
+```
+\begin{figure}[!t]
+    % \centering
+    % \vspace{-5pt}
+    \includegraphics[width=0.239\textwidth, trim=1cm 0cm 2cm 0cm, clip]{graph/4all_compare-Graph3.pdf}
+    \label{real-world compare fig_first_case_value}
+    % \hfil
+    % ~~
+    \includegraphics[width=0.239\textwidth, trim=1cm 0cm 2cm 0cm, clip]{graph/4all_compare-Graph2.pdf}%
+    \label{real-world compare fig_second_case_timecost}
+    \caption{Real-world comparison of optimal value and real-time.}\label{fig:real-world compare}
+    \vspace{-5pt}
+\end{figure}
+```
 #### 多图垂直居中
-[zhihu.com/question/63029836](https://www.zhihu.com/question/63029836)
+[zhihu.com/question/63029836](https://www.zhihu.com/question/63029836)  
 [subfloat的子图如何垂直居中对齐？ - LaTeX问答](https://ask.latexstudio.net/ask/question/7338.html)
 ### 图片空白裁剪
 裁剪顺序：左下右上
