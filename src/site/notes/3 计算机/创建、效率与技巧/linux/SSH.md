@@ -33,6 +33,7 @@ ssh-keygen -t rsa
 #### 主机查看公钥
 ```
 cat ~/.ssh/id_ed25519.pub
+cat ~/.ssh/id_rsa.pub
 ```
 ### 给云端添加 ssh 公钥
 [生成、添加 SSH 公钥 | Gitee 产品文档](https://help.gitee.com/repository/ssh-key/generate-and-add-ssh-public-key)

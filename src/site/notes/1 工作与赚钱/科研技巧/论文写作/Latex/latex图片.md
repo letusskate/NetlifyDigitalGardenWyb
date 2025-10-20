@@ -94,7 +94,7 @@ include 一张图片。
 ```
 ### 多图插入
 相关库，需要二选一，同时用会报错  
-subfig(不推荐，如果在 figure 中使用 float 环境，会导致图片上放有空白，不适用 float 环境又会导致图片之间间距太大)
+subfig(不推荐，如果在 figure 中使用 float 环境，会导致图片上放有空白，不使用 float 环境又会导致图片之间间距太大)
 ```
 % \usepackage[caption=false,font=normalsize,labelfont=sf,textfont=sf]{subfig}
 % %% wyb more beautiful subfig
@@ -231,7 +231,7 @@ subcaption（推荐，但需要自己设置字体格式，比较麻烦）
     \vspace{-0.1cm}
 \end{figure*}
 ```
-#### 什么也不用直接 include 多张
+#### 什么不能直接在一个 figure 中 include 多张
 这样做必须减小图片大小，因为多个直接 include 会存在 margin。
 ```
 \begin{figure}[!t]

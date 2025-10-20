@@ -44,7 +44,7 @@ $ ssh -T git@github.com
 
 ## 更改 hosts 文件
 ### 路径
-C:\Windows\System32\drivers\etc\hosts
+`C:\Windows\System32\drivers\etc\hosts`
 ### 大神的 host
 <https://link.zhihu.com/?target=https%3A//raw.hellogithub.com/hosts>
 ### 更改后刷新 dns

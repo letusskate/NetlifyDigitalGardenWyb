@@ -14,5 +14,9 @@
 5. `perl ./install-tl --no-interaction # as root or with writable destination`
 6. Finally, prepend `/usr/local/texlive/YYYY/bin/PLATFORM` to your PATH,  
     e.g., `/usr/local/texlive/2023/bin/x86_64-linux`
+
+**最后，linux 安装完成后一定要重启，重启后才能正常编译**
+### 最后的环境变量
+`/usr/local/texlive/2025/bin/x86_64-linux`
 ### 参考
 [linux 添加环境变量](../../linux操作与命令/权限相关命令.md#linux%20添加环境变量)
