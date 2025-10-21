@@ -1,7 +1,7 @@
 [build]
   publish = "dist"
   # command = "npm install && npm run build"
-  command = "NODE_OPTIONS=--max_old_space_size=4096 npm install && npm run build"
+  command = "NODE_OPTIONS=--max-old-space-size=8192 npm install && NODE_OPTIONS=--max-old-space-size=8192 npm run build"
   ignore = "exit 0"
 
 [[redirects]]
