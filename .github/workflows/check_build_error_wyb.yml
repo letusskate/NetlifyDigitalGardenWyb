@@ -1,0 +1,48 @@
+name: Deploy to Netlify
+
+on:
+  push:
+    branches: [ main ]
+
+# 关键配置：实现新提交取消旧部署
+concurrency: 
+  group: netlify-deployment
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    # 关键：关联到 Environment
+    environment: 
+      name: Production
+      url: https://wyb-blog.netlify.app/  # 你的 Netlify 网址
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+      
+    # 等待一分钟（可调整时间）
+    - name: Wait before deployment
+      run: |
+        echo "等待 60 秒，如果有新提交会取消当前部署..."
+        sleep 60
+        echo "等待结束，开始测试"
+        
+  build:
+    runs-on: ubuntu-22.04
+    
+    strategy:
+      matrix:
+        node-version: [20.x]
+        # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
+
+    steps:
+    - uses: actions/checkout@v3
+    - name: Use Node.js ${{ matrix.node-version }}
+      uses: actions/setup-node@v3
+      with:
+        node-version: ${{ matrix.node-version }}
+        cache: 'npm'
+    - run: npm install
+    - run: npm run build --if-present
+        
