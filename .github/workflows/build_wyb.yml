@@ -1,0 +1,42 @@
+name: Deploy to Netlify
+
+on:
+  push:
+    branches: [ main ]
+
+# 关键配置：实现新提交取消旧部署
+concurrency: 
+  group: netlify-deployment
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    # 关键：关联到 Environment
+    environment: 
+      name: Production
+      url: https://wyb-blog.netlify.app/  # 你的 Netlify 网址
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+      
+    # 等待一分钟（可调整时间）
+    - name: Wait before deployment
+      run: |
+        echo "等待 60 秒，如果有新提交会取消当前部署..."
+        sleep 60
+        echo "等待结束，开始部署"
+        
+    # 触发 Netlify 部署的步骤（根据你现有的配置调整）
+    - name: Trigger Netlify deployment
+      run: |
+        # 这里是你现有的部署逻辑
+        # 比如调用 webhook 或使用 Netlify CLI
+        # curl -X POST -d {} ${{ secrets.NETLIFY_BUILD_HOOK }}
+        curl -X POST -d '{}' https://api.netlify.com/build_hooks/65a77015df78f3742a8265b4
+        
+    # 可选：更新部署状态
+    - name: Update deployment status
+      if: success()
+      run: echo "部署成功完成"
