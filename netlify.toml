@@ -3,7 +3,7 @@
   # command = "npm install && npm run build"
   # command = "NODE_OPTIONS=--max-old-space-size=8192 npm install && NODE_OPTIONS=--max-old-space-size=8192 npm run build"
   
-  command = "command = "NODE_OPTIONS=--max-old-space-size=32768 npm install && NODE_OPTIONS=--max-old-space-size=32768 npm run build""
+  command = "NODE_OPTIONS=--max-old-space-size=32768 npm install && NODE_OPTIONS=--max-old-space-size=32768 npm run build"
   ignore = "exit 0"
 
 [[redirects]]
