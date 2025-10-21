@@ -24,7 +24,7 @@ jobs:
     # 等待一分钟（可调整时间）
     - name: Wait before deployment
       run: |
-        echo "等待 60 秒，如果有新提交会取消当前部署..."
+        echo "等待 60 秒，如果有新提交会取消当前测试..."
         sleep 60
         echo "等待结束，开始测试"
         
