@@ -33,8 +33,7 @@ jobs:
       run: |
         # 这里是你现有的部署逻辑
         # 比如调用 webhook 或使用 Netlify CLI
-        # curl -X POST -d {} ${{ secrets.NETLIFY_BUILD_HOOK }}
-        curl -X POST -d '{}' https://api.netlify.com/build_hooks/65a77015df78f3742a8265b4
+        curl -X POST -d {} ${{ secrets.NETLIFY_BUILD_HOOK }}
         
     # 可选：更新部署状态
     - name: Update deployment status
